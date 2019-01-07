@@ -14,3 +14,14 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/editprofile', function() {
+  return view ('EditProfile');
+
+});
+
+Route::get('/catalogue', function() {
+  return view ('catalogue');
+
+});
