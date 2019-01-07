@@ -1905,11 +1905,29 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
-  data: function data() {
-    return {
-      show: false
-    };
+  mounted: function mounted() {
+    console.log('Component mounted.');
   }
 });
 
@@ -6243,7 +6261,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n#anim[data-v-129cda90]{\nposition:fixed;\ntop:30%;\nleft:30;\ntext-align: center;\nheight:500px;\nwidth:200px;\n}\nimg[data-v-129cda90]{\nwidth:100px;\n}\n.bounce-enter-active[data-v-129cda90] {\n-webkit-animation: bounce-in-data-v-129cda90 .5s;\n        animation: bounce-in-data-v-129cda90 .5s;\n}\n.bounce-leave-active[data-v-129cda90] {\nanimation: bounce-in-data-v-129cda90 .5s reverse;\n}\n@-webkit-keyframes bounce-in-data-v-129cda90 {\n0% {\n-webkit-transform: scale(0);\n        transform: scale(0);\n}\n50% {\n-webkit-transform: scale(1.5);\n        transform: scale(1.5);\n}\n100% {\n-webkit-transform: scale(1);\n        transform: scale(1);\n}\n}\n@keyframes bounce-in-data-v-129cda90 {\n0% {\n-webkit-transform: scale(0);\n        transform: scale(0);\n}\n50% {\n-webkit-transform: scale(1.5);\n        transform: scale(1.5);\n}\n100% {\n-webkit-transform: scale(1);\n        transform: scale(1);\n}\n}\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -37566,7 +37584,7 @@ var staticRenderFns = [
         _c("img", {
           staticClass: "logo",
           attrs: {
-            src: __webpack_require__(/*! ../../../public/images/nutflux.png */ "./public/images/nutflux.png"),
+            src: __webpack_require__(/*! ../../../resources/images/nutflux.png */ "./resources/images/nutflux.png"),
             alt: "logo nutflux"
           }
         }),
@@ -37575,7 +37593,7 @@ var staticRenderFns = [
           _c("img", {
             staticClass: "defaultavatar",
             attrs: {
-              src: __webpack_require__(/*! ../../../public/images/user.png */ "./public/images/user.png"),
+              src: __webpack_require__(/*! ../../../resources/images/user.png */ "./resources/images/user.png"),
               alt: "default avatar"
             }
           }),
@@ -37758,7 +37776,7 @@ var staticRenderFns = [
         _c("img", {
           staticClass: "logo",
           attrs: {
-            src: __webpack_require__(/*! ..//../../public/images/nutflux.png */ "./public/images/nutflux.png"),
+            src: __webpack_require__(/*! ..//../../resources/images/nutflux.png */ "./resources/images/nutflux.png"),
             alt: ""
           }
         }),
@@ -37829,43 +37847,104 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    [
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
       _c(
         "button",
         {
-          on: {
-            click: function($event) {
-              _vm.show = !_vm.show
-            }
+          staticClass: "btn btn-primary",
+          attrs: {
+            type: "button",
+            "data-toggle": "modal",
+            "data-target": "#exampleModalLong"
           }
         },
-        [_vm._v("Afficher")]
+        [_vm._v("\n    Launch demo modal\n  ")]
       ),
       _vm._v(" "),
-      _c("transition", { attrs: { name: "bounce" } }, [
-        _vm.show
-          ? _c("div", { staticClass: "bg-danger", attrs: { id: "anim" } }, [
-              _vm._v(
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis enim libero, at lacinia diam fermentum id. Pellentesque habitant morbi tristique senectus et netus.\n"
-              ),
-              _c("img", {
-                attrs: {
-                  src:
-                    "http://img.over-blog-kiwi.com/1/04/43/04/20180904/ob_1aabf0_jurassic-park-sans-effets-speciaux.jpg",
-                  alt: "jurasic"
-                }
-              }),
-              _c("br")
-            ])
-          : _vm._e()
-      ])
-    ],
-    1
-  )
-}
-var staticRenderFns = []
+      _c(
+        "div",
+        {
+          staticClass: "modal fade",
+          attrs: {
+            id: "exampleModalLong",
+            tabindex: "-1",
+            role: "dialog",
+            "aria-labelledby": "exampleModalLongTitle",
+            "aria-hidden": "true"
+          }
+        },
+        [
+          _c(
+            "div",
+            { staticClass: "modal-dialog", attrs: { role: "document" } },
+            [
+              _c("div", { staticClass: "modal-content" }, [
+                _c("div", { staticClass: "modal-header" }, [
+                  _c(
+                    "h5",
+                    {
+                      staticClass: "modal-title",
+                      attrs: { id: "exampleModalLongTitle" }
+                    },
+                    [_vm._v("Modal title")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "button",
+                    {
+                      staticClass: "close",
+                      attrs: {
+                        type: "button",
+                        "data-dismiss": "modal",
+                        "aria-label": "Close"
+                      }
+                    },
+                    [
+                      _c("span", { attrs: { "aria-hidden": "true" } }, [
+                        _vm._v("×")
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "modal-body" }, [
+                  _vm._v("\n          ...\n        ")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "modal-footer" }, [
+                  _c(
+                    "button",
+                    {
+                      staticClass: "btn btn-secondary",
+                      attrs: { type: "button", "data-dismiss": "modal" }
+                    },
+                    [_vm._v("Close")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "button",
+                    {
+                      staticClass: "btn btn-primary",
+                      attrs: { type: "button" }
+                    },
+                    [_vm._v("Save changes")]
+                  )
+                ])
+              ])
+            ]
+          )
+        ]
+      )
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -49171,10 +49250,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./public/images/nutflux.png":
-/*!***********************************!*\
-  !*** ./public/images/nutflux.png ***!
-  \***********************************/
+/***/ "./resources/images/nutflux.png":
+/*!**************************************!*\
+  !*** ./resources/images/nutflux.png ***!
+  \**************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -49182,10 +49261,10 @@ module.exports = "/images/nutflux.png?1595bb8a1e693ce7f16f70869ce9c3d1";
 
 /***/ }),
 
-/***/ "./public/images/user.png":
-/*!********************************!*\
-  !*** ./public/images/user.png ***!
-  \********************************/
+/***/ "./resources/images/user.png":
+/*!***********************************!*\
+  !*** ./resources/images/user.png ***!
+  \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 

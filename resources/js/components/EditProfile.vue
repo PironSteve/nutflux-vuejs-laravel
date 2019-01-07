@@ -5,11 +5,11 @@
 
   <div class = "backgroundprofile">
 
-    <img class = "logo"  src = "../../../public/images/nutflux.png" alt = "logo nutflux">
+    <img class = "logo"  src = "../../../resources/images/nutflux.png" alt = "logo nutflux">
         <form id = "form1">
 
 
-            <img src="../../../public/images/user.png" alt = "default avatar" class = "defaultavatar">
+            <img src="../../../resources/images/user.png" alt = "default avatar" class = "defaultavatar">
             <p>
               Avatar
             </p>
