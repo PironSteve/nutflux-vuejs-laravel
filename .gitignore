@@ -16,3 +16,4 @@ db/
 
 #others
 .vscode
+.DS_Store
