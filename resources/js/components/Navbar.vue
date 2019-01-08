@@ -1,7 +1,7 @@
 <template>
     <div class="navbar">
         <div class="topmenu">
-            <img class="logo" src="..//../../resources/images/nutflux.png" alt="">
+            <img class="logo" src="../../../resources/images/nutflux.png" alt="">
             <button type="button" class="btn btn-info btn-md"><a href=""><span class="glyphicon glyphicon-film"></span> Films</a></button>
             <button type="button" class="btn btn-info btn-md"><a href=""><span class="glyphicon glyphicon-th-list"></span> Listes</a></button>
             <button type="button" class="btn btn-info btn-md"><a href=""><span class="glyphicon glyphicon-user"></span> Profil</a></button>
@@ -13,16 +13,16 @@
     </div>
 </template>
 
-<script> 
+<script>
     export default {
         mounted() {
             console.log('Component mounted.')
         }
     }
-           
+
 </script>
 
-<style scoped>
+<style scoped >
 body{
     margin: 0;
     padding: 0;

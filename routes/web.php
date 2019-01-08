@@ -14,6 +14,21 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/catalogue', function () {
-    return view('catalogue');
+
+
+
+Route::get('/editprofile', function() {
+  return view ('EditProfile');
+
+});
+
+Route::get('/catalogue', function() {
+  return view ('catalogue');
+
+});
+
+
+  Route::get('/chooseuser', function() {
+    return view ('Chooseuser');
+
 });
