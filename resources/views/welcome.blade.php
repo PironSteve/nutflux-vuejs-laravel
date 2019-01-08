@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
+            <meta name="csrf-token" content="{{ csrf_token() }}">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="{{ URL::asset('/css/login.css') }}" rel="stylesheet">
@@ -10,6 +11,24 @@
 
     <body>
         <div id="app">
+            <p>BACKEND LINKS</p>
+            <ul>
+                    <li>
+                            <a href="{{ url('film') }}" class="nav-link">Index Film</a>
+                        </li>
+                        <li>
+                            <a href="{{ url('film/create') }}" class="nav-link">Add Film / Series</a>
+                        </li>
+                        <li>
+                                <a href="{{ url('film/catalogue') }}" class="nav-link"> Catalogue</a>
+                        </li>
+            </ul>
+            <P>FRONTEND LINKS</P>
+            <ul>
+                <li><a href="http://127.0.0.1:8000/catalogue">catalogue</a></li>
+                <li><a href="http://127.0.0.1:8000/chooseuser">chooseuser</a></li>
+                <li><a href="http://127.0.0.1:8000/editprofile">editprofile</a></li>
+            </ul>
             <div class="main">
                 <logo></logo>
                 <div class="boxuser">

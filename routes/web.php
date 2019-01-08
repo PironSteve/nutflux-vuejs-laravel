@@ -32,3 +32,11 @@ Route::get('/catalogue', function() {
     return view ('Chooseuser');
 
 });
+
+Auth::routes();
+
+Route::get('film/catalogue','FilmController@catalogue');
+
+Route::resource('film','FilmController');
+
+Route::get('/home', 'HomeController@index')->name('home');
