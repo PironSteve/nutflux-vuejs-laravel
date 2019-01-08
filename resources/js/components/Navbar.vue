@@ -5,7 +5,10 @@
             <button type="button" class="btn btn-info btn-md"><a href=""><span class="glyphicon glyphicon-film"></span> Films</a></button>
             <button type="button" class="btn btn-info btn-md"><a href=""><span class="glyphicon glyphicon-th-list"></span> Listes</a></button>
             <button type="button" class="btn btn-info btn-md"><a href=""><span class="glyphicon glyphicon-user"></span> Profil</a></button>
-            <input  type="search" name="search-bar" id="search" placeholder="Recherche">
+            <form action="">
+                <input type="search">
+                <i class="fa fa-search"></i>
+            </form>
         </div>
     </div>
 </template>
@@ -46,17 +49,64 @@ body{
     height: 75px;
     margin-right: 30px;
 }
-#search {
-    margin-right: 20px;
-    margin-top: 23px;
-    float: right;
-    background-color: #B02E05;
-    color: #fff;
-    padding-left: 10px;
+form{
+    position: relative;
+    top: -40px;
+    left: 90%;
+    transform: translate(-50%,-50%);
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+    background: #B02E05;
+    box-sizing: border-box;
     border-radius: 25px;
+    border: 4px solid #fff;
+    padding: 5px;
 }
-#search:hover {
-    background-color: #f84309;
+
+input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;
+    color: #fff;
+}
+
+.fa{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+
+form:hover{
+    width: 200px;
+    cursor: pointer;
+}
+
+form:hover input{
+    display: block;
+}
+
+form:hover .fa{
+    background: #f84309;
+    color: white;
 }
 ::placeholder {
     color: #fff;

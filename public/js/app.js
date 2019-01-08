@@ -1897,14 +1897,15 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     carousel: vue_owl_carousel__WEBPACK_IMPORTED_MODULE_0___default.a
   }
 });
-$(".owl-prev").html('<i class="fa fa-chevron-left"></i>');
-$(".owl-next").html('<i class="fa fa-chevron-right"></i>');
 
 /***/ }),
 
@@ -1966,6 +1967,9 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
 //
 //
 //
@@ -6393,7 +6397,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nbody{\n    background-color: black;\n}\n.generalmovie{\n    padding-right: 10px;\n}\n", ""]);
+exports.push([module.i, "\nbody{\n    background-color: black;\n}\n.generalmovie{\n    border: 5px solid #B02E05 ;\n    border-radius: 5px;\n    max-width: 300px;\n}\n.movie-general h3{\n    color: #f84309;\n    font-weight: bold;\n    margin-left: 35px;\n}\n.carousel{\n    margin-left: 35px;\n}\n", ""]);
 
 // exports
 
@@ -6450,7 +6454,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nbody[data-v-6dde423b]{\n    margin: 0;\n    padding: 0;\n}\n.navbar[data-v-6dde423b] {\n    background-color: #000;\n    border-radius: 0;\n    overflow: hidden;\n    padding: 5px;\n}\n.navbar a[data-v-6dde423b] {\n    color: white;\n}\n.btn[data-v-6dde423b] {\n    background-color: #B02E05;\n    border: none;\n    margin-left: 15px;\n    margin-right: 15px;\n}\n.btn[data-v-6dde423b]:hover {\n    background-color: #f84309;\n}\n.logo[data-v-6dde423b] {\n    height: 75px;\n    margin-right: 30px;\n}\n#search[data-v-6dde423b] {\n    margin-right: 20px;\n    margin-top: 23px;\n    float: right;\n    background-color: #B02E05;\n    color: #fff;\n    padding-left: 10px;\n    border-radius: 25px;\n}\n#search[data-v-6dde423b]:hover {\n    background-color: #f84309;\n}\n[data-v-6dde423b]::-webkit-input-placeholder {\n    color: #fff;\n    opacity: 1;\n}\n[data-v-6dde423b]:-ms-input-placeholder {\n    color: #fff;\n    opacity: 1;\n}\n[data-v-6dde423b]::-ms-input-placeholder {\n    color: #fff;\n    opacity: 1;\n}\n[data-v-6dde423b]::placeholder {\n    color: #fff;\n    opacity: 1;\n}\n\n", ""]);
+exports.push([module.i, "\nbody[data-v-6dde423b]{\n    margin: 0;\n    padding: 0;\n}\n.navbar[data-v-6dde423b] {\n    background-color: #000;\n    border-radius: 0;\n    overflow: hidden;\n    padding: 5px;\n}\n.navbar a[data-v-6dde423b] {\n    color: white;\n}\n.btn[data-v-6dde423b] {\n    background-color: #B02E05;\n    border: none;\n    margin-left: 15px;\n    margin-right: 15px;\n}\n.btn[data-v-6dde423b]:hover {\n    background-color: #f84309;\n}\n.logo[data-v-6dde423b] {\n    height: 75px;\n    margin-right: 30px;\n}\nform[data-v-6dde423b]{\n    position: relative;\n    top: -40px;\n    left: 90%;\n    -webkit-transform: translate(-50%,-50%);\n            transform: translate(-50%,-50%);\n    transition: all 1s;\n    width: 50px;\n    height: 50px;\n    background: #B02E05;\n    box-sizing: border-box;\n    border-radius: 25px;\n    border: 4px solid #fff;\n    padding: 5px;\n}\ninput[data-v-6dde423b]{\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;;\n    height: 42.5px;\n    line-height: 30px;\n    outline: 0;\n    border: 0;\n    display: none;\n    font-size: 1em;\n    border-radius: 20px;\n    padding: 0 20px;\n    color: #fff;\n}\n.fa[data-v-6dde423b]{\n    box-sizing: border-box;\n    padding: 10px;\n    width: 42.5px;\n    height: 42.5px;\n    position: absolute;\n    top: 0;\n    right: 0;\n    border-radius: 50%;\n    color: #fff;\n    text-align: center;\n    font-size: 1.2em;\n    transition: all 1s;\n}\nform[data-v-6dde423b]:hover{\n    width: 200px;\n    cursor: pointer;\n}\nform:hover input[data-v-6dde423b]{\n    display: block;\n}\nform:hover .fa[data-v-6dde423b]{\n    background: #f84309;\n    color: white;\n}\n[data-v-6dde423b]::-webkit-input-placeholder {\n    color: #fff;\n    opacity: 1;\n}\n[data-v-6dde423b]:-ms-input-placeholder {\n    color: #fff;\n    opacity: 1;\n}\n[data-v-6dde423b]::-ms-input-placeholder {\n    color: #fff;\n    opacity: 1;\n}\n[data-v-6dde423b]::placeholder {\n    color: #fff;\n    opacity: 1;\n}\n\n", ""]);
 
 // exports
 
@@ -38157,87 +38161,110 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("carousel", { attrs: { dots: true, nav: false, items: "5" } }, [
-    _c("img", {
-      staticClass: "generalmovie",
-      attrs: {
-        src:
-          "https://images-na.ssl-images-amazon.com/images/I/71M6KGXcWFL._SY445_.jpg"
-      }
-    }),
-    _vm._v(" "),
-    _c("img", {
-      staticClass: "generalmovie",
-      attrs: {
-        src:
-          "http://fr.web.img2.acsta.net/c_215_290/medias/nmedia/18/83/93/95/19803697.jpg"
-      }
-    }),
-    _vm._v(" "),
-    _c("img", {
-      staticClass: "generalmovie",
-      attrs: {
-        src:
-          "https://static.fnac-static.com/multimedia/FR/images_produits/FR/Fnac.com/ZoomPE/2/9/2/3344428001292/tsp20130830115303/Maman-j-ai-rate-l-avion-.jpg"
-      }
-    }),
-    _vm._v(" "),
-    _c("img", {
-      staticClass: "generalmovie",
-      attrs: {
-        src:
-          "http://cdn.franceloisirs.com/35955-66765-thickbox/nos-etoiles-contraires-dvd.jpg"
-      }
-    }),
-    _vm._v(" "),
-    _c("img", {
-      staticClass: "generalmovie",
-      attrs: {
-        src:
-          "http://fr.web.img3.acsta.net/c_215_290/medias/nmedia/18/35/84/55/18611268.jpg"
-      }
-    }),
-    _vm._v(" "),
-    _c("img", {
-      staticClass: "generalmovie",
-      attrs: {
-        src:
-          "https://images-na.ssl-images-amazon.com/images/I/71M6KGXcWFL._SY445_.jpg"
-      }
-    }),
-    _vm._v(" "),
-    _c("img", {
-      staticClass: "generalmovie",
-      attrs: {
-        src:
-          "http://fr.web.img2.acsta.net/c_215_290/medias/nmedia/18/83/93/95/19803697.jpg"
-      }
-    }),
-    _vm._v(" "),
-    _c("img", {
-      staticClass: "generalmovie",
-      attrs: {
-        src:
-          "https://static.fnac-static.com/multimedia/FR/images_produits/FR/Fnac.com/ZoomPE/2/9/2/3344428001292/tsp20130830115303/Maman-j-ai-rate-l-avion-.jpg"
-      }
-    }),
-    _vm._v(" "),
-    _c("img", {
-      staticClass: "generalmovie",
-      attrs: {
-        src:
-          "http://cdn.franceloisirs.com/35955-66765-thickbox/nos-etoiles-contraires-dvd.jpg"
-      }
-    }),
-    _vm._v(" "),
-    _c("img", {
-      staticClass: "generalmovie",
-      attrs: {
-        src:
-          "http://fr.web.img3.acsta.net/c_215_290/medias/nmedia/18/35/84/55/18611268.jpg"
-      }
-    })
-  ])
+  return _c(
+    "div",
+    { staticClass: "movie-general" },
+    [
+      _c("h3", [_vm._v("GENERAL MOVIES")]),
+      _vm._v(" "),
+      _c(
+        "carousel",
+        {
+          staticClass: "carousel",
+          attrs: {
+            dots: true,
+            nav: false,
+            loop: true,
+            autoplay: true,
+            autoplayHoverPause: true,
+            items: "5"
+          }
+        },
+        [
+          _c("img", {
+            staticClass: "generalmovie",
+            attrs: {
+              src:
+                "https://images-na.ssl-images-amazon.com/images/I/71M6KGXcWFL._SY445_.jpg"
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            staticClass: "generalmovie",
+            attrs: {
+              src:
+                "http://fr.web.img2.acsta.net/c_215_290/medias/nmedia/18/83/93/95/19803697.jpg"
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            staticClass: "generalmovie",
+            attrs: {
+              src:
+                "https://static.fnac-static.com/multimedia/FR/images_produits/FR/Fnac.com/ZoomPE/2/9/2/3344428001292/tsp20130830115303/Maman-j-ai-rate-l-avion-.jpg"
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            staticClass: "generalmovie",
+            attrs: {
+              src:
+                "http://cdn.franceloisirs.com/35955-66765-thickbox/nos-etoiles-contraires-dvd.jpg"
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            staticClass: "generalmovie",
+            attrs: {
+              src:
+                "http://fr.web.img3.acsta.net/c_215_290/medias/nmedia/18/35/84/55/18611268.jpg"
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            staticClass: "generalmovie",
+            attrs: {
+              src:
+                "https://images-na.ssl-images-amazon.com/images/I/71M6KGXcWFL._SY445_.jpg"
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            staticClass: "generalmovie",
+            attrs: {
+              src:
+                "http://fr.web.img2.acsta.net/c_215_290/medias/nmedia/18/83/93/95/19803697.jpg"
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            staticClass: "generalmovie",
+            attrs: {
+              src:
+                "https://static.fnac-static.com/multimedia/FR/images_produits/FR/Fnac.com/ZoomPE/2/9/2/3344428001292/tsp20130830115303/Maman-j-ai-rate-l-avion-.jpg"
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            staticClass: "generalmovie",
+            attrs: {
+              src:
+                "http://cdn.franceloisirs.com/35955-66765-thickbox/nos-etoiles-contraires-dvd.jpg"
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            staticClass: "generalmovie",
+            attrs: {
+              src:
+                "http://fr.web.img3.acsta.net/c_215_290/medias/nmedia/18/35/84/55/18611268.jpg"
+            }
+          })
+        ]
+      )
+    ],
+    1
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -38390,14 +38417,11 @@ var staticRenderFns = [
           ]
         ),
         _vm._v(" "),
-        _c("input", {
-          attrs: {
-            type: "search",
-            name: "search-bar",
-            id: "search",
-            placeholder: "Recherche"
-          }
-        })
+        _c("form", { attrs: { action: "" } }, [
+          _c("input", { attrs: { type: "search" } }),
+          _vm._v(" "),
+          _c("i", { staticClass: "fa fa-search" })
+        ])
       ])
     ])
   }
