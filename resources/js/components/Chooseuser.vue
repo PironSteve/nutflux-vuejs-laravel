@@ -3,19 +3,19 @@
             <div class="example">
                 <div class="clip">
                     <div class="film">
-                        <img class="user-img" src="../../../public/images/ProfilePic/user.png">
+                        <img class="user-img" src="../../../resources/images/user.png">
                     </div>
                 </div>
 
                 <div class="clip">
                     <div class="film">
-                        <img class="user-img" src="../../../public/images/ProfilePic/user.png">
+                        <img class="user-img" src="../../../resources/images/user.png">
                     </div>
                 </div>
 
                 <div class="clip">
                     <div class="film">
-                        <img class="user-img" src="../../../public/images/ProfilePic/user.png">
+                        <img class="user-img" src="../../../resources/images/user.png">
                     </div>
                 </div>
             </div>
@@ -37,7 +37,7 @@
 export default{
     data(){
         return{
-               
+
         }
     }
 }
@@ -50,7 +50,7 @@ export default{
 .choose{
     width:100vw;
     height: 100vh;
-    background-image: url("../../../public/images/nutflux_fond.png");
+    background-image: url("../../../resources/images/nutflux_fond.png");
     background-size:cover;
     background-position: center;
     padding-top: 8%;
@@ -68,55 +68,55 @@ export default{
     padding-top: 25%;
     position: relative;
     background-color: rgba(0,0,0,0.8);
-    background-image:  
-        linear-gradient(to right, #b02e05, #b02e05), 
-        linear-gradient(to right, #b02e05, #b02e05), 
-        linear-gradient(to right, #b02e05, #b02e05), 
-        linear-gradient(to right, #b02e05, #b02e05), 
-        linear-gradient(to right, #b02e05, #b02e05), 
-        linear-gradient(to right, #b02e05, #b02e05), 
-        linear-gradient(to right, #b02e05, #b02e05), 
-        linear-gradient(to right, #b02e05, #b02e05), 
-        linear-gradient(to right, #b02e05, #b02e05), 
-        linear-gradient(to right, #b02e05, #b02e05), 
-        linear-gradient(to right, #b02e05, #b02e05),        
-         
-        linear-gradient(to right, #b02e05, #b02e05), 
-        linear-gradient(to right, #b02e05, #b02e05), 
-        linear-gradient(to right, #b02e05, #b02e05), 
-        linear-gradient(to right, #b02e05, #b02e05), 
-        linear-gradient(to right, #b02e05, #b02e05), 
-        linear-gradient(to right, #b02e05, #b02e05), 
-        linear-gradient(to right, #b02e05, #b02e05), 
-        linear-gradient(to right, #b02e05, #b02e05), 
-        linear-gradient(to right, #b02e05, #b02e05), 
-        linear-gradient(to right, #b02e05, #b02e05), 
+    background-image:
+        linear-gradient(to right, #b02e05, #b02e05),
+        linear-gradient(to right, #b02e05, #b02e05),
+        linear-gradient(to right, #b02e05, #b02e05),
+        linear-gradient(to right, #b02e05, #b02e05),
+        linear-gradient(to right, #b02e05, #b02e05),
+        linear-gradient(to right, #b02e05, #b02e05),
+        linear-gradient(to right, #b02e05, #b02e05),
+        linear-gradient(to right, #b02e05, #b02e05),
+        linear-gradient(to right, #b02e05, #b02e05),
+        linear-gradient(to right, #b02e05, #b02e05),
+        linear-gradient(to right, #b02e05, #b02e05),
+
+        linear-gradient(to right, #b02e05, #b02e05),
+        linear-gradient(to right, #b02e05, #b02e05),
+        linear-gradient(to right, #b02e05, #b02e05),
+        linear-gradient(to right, #b02e05, #b02e05),
+        linear-gradient(to right, #b02e05, #b02e05),
+        linear-gradient(to right, #b02e05, #b02e05),
+        linear-gradient(to right, #b02e05, #b02e05),
+        linear-gradient(to right, #b02e05, #b02e05),
+        linear-gradient(to right, #b02e05, #b02e05),
+        linear-gradient(to right, #b02e05, #b02e05),
         linear-gradient(to right, #b02e05, #b02e05);
 
     background-repeat:no-repeat;
-    background-position: 
+    background-position:
         5% 5%,
         15% 5%,
-        25% 5%, 
+        25% 5%,
         35% 5%,
         45% 5%,
         55% 5%,
         65% 5%,
-        75% 5%, 
+        75% 5%,
         85% 5%,
         95% 5%,
-             
+
         5% 95%,
         15% 95%,
-        25% 95%, 
+        25% 95%,
         35% 95%,
         45% 95%,
         55% 95%,
         65% 95%,
-        75% 95%, 
+        75% 95%,
         85% 95%,
         95% 95%;
-    
+
     background-size:
         5% 8%,
         5% 8%,
@@ -129,7 +129,7 @@ export default{
         5% 8%,
         5% 8%,
         5% 8%,
-            
+
         5% 8%,
         5% 8%,
         5% 8%,
@@ -142,7 +142,7 @@ export default{
         5% 8%,
         5% 8%;
 }
-.clip .film {  
+.clip .film {
   margin: 12% 5%;
   position: absolute;
   left: 0;

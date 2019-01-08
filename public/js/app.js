@@ -6355,7 +6355,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.userimg[data-v-4a25abe6]{\n    width: 200px;\n}\n.choose[data-v-4a25abe6]{\n    width:100vw;\n    height: 100vh;\n    background-image: url(" + escape(__webpack_require__(/*! ../../../public/images/nutflux_fond.png */ "./public/images/nutflux_fond.png")) + ");\n    background-size:cover;\n    background-position: center;\n    padding-top: 8%;\n}\n.example[data-v-4a25abe6]{\n    padding-left: 100px;\n    padding-right: 100px;\n}\n.clip[data-v-4a25abe6] {\n    float: left;\n    width: 31%;\n    margin: 0 1%;\n    padding-top: 25%;\n    position: relative;\n    background-color: rgba(0,0,0,0.8);\n    background-image:  \n        linear-gradient(to right, #b02e05, #b02e05), \n        linear-gradient(to right, #b02e05, #b02e05), \n        linear-gradient(to right, #b02e05, #b02e05), \n        linear-gradient(to right, #b02e05, #b02e05), \n        linear-gradient(to right, #b02e05, #b02e05), \n        linear-gradient(to right, #b02e05, #b02e05), \n        linear-gradient(to right, #b02e05, #b02e05), \n        linear-gradient(to right, #b02e05, #b02e05), \n        linear-gradient(to right, #b02e05, #b02e05), \n        linear-gradient(to right, #b02e05, #b02e05), \n        linear-gradient(to right, #b02e05, #b02e05),        \n         \n        linear-gradient(to right, #b02e05, #b02e05), \n        linear-gradient(to right, #b02e05, #b02e05), \n        linear-gradient(to right, #b02e05, #b02e05), \n        linear-gradient(to right, #b02e05, #b02e05), \n        linear-gradient(to right, #b02e05, #b02e05), \n        linear-gradient(to right, #b02e05, #b02e05), \n        linear-gradient(to right, #b02e05, #b02e05), \n        linear-gradient(to right, #b02e05, #b02e05), \n        linear-gradient(to right, #b02e05, #b02e05), \n        linear-gradient(to right, #b02e05, #b02e05), \n        linear-gradient(to right, #b02e05, #b02e05);\n\n    background-repeat:no-repeat;\n    background-position: \n        5% 5%,\n        15% 5%,\n        25% 5%, \n        35% 5%,\n        45% 5%,\n        55% 5%,\n        65% 5%,\n        75% 5%, \n        85% 5%,\n        95% 5%,\n             \n        5% 95%,\n        15% 95%,\n        25% 95%, \n        35% 95%,\n        45% 95%,\n        55% 95%,\n        65% 95%,\n        75% 95%, \n        85% 95%,\n        95% 95%;\n    \n    background-size:\n        5% 8%,\n        5% 8%,\n        5% 8%,\n        5% 8%,\n        5% 8%,\n        5% 8%,\n        5% 8%,\n        5% 8%,\n        5% 8%,\n        5% 8%,\n        5% 8%,\n            \n        5% 8%,\n        5% 8%,\n        5% 8%,\n        5% 8%,\n        5% 8%,\n        5% 8%,\n        5% 8%,\n        5% 8%,\n        5% 8%,\n        5% 8%,\n        5% 8%;\n}\n.clip .film[data-v-4a25abe6] {  \n  margin: 12% 5%;\n  position: absolute;\n  left: 0;\n  right: 0;\n  top: 0;\n  bottom: 0;\n  overflow: hidden;\n  display: -webkit-grid;\n  display: -ms-grid;\n  -webkit-grid-columns: 1fr;\n  -webkit-grid-rows: 1fr;\n  -ms-grid-columns: 1fr;\n  -ms-grid-rows: 1fr;\n}\n.clip img[data-v-4a25abe6] {\n  max-width: 100%;\n  -webkit-grid-row-align: center;\n  -ms-grid-row-align: center;\n}\n.film[data-v-4a25abe6]{\n    padding-left: 20%;\n    padding-right: 20%;\n    padding-top:20px;\n}\n.namebar[data-v-4a25abe6]{\n    width:100vw;\n    height: 50px;\n    padding-right: 15%;\n    padding-left: 15%;\n    display:flex;\n    flex-direction: row;\n    justify-content: space-between;\n}\n.user-name[data-v-4a25abe6]{\n    color:white;\n    font-size: 35px;\n    font-family: 'Allerta Stencil', sans-serif;\n}\n", ""]);
+exports.push([module.i, "\n.userimg[data-v-4a25abe6]{\n    width: 200px;\n}\n.choose[data-v-4a25abe6]{\n    width:100vw;\n    height: 100vh;\n    background-image: url(" + escape(__webpack_require__(/*! ../../../resources/images/nutflux_fond.png */ "./resources/images/nutflux_fond.png")) + ");\n    background-size:cover;\n    background-position: center;\n    padding-top: 8%;\n}\n.example[data-v-4a25abe6]{\n    padding-left: 100px;\n    padding-right: 100px;\n}\n.clip[data-v-4a25abe6] {\n    float: left;\n    width: 31%;\n    margin: 0 1%;\n    padding-top: 25%;\n    position: relative;\n    background-color: rgba(0,0,0,0.8);\n    background-image:\n        linear-gradient(to right, #b02e05, #b02e05),\n        linear-gradient(to right, #b02e05, #b02e05),\n        linear-gradient(to right, #b02e05, #b02e05),\n        linear-gradient(to right, #b02e05, #b02e05),\n        linear-gradient(to right, #b02e05, #b02e05),\n        linear-gradient(to right, #b02e05, #b02e05),\n        linear-gradient(to right, #b02e05, #b02e05),\n        linear-gradient(to right, #b02e05, #b02e05),\n        linear-gradient(to right, #b02e05, #b02e05),\n        linear-gradient(to right, #b02e05, #b02e05),\n        linear-gradient(to right, #b02e05, #b02e05),\n\n        linear-gradient(to right, #b02e05, #b02e05),\n        linear-gradient(to right, #b02e05, #b02e05),\n        linear-gradient(to right, #b02e05, #b02e05),\n        linear-gradient(to right, #b02e05, #b02e05),\n        linear-gradient(to right, #b02e05, #b02e05),\n        linear-gradient(to right, #b02e05, #b02e05),\n        linear-gradient(to right, #b02e05, #b02e05),\n        linear-gradient(to right, #b02e05, #b02e05),\n        linear-gradient(to right, #b02e05, #b02e05),\n        linear-gradient(to right, #b02e05, #b02e05),\n        linear-gradient(to right, #b02e05, #b02e05);\n\n    background-repeat:no-repeat;\n    background-position:\n        5% 5%,\n        15% 5%,\n        25% 5%,\n        35% 5%,\n        45% 5%,\n        55% 5%,\n        65% 5%,\n        75% 5%,\n        85% 5%,\n        95% 5%,\n\n        5% 95%,\n        15% 95%,\n        25% 95%,\n        35% 95%,\n        45% 95%,\n        55% 95%,\n        65% 95%,\n        75% 95%,\n        85% 95%,\n        95% 95%;\n\n    background-size:\n        5% 8%,\n        5% 8%,\n        5% 8%,\n        5% 8%,\n        5% 8%,\n        5% 8%,\n        5% 8%,\n        5% 8%,\n        5% 8%,\n        5% 8%,\n        5% 8%,\n\n        5% 8%,\n        5% 8%,\n        5% 8%,\n        5% 8%,\n        5% 8%,\n        5% 8%,\n        5% 8%,\n        5% 8%,\n        5% 8%,\n        5% 8%,\n        5% 8%;\n}\n.clip .film[data-v-4a25abe6] {\n  margin: 12% 5%;\n  position: absolute;\n  left: 0;\n  right: 0;\n  top: 0;\n  bottom: 0;\n  overflow: hidden;\n  display: -webkit-grid;\n  display: -ms-grid;\n  -webkit-grid-columns: 1fr;\n  -webkit-grid-rows: 1fr;\n  -ms-grid-columns: 1fr;\n  -ms-grid-rows: 1fr;\n}\n.clip img[data-v-4a25abe6] {\n  max-width: 100%;\n  -webkit-grid-row-align: center;\n  -ms-grid-row-align: center;\n}\n.film[data-v-4a25abe6]{\n    padding-left: 20%;\n    padding-right: 20%;\n    padding-top:20px;\n}\n.namebar[data-v-4a25abe6]{\n    width:100vw;\n    height: 50px;\n    padding-right: 15%;\n    padding-left: 15%;\n    display:flex;\n    flex-direction: row;\n    justify-content: space-between;\n}\n.user-name[data-v-4a25abe6]{\n    color:white;\n    font-size: 35px;\n    font-family: 'Allerta Stencil', sans-serif;\n}\n", ""]);
 
 // exports
 
@@ -38008,9 +38008,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "film" }, [
             _c("img", {
               staticClass: "user-img",
-              attrs: {
-                src: __webpack_require__(/*! ../../../public/images/ProfilePic/user.png */ "./public/images/ProfilePic/user.png")
-              }
+              attrs: { src: __webpack_require__(/*! ../../../resources/images/user.png */ "./resources/images/user.png") }
             })
           ])
         ]),
@@ -38019,9 +38017,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "film" }, [
             _c("img", {
               staticClass: "user-img",
-              attrs: {
-                src: __webpack_require__(/*! ../../../public/images/ProfilePic/user.png */ "./public/images/ProfilePic/user.png")
-              }
+              attrs: { src: __webpack_require__(/*! ../../../resources/images/user.png */ "./resources/images/user.png") }
             })
           ])
         ]),
@@ -38030,9 +38026,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "film" }, [
             _c("img", {
               staticClass: "user-img",
-              attrs: {
-                src: __webpack_require__(/*! ../../../public/images/ProfilePic/user.png */ "./public/images/ProfilePic/user.png")
-              }
+              attrs: { src: __webpack_require__(/*! ../../../resources/images/user.png */ "./resources/images/user.png") }
             })
           ])
         ])
@@ -38318,7 +38312,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "logo" }, [
       _c("img", {
         attrs: {
-          src: __webpack_require__(/*! ../../../public/images/logonutflux.png */ "./public/images/logonutflux.png"),
+          src: __webpack_require__(/*! ../../../resources/images/nutflux.png */ "./resources/images/nutflux.png"),
           alt: "logo"
         }
       })
@@ -38358,7 +38352,7 @@ var staticRenderFns = [
         _c("img", {
           staticClass: "logo",
           attrs: {
-            src: __webpack_require__(/*! ..//../../resources/images/nutflux.png */ "./resources/images/nutflux.png"),
+            src: __webpack_require__(/*! ../../../resources/images/nutflux.png */ "./resources/images/nutflux.png"),
             alt: ""
           }
         }),
@@ -49914,39 +49908,6 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./public/images/ProfilePic/user.png":
-/*!*******************************************!*\
-  !*** ./public/images/ProfilePic/user.png ***!
-  \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/user.png?0cb6963b43188aa8c1c874fbe08e625d";
-
-/***/ }),
-
-/***/ "./public/images/logonutflux.png":
-/*!***************************************!*\
-  !*** ./public/images/logonutflux.png ***!
-  \***************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/logonutflux.png?1595bb8a1e693ce7f16f70869ce9c3d1";
-
-/***/ }),
-
-/***/ "./public/images/nutflux_fond.png":
-/*!****************************************!*\
-  !*** ./public/images/nutflux_fond.png ***!
-  \****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/nutflux_fond.png?a4090c6cce2d9c3646cd33a000c08d5e";
-
-/***/ }),
-
 /***/ "./resources/images/nutflux.png":
 /*!**************************************!*\
   !*** ./resources/images/nutflux.png ***!
@@ -49955,6 +49916,17 @@ module.exports = "/images/nutflux_fond.png?a4090c6cce2d9c3646cd33a000c08d5e";
 /***/ (function(module, exports) {
 
 module.exports = "/images/nutflux.png?1595bb8a1e693ce7f16f70869ce9c3d1";
+
+/***/ }),
+
+/***/ "./resources/images/nutflux_fond.png":
+/*!*******************************************!*\
+  !*** ./resources/images/nutflux_fond.png ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/nutflux_fond.png?a4090c6cce2d9c3646cd33a000c08d5e";
 
 /***/ }),
 
