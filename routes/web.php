@@ -28,7 +28,4 @@ Route::get('/catalogue', function() {
 });
 
 
-  Route::get('/chooseuser', function() {
-    return view ('Chooseuser');
-
-});
+  Route::get('/chooseuser', "chooseuser@chooseuser");
