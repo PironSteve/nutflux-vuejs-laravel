@@ -1,3 +1,7 @@
+
+
+
+
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -33,7 +37,7 @@
             signin.classList.add('active')
             login.classList.add('non-active')
             signin.classList.remove('non-active')
-            
+
         })
 
         login.addEventListener('click', ()=>{
