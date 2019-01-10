@@ -13,7 +13,8 @@ export default{
 </script>
 
 <style scoped>
-    .slogan{
+
+.slogan{
     font-family: 'Allerta Stencil', sans-serif;
     grid-column:1/2;
     grid-row:3;

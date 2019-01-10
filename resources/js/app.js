@@ -29,6 +29,8 @@ Vue.component('login', require('./components/Login.vue').default);
 Vue.component('signin', require('./components/Signin.vue').default);
 Vue.component('slogan', require('./components/Slogan.vue').default);
 Vue.component('chooseuser', require('./components/Chooseuser.vue').default);
+Vue.component('foot', require('./components/Footer.vue').default);
+Vue.component('bar', require('./components/Bar.vue').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

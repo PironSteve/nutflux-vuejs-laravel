@@ -1,11 +1,12 @@
 <template>
-    <div class="signin non-active">
+    <div class="signin">
         <p class="connect">S'enregistrer</p>
-        <input type="text" value="Pseudo"><br>
-        <input type="text" value="Email"><br>
-        <input type="text" value="Mot de passe"><br>
-        <input type="text" value="Mot de passe"><br>
-        <button type="submit">GO</button>
+        <input type="text" placeholder="Pseudo"><br>
+        <input type="text" placeholder="Email"><br>
+        <input type="text" placeholder="Mot de passe"><br>
+        <input type="text" placeholder="Mot de passe"><br>
+        <button type="submit">GO</button><br>
+        <a href="#" class="log">Se connecter?</a>
     </div>
 </template>
 
@@ -25,34 +26,41 @@ export default{
         height:500px;
         background-color:#B02E05;
         border-radius: 50%;
-        padding-top: 5%;
+        padding-top: 4%;
         text-align: center;
-        position:absolute;
-        /* top:5%;
-        left:30%;
-        filter: blur(2px); */
+        border: 4px solid #FCBAA5;
+        display:none;
+    }
 
-    }
     .active{
-        position:absolute;
+        /* position:absolute;
         top:20%;
-        left:15%;
+        left:15%; */
+        border: 4px solid #FCBAA5;
+        z-index:2;
     }
+
     .non-active{
-        position:absolute;
-        top:5%;
-        left:30%;
+        /* position:absolute;
+        top:20%;
+        left:30%; */
+        padding-top: 40px;
+        width: 475px;
+        height: 475px;
         filter: blur(2px);
+        z-index:1;
     }
 
     .connect{
         margin-bottom: 38px;
         color:white;
     }
+
     p{
         font-size: 40px;
         font-family: 'Allerta Stencil', sans-serif;
     }
+
     input{
         width:300px;
         height: 40px;
@@ -64,6 +72,11 @@ export default{
         border:none;
         font-family: 'Abel', sans-serif;
         font-size: 22px;
+    }
+
+    input::placeholder{
+        color:white;
+        font-weight: bold;
     }
 
     button{
@@ -78,5 +91,14 @@ export default{
 
     button:hover{
         background-color:rgba(252, 186, 165, 0.68);
+    }
+
+    .log{
+        color:#FCBAA5;
+        text-decoration: none;
+    }
+
+    .log:hover{
+        font-weight: bold;
     }
 </style>

@@ -1,9 +1,10 @@
 <template>
-    <div class="login active">
+    <div class="login">
         <p class="connect">Connexion</p>
-        <input type="text" value="Email"><br>
-        <input type="text" value="Mot de passe"><br>
-        <button type="submit">GO</button>
+        <input type="text" placeholder="Email"><br>
+        <input type="text" placeholder="Mot de passe"><br>
+        <button type="submit">GO</button><br><br>
+        <a href="#" class="register">S'inscrire?</a>
     </div>
 </template>
 
@@ -25,22 +26,7 @@ export default{
         border-radius: 50%;
         padding-top: 5%;
         text-align: center;
-        /* position:absolute;
-        top:20%;
-        left:15%; */
-
-    }
-
-    .active{
-        position:absolute;
-        top:20%;
-        left:15%;
-    }
-    .non-active{
-        position:absolute;
-        top:5%;
-        left:30%;
-        filter: blur(2px);
+        border: 4px solid #FCBAA5;
     }
 
     .connect{
@@ -66,6 +52,11 @@ export default{
         font-size: 22px;
     }
 
+    input::placeholder{
+        color:white;
+        font-weight: bold;
+    }
+
     button{
         width:100px;
         height: 60px;
@@ -78,5 +69,14 @@ export default{
 
     button:hover{
         background-color:rgba(252, 186, 165, 0.68);
+    }
+
+    .register{
+        color:#FCBAA5;
+        text-decoration: none;
+    }
+
+    .register:hover{
+        font-weight: bold;
     }
 </style>
