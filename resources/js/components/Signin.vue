@@ -5,7 +5,7 @@
         <input type="text" value="Email"><br>
         <input type="text" value="Mot de passe"><br>
         <input type="text" value="Mot de passe"><br>
-        <button type="submit">GO</button>
+        <a href="/catalogue"><button type="submit">GO</button></a> 
     </div>
 </template>
 
