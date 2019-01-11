@@ -66,6 +66,9 @@ body{
 .owl-carousel .owl-item img a {
     width: 85%;
 }
+.modal{
+    color: #f84309;
+}
 .modal-dialog {
     max-width: 583px;
 }
