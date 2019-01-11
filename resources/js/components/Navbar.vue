@@ -6,9 +6,9 @@
             <button type="button" class="btn btn-info btn-md dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a href=""><span class="glyphicon glyphicon-th-list"></span> Listes</a></button>
             <button type="button" class="btn btn-info btn-md"><a href=""><span class="glyphicon glyphicon-user"></span> Profil</a></button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <button class="dropdown-item" type="button">Action</button>
-                    <button class="dropdown-item" type="button">Another action</button>
-                    <button class="dropdown-item" type="button">Something else here</button>
+                    <button class="dropdown-item" type="button">Favoris</button>
+                    <button class="dropdown-item" type="button">Déjà vu</button>
+                    <button class="dropdown-item" type="button">A regarder</button>
                 </div>
             <form action="">
                 <input type="search">
@@ -47,7 +47,7 @@ body{
     margin-left: 15px;
     margin-right: 15px;
 }
-.btn:hover {
+.btn:hover, .btn:focus {
     background-color: #fcbaa5;
 }
 .logo {
@@ -121,8 +121,14 @@ form:hover .fa{
     color: #fff;
     opacity: 1;
 }
+.dropdown-menu{
+    background-color: #B02E05;
+}
 .dropdown-item:hover{
     background-color: #f84309;
+}
+.dropdown-item{
+    color: #fff;
 }
 
 </style>
