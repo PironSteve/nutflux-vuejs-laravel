@@ -1917,6 +1917,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -6404,7 +6407,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nbody{\n    background-color: black;\n}\n.generalmovie{\n    border: 3px solid #B02E05 ;\n    border-radius: 5px;\n    max-width: 300px;\n    height: 250px;\n}\n.movie-general h3{\n    color: #f84309;\n    font-weight: bold;\n    margin-left: 35px;\n}\n.carousel{\n    margin-left: 30px;\n    max-height: 300px;\n}\n.owl-carousel .owl-item img {\n    width: 85%;\n}\n", ""]);
+exports.push([module.i, "\nbody{\n    background-color: black;\n}\n.generalmovie{\n    border: 3px solid #B02E05 ;\n    border-radius: 5px;\n    max-width: 300px;\n    height: 250px;\n}\n.movie-general h3{\n    color: #f84309;\n    font-weight: bold;\n    margin-left: 35px;\n}\n.carousel{\n    margin-left: 30px;\n    max-height: 300px;\n}\n.owl-carousel .owl-item img a {\n    width: 85%;\n}\n.modal-dialog {\n    max-width: 583px;\n}\n.modal-header{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-body{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-footer{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.far, .fas{\n    font-size: 15px;\n    margin-right: 10px;\n    color: #f84309;\n}\n", ""]);
 
 // exports
 
@@ -38181,6 +38184,7 @@ var render = function() {
           attrs: {
             dots: true,
             nav: false,
+            margin: 30,
             loop: true,
             autoplay: true,
             autoplayHoverPause: true,
@@ -38189,7 +38193,7 @@ var render = function() {
         },
         [
           _c(
-            "button",
+            "a",
             {
               attrs: {
                 type: "button",
@@ -38297,9 +38301,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "modal-dialog" }, [
         _c("div", { staticClass: "modal-content" }, [
           _c("div", { staticClass: "modal-header" }, [
-            _c("h4", { staticClass: "modal-title" }, [
-              _vm._v("Plus d'informations")
-            ])
+            _c("h4", { staticClass: "modal-title" }, [_vm._v("Titre film")])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "modal-body" }, [
@@ -38313,11 +38315,17 @@ var staticRenderFns = [
                   "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
                 allowfullscreen: ""
               }
-            })
+            }),
+            _vm._v(" "),
+            _c("i", { staticClass: "far fa-heart" }),
+            _vm._v(" "),
+            _c("i", { staticClass: "far fa-eye" }),
+            _vm._v(" "),
+            _c("i", { staticClass: "fas fa-sign-out-alt" })
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "modal-footer" }, [
-            _c("em", [_vm._v("Informations sous réserve")])
+            _c("em", [_vm._v("Informations du film")])
           ])
         ])
       ])
