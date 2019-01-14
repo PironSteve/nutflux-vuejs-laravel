@@ -39,4 +39,10 @@ Route::get('film/catalogue','FilmController@catalogue');
 
 Route::resource('film','FilmController');
 
+Route::resource('subuser','SubuserController');
+
+Route::resource('list','ListController');
+
+Route::resource('list_type','ListTypeController');
+
 Route::get('/home', 'HomeController@index')->name('home');

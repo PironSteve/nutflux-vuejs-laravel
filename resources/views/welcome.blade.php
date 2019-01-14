@@ -22,6 +22,9 @@
                         <li>
                                 <a href="{{ url('film/catalogue') }}" class="nav-link"> Catalogue</a>
                         </li>
+                        <li>
+                            <a href="{{ url('/home') }}" class="nav-link"> Login</a>
+                    </li>
             </ul>
             <P>FRONTEND LINKS</P>
             <ul>
