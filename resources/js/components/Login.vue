@@ -10,12 +10,12 @@
             <a href="#" class="register">S'inscrire?</a>
         </div>
             <div class="signin">
-            <p class="connect">S'enregistrer</p>
+            <p class="connect2">S'enregistrer</p>
             <input type="text" placeholder="Pseudo"><br>
             <input type="text" placeholder="Email"><br>
             <input type="text" placeholder="Mot de passe"><br>
             <input type="text" placeholder="Mot de passe"><br>
-            <button type="submit">GO</button><br>
+            <router-link to="/choose"><button type="submit">GO</button></router-link><br>
             <a href="#" class="log">Se connecter?</a>
         </div>
     </div>
@@ -44,8 +44,24 @@ export default{
         border: 4px solid #FCBAA5;
     }
 
+        .signin{
+        width:500px;
+        height:500px;
+        background-color:#B02E05;
+        border-radius: 50%;
+        padding-top: 4%;
+        text-align: center;
+        border: 4px solid #FCBAA5;
+        display:none;
+    }
+
     .connect{
         margin-bottom: 75px;
+        color:white;
+    }
+
+    .connect2{
+        margin-bottom: 38px;
         color:white;
     }
 
@@ -94,4 +110,23 @@ export default{
     .register:hover{
         font-weight: bold;
     }
+
+    .log{
+        color:#FCBAA5;
+        text-decoration: none;
+    }
+
+    .log:hover{
+        font-weight: bold;
+    }
+
+
+.box{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
 </style>
