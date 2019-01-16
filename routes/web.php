@@ -35,4 +35,18 @@ Route::get('/{any}', function () {
 //   Route::get('/chooseuser', function() {
 //     return view ('Chooseuser');
 
-// });
+});
+
+Auth::routes();
+
+Route::get('film/catalogue','FilmController@catalogue');
+
+Route::resource('film','FilmController');
+
+Route::resource('subuser','SubuserController');
+
+Route::resource('list','ListController');
+
+Route::resource('list_type','ListTypeController');
+
+Route::get('/home', 'HomeController@index')->name('home');
