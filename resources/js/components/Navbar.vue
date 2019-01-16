@@ -22,7 +22,7 @@
 
 </script>
 
-<style scoped >
+<style scoped>
 body{
     margin: 0;
     padding: 0;
@@ -48,6 +48,10 @@ body{
 .logo {
     height: 75px;
     margin-right: 30px;
+}
+.topmenu{
+    margin: 0;
+    width: 100%;
 }
 form{
     position: relative;
@@ -77,12 +81,12 @@ input{
     font-size: 1em;
     border-radius: 20px;
     padding: 0 20px;
-    color: #fff;
+    color: #f84309;
 }
 
 .fa{
     box-sizing: border-box;
-    padding: 10px;
+    padding: 14px;
     width: 42.5px;
     height: 42.5px;
     position: absolute;

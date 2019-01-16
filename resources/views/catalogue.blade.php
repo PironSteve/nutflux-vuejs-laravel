@@ -18,7 +18,6 @@
     <div id="app">
         <navbar></navbar>
         <general-movies></general-movies>
-
          <pop-up-vid></pop-up-vid>
 
     </div>
