@@ -6,19 +6,19 @@
                 <div class="example">
                     <div class="clip">
                         <div class="film">
-                            <img class="user-img" src="../../../resources/images/user.png">
+                            <router-link to="/catalogue"><img class="user-img" src="../../../resources/images/user.png"></router-link>
                         </div>
                     </div>
 
                     <div class="clip">
                         <div class="film">
-                            <img class="user-img" src="../../../resources/images/user.png">
+                            <router-link to="/catalogue"><img class="user-img" src="../../../resources/images/user.png"></router-link>
                         </div>
                     </div>
 
                     <div class="clip">
                         <div class="film">
-                            <img class="user-img" src="../../../resources/images/user.png">
+                            <router-link to="/catalogue"><img class="user-img" src="../../../resources/images/user.png"></router-link>
                         </div>
                     </div>
                 </div>

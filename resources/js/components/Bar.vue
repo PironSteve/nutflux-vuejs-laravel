@@ -17,7 +17,8 @@
     position:fixed;
     top:0;
     width:100vw;
-    padding-right: 20px;
+    padding-right: 100px;
+    padding-left: 3%;
 }
 
 .navbar a {
@@ -31,6 +32,5 @@
 p{
     font-size: 30px;
     color:white;
-    padding-right: 100px;
 }
 </style>

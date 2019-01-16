@@ -34,21 +34,24 @@ export default{
         color:white;
         position:fixed;
         bottom:0px;
-        padding-top: 5px;
+        padding-top: 6px;
         overflow: hidden;
     }
 
     footer .footer-logo{
         width:50%;
-        display:flex;
-        justify-content: space-between;
-        padding-left: 25%;
+        display:grid;
+        grid-template-columns: 60% 40%;
+    }
+
+    .footer-logo > ul{
+        grid-column:2;
     }
 
     footer .copyright{
         width:50%;
         float:left;
-        padding-left: 5%;
+        padding-left: 3%;
         font-size: 18px;
     }
 
