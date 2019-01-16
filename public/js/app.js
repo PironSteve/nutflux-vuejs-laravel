@@ -1900,6 +1900,26 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -1982,6 +2002,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -1999,16 +2024,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -6397,7 +6412,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nbody{\n    background-color: black;\n}\n.generalmovie{\n    border: 5px solid #B02E05 ;\n    border-radius: 5px;\n    max-width: 300px;\n}\n.movie-general h3{\n    color: #f84309;\n    font-weight: bold;\n    margin-left: 35px;\n}\n.carousel{\n    margin-left: 35px;\n}\n", ""]);
+exports.push([module.i, "\nbody{\n    background-color: black;\n}\n.generalmovie{\n    border: 3px solid #B02E05 ;\n    border-radius: 5px;\n    max-width: 300px;\n    height: 250px;\n}\n.movie-general h3{\n    color: #f84309;\n    font-weight: bold;\n    margin-left: 35px;\n}\n.carousel{\n    margin-left: 30px;\n    max-height: 300px;\n}\n.owl-carousel .owl-item img a {\n    width: 85%;\n}\n.modal{\n    color: #f84309;\n}\n.modal-dialog {\n    max-width: 583px;\n}\n.modal-header{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-body{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-footer{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.far, .fas{\n    font-size: 15px;\n    margin-right: 10px;\n    color: #f84309;\n}\n", ""]);
 
 // exports
 
@@ -6454,7 +6469,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nbody[data-v-6dde423b]{\n    margin: 0;\n    padding: 0;\n}\n.navbar[data-v-6dde423b] {\n    background-color: #000;\n    border-radius: 0;\n    overflow: hidden;\n    padding: 5px;\n}\n.navbar a[data-v-6dde423b] {\n    color: white;\n}\n.btn[data-v-6dde423b] {\n    background-color: #B02E05;\n    border: none;\n    margin-left: 15px;\n    margin-right: 15px;\n}\n.btn[data-v-6dde423b]:hover {\n    background-color: #f84309;\n}\n.logo[data-v-6dde423b] {\n    height: 75px;\n    margin-right: 30px;\n}\nform[data-v-6dde423b]{\n    position: relative;\n    top: -40px;\n    left: 90%;\n    -webkit-transform: translate(-50%,-50%);\n            transform: translate(-50%,-50%);\n    transition: all 1s;\n    width: 50px;\n    height: 50px;\n    background: #B02E05;\n    box-sizing: border-box;\n    border-radius: 25px;\n    border: 4px solid #fff;\n    padding: 5px;\n}\ninput[data-v-6dde423b]{\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;;\n    height: 42.5px;\n    line-height: 30px;\n    outline: 0;\n    border: 0;\n    display: none;\n    font-size: 1em;\n    border-radius: 20px;\n    padding: 0 20px;\n    color: #fff;\n}\n.fa[data-v-6dde423b]{\n    box-sizing: border-box;\n    padding: 10px;\n    width: 42.5px;\n    height: 42.5px;\n    position: absolute;\n    top: 0;\n    right: 0;\n    border-radius: 50%;\n    color: #fff;\n    text-align: center;\n    font-size: 1.2em;\n    transition: all 1s;\n}\nform[data-v-6dde423b]:hover{\n    width: 200px;\n    cursor: pointer;\n}\nform:hover input[data-v-6dde423b]{\n    display: block;\n}\nform:hover .fa[data-v-6dde423b]{\n    background: #f84309;\n    color: white;\n}\n[data-v-6dde423b]::-webkit-input-placeholder {\n    color: #fff;\n    opacity: 1;\n}\n[data-v-6dde423b]:-ms-input-placeholder {\n    color: #fff;\n    opacity: 1;\n}\n[data-v-6dde423b]::-ms-input-placeholder {\n    color: #fff;\n    opacity: 1;\n}\n[data-v-6dde423b]::placeholder {\n    color: #fff;\n    opacity: 1;\n}\n\n", ""]);
+exports.push([module.i, "\nbody[data-v-6dde423b]{\n    margin: 0;\n    padding: 0;\n}\n.dropdown[data-v-6dde423b] {\n    background-color: #000;\n    border-radius: 0;\n    overflow: hidden;\n    padding: 5px;\n}\n.dropdown a[data-v-6dde423b] {\n    color: white;\n}\n.btn[data-v-6dde423b] {\n    background-color: #B02E05;\n    border: none;\n    margin-left: 15px;\n    margin-right: 15px;\n}\n.btn[data-v-6dde423b]:hover, .btn[data-v-6dde423b]:focus {\n    background-color: #fcbaa5;\n}\n.logo[data-v-6dde423b] {\n    height: 75px;\n    margin-right: 30px;\n}\n.topmenu[data-v-6dde423b]{\n    margin: 0;\n    width: 100%;\n}\nform[data-v-6dde423b]{\n    position: relative;\n    top: -40px;\n    left: 90%;\n    -webkit-transform: translate(-50%,-50%);\n            transform: translate(-50%,-50%);\n    transition: all 1s;\n    width: 50px;\n    height: 50px;\n    background: #B02E05;\n    box-sizing: border-box;\n    border-radius: 25px;\n    border: 4px solid #fff;\n    padding: 5px;\n}\ninput[data-v-6dde423b]{\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;;\n    height: 42.5px;\n    line-height: 30px;\n    outline: 0;\n    border: 0;\n    display: none;\n    font-size: 1em;\n    border-radius: 20px;\n    padding: 0 20px;\n    color: #f84309;\n}\n.fa[data-v-6dde423b]{\n    box-sizing: border-box;\n    padding: 14px;\n    width: 42.5px;\n    height: 42.5px;\n    position: absolute;\n    top: 0;\n    right: 0;\n    border-radius: 50%;\n    color: #fff;\n    text-align: center;\n    font-size: 1.2em;\n    transition: all 1s;\n}\nform[data-v-6dde423b]:hover{\n    width: 200px;\n    cursor: pointer;\n}\nform:hover input[data-v-6dde423b]{\n    display: block;\n}\nform:hover .fa[data-v-6dde423b]{\n    background: #f84309;\n    color: white;\n}\n[data-v-6dde423b]::-webkit-input-placeholder {\n    color: #fff;\n    opacity: 1;\n}\n[data-v-6dde423b]:-ms-input-placeholder {\n    color: #fff;\n    opacity: 1;\n}\n[data-v-6dde423b]::-ms-input-placeholder {\n    color: #fff;\n    opacity: 1;\n}\n[data-v-6dde423b]::placeholder {\n    color: #fff;\n    opacity: 1;\n}\n.dropdown-menu[data-v-6dde423b]{\n    background-color: #B02E05;\n}\n.dropdown-item[data-v-6dde423b]:hover{\n    background-color: #f84309;\n}\n.dropdown-item[data-v-6dde423b]{\n    color: #fff;\n}\n\n", ""]);
 
 // exports
 
@@ -6473,7 +6488,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -38174,20 +38189,34 @@ var render = function() {
           attrs: {
             dots: true,
             nav: false,
+            margin: 30,
             loop: true,
             autoplay: true,
             autoplayHoverPause: true,
-            items: "5"
+            items: "6"
           }
         },
         [
-          _c("img", {
-            staticClass: "generalmovie",
-            attrs: {
-              src:
-                "https://images-na.ssl-images-amazon.com/images/I/71M6KGXcWFL._SY445_.jpg"
-            }
-          }),
+          _c(
+            "a",
+            {
+              attrs: {
+                type: "button",
+                "data-toggle": "modal",
+                "data-target": "#infos"
+              }
+            },
+            [
+              _c("img", {
+                staticClass: "generalmovie",
+                attrs: {
+                  "data-toggle": "modal",
+                  src:
+                    "https://images-na.ssl-images-amazon.com/images/I/71M6KGXcWFL._SY445_.jpg"
+                }
+              })
+            ]
+          ),
           _vm._v(" "),
           _c("img", {
             staticClass: "generalmovie",
@@ -38261,12 +38290,53 @@ var render = function() {
             }
           })
         ]
-      )
+      ),
+      _vm._v(" "),
+      _vm._m(0)
     ],
     1
   )
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "modal", attrs: { id: "infos" } }, [
+      _c("div", { staticClass: "modal-dialog" }, [
+        _c("div", { staticClass: "modal-content" }, [
+          _c("div", { staticClass: "modal-header" }, [
+            _c("h4", { staticClass: "modal-title" }, [_vm._v("Titre film")])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "modal-body" }, [
+            _c("iframe", {
+              attrs: {
+                width: "560",
+                height: "315",
+                src: "https://www.youtube.com/embed/h5cyXhEbIso",
+                frameborder: "0",
+                allow:
+                  "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+                allowfullscreen: ""
+              }
+            }),
+            _vm._v(" "),
+            _c("i", { staticClass: "far fa-heart" }),
+            _vm._v(" "),
+            _c("i", { staticClass: "far fa-eye" }),
+            _vm._v(" "),
+            _c("i", { staticClass: "fas fa-sign-out-alt" })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "modal-footer" }, [
+            _c("em", [_vm._v("Informations du film")])
+          ])
+        ])
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -38374,7 +38444,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "navbar" }, [
+    return _c("div", { staticClass: "dropdown" }, [
       _c("div", { staticClass: "topmenu" }, [
         _c("img", {
           staticClass: "logo",
@@ -38397,7 +38467,16 @@ var staticRenderFns = [
         _vm._v(" "),
         _c(
           "button",
-          { staticClass: "btn btn-info btn-md", attrs: { type: "button" } },
+          {
+            staticClass: "btn btn-info btn-md dropdown-toggle",
+            attrs: {
+              type: "button",
+              id: "dropdownMenu2",
+              "data-toggle": "dropdown",
+              "aria-haspopup": "true",
+              "aria-expanded": "false"
+            }
+          },
           [
             _c("a", { attrs: { href: "" } }, [
               _c("span", { staticClass: "glyphicon glyphicon-th-list" }),
@@ -38414,6 +38493,33 @@ var staticRenderFns = [
               _c("span", { staticClass: "glyphicon glyphicon-user" }),
               _vm._v(" Profil")
             ])
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass: "dropdown-menu",
+            attrs: { "aria-labelledby": "dropdownMenu2" }
+          },
+          [
+            _c(
+              "button",
+              { staticClass: "dropdown-item", attrs: { type: "button" } },
+              [_vm._v("Favoris")]
+            ),
+            _vm._v(" "),
+            _c(
+              "button",
+              { staticClass: "dropdown-item", attrs: { type: "button" } },
+              [_vm._v("Déjà vu")]
+            ),
+            _vm._v(" "),
+            _c(
+              "button",
+              { staticClass: "dropdown-item", attrs: { type: "button" } },
+              [_vm._v("A regarder")]
+            )
           ]
         ),
         _vm._v(" "),
@@ -38462,86 +38568,41 @@ var staticRenderFns = [
           attrs: {
             type: "button",
             "data-toggle": "modal",
-            "data-target": "#exampleModalLong"
+            "data-target": "#infos"
           }
         },
-        [_vm._v("\n    Launch demo modal\n  ")]
+        [_vm._v("Informations")]
       ),
       _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass: "modal fade",
-          attrs: {
-            id: "exampleModalLong",
-            tabindex: "-1",
-            role: "dialog",
-            "aria-labelledby": "exampleModalLongTitle",
-            "aria-hidden": "true"
-          }
-        },
-        [
-          _c(
-            "div",
-            { staticClass: "modal-dialog", attrs: { role: "document" } },
-            [
-              _c("div", { staticClass: "modal-content" }, [
-                _c("div", { staticClass: "modal-header" }, [
-                  _c(
-                    "h5",
-                    {
-                      staticClass: "modal-title",
-                      attrs: { id: "exampleModalLongTitle" }
-                    },
-                    [_vm._v("Modal title")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "button",
-                    {
-                      staticClass: "close",
-                      attrs: {
-                        type: "button",
-                        "data-dismiss": "modal",
-                        "aria-label": "Close"
-                      }
-                    },
-                    [
-                      _c("span", { attrs: { "aria-hidden": "true" } }, [
-                        _vm._v("×")
-                      ])
-                    ]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "modal-body" }, [
-                  _vm._v("\n          ...\n        ")
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "modal-footer" }, [
-                  _c(
-                    "button",
-                    {
-                      staticClass: "btn btn-secondary",
-                      attrs: { type: "button", "data-dismiss": "modal" }
-                    },
-                    [_vm._v("Close")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "button",
-                    {
-                      staticClass: "btn btn-primary",
-                      attrs: { type: "button" }
-                    },
-                    [_vm._v("Save changes")]
-                  )
-                ])
+      _c("div", { staticClass: "modal", attrs: { id: "infos" } }, [
+        _c("div", { staticClass: "modal-dialog" }, [
+          _c("div", { staticClass: "modal-content" }, [
+            _c("div", { staticClass: "modal-header" }, [
+              _c("h4", { staticClass: "modal-title" }, [
+                _vm._v("Plus d'informations")
               ])
-            ]
-          )
-        ]
-      )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-body" }, [
+              _c("iframe", {
+                attrs: {
+                  width: "560",
+                  height: "315",
+                  src: "https://www.youtube.com/embed/h5cyXhEbIso",
+                  frameborder: "0",
+                  allow:
+                    "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+                  allowfullscreen: ""
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-footer" }, [
+              _c("em", [_vm._v("Informations sous réserve")])
+            ])
+          ])
+        ])
+      ])
     ])
   }
 ]
@@ -38588,7 +38649,9 @@ var staticRenderFns = [
       _c("input", { attrs: { type: "text", value: "Mot de passe" } }),
       _c("br"),
       _vm._v(" "),
-      _c("button", { attrs: { type: "submit" } }, [_vm._v("GO")])
+      _c("a", { attrs: { href: "/catalogue" } }, [
+        _c("button", { attrs: { type: "submit" } }, [_vm._v("GO")])
+      ])
     ])
   }
 ]

@@ -1,10 +1,15 @@
 <template>
-    <div class="navbar">
+    <div class="dropdown">
         <div class="topmenu">
             <img class="logo" src="../../../resources/images/nutflux.png" alt="">
             <button type="button" class="btn btn-info btn-md"><a href=""><span class="glyphicon glyphicon-film"></span> Films</a></button>
-            <button type="button" class="btn btn-info btn-md"><a href=""><span class="glyphicon glyphicon-th-list"></span> Listes</a></button>
+            <button type="button" class="btn btn-info btn-md dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a href=""><span class="glyphicon glyphicon-th-list"></span> Listes</a></button>
             <button type="button" class="btn btn-info btn-md"><a href=""><span class="glyphicon glyphicon-user"></span> Profil</a></button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <button class="dropdown-item" type="button">Favoris</button>
+                    <button class="dropdown-item" type="button">Déjà vu</button>
+                    <button class="dropdown-item" type="button">A regarder</button>
+                </div>
             <form action="">
                 <input type="search">
                 <i class="fa fa-search"></i>
@@ -22,18 +27,18 @@
 
 </script>
 
-<style scoped >
+<style scoped>
 body{
     margin: 0;
     padding: 0;
 }
-.navbar {
+.dropdown {
     background-color: #000;
     border-radius: 0;
     overflow: hidden;
     padding: 5px;
 }
-.navbar a {
+.dropdown a {
     color: white;
 }
 .btn {
@@ -42,12 +47,16 @@ body{
     margin-left: 15px;
     margin-right: 15px;
 }
-.btn:hover {
-    background-color: #f84309;
+.btn:hover, .btn:focus {
+    background-color: #fcbaa5;
 }
 .logo {
     height: 75px;
     margin-right: 30px;
+}
+.topmenu{
+    margin: 0;
+    width: 100%;
 }
 form{
     position: relative;
@@ -77,12 +86,12 @@ input{
     font-size: 1em;
     border-radius: 20px;
     padding: 0 20px;
-    color: #fff;
+    color: #f84309;
 }
 
 .fa{
     box-sizing: border-box;
-    padding: 10px;
+    padding: 14px;
     width: 42.5px;
     height: 42.5px;
     position: absolute;
@@ -111,6 +120,15 @@ form:hover .fa{
 ::placeholder {
     color: #fff;
     opacity: 1;
+}
+.dropdown-menu{
+    background-color: #B02E05;
+}
+.dropdown-item:hover{
+    background-color: #f84309;
+}
+.dropdown-item{
+    color: #fff;
 }
 
 </style>

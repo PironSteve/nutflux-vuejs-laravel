@@ -1,0 +1,25 @@
+version: "3"
+services:
+  mysql:
+    image: mysql:5
+    volumes:
+      - mysql_db:/var/lib/mysql
+    ports:
+      - "3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: dev
+      MYSQL_USER: dev
+      MYSQL_PASSWORD: dev
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    ports:
+      - "8001:80"
+    environment:
+      PMA_HOST: mysql
+      PMA_USER: dev
+      PMA_PASSWORD: dev
+
+volumes:
+  mysql_db:
