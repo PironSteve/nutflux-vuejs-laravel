@@ -18,3 +18,4 @@ db/
 #others
 .vscode
 .DS_Store
+docker-compose.yml
