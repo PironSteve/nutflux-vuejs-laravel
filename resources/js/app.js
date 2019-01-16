@@ -10,7 +10,6 @@ import axios from 'axios';
 
 Vue.use(axios);
 
-Vue.component('edit-profile', require('./components/EditProfile.vue').default);
 Vue.component('pop-up-vid', require('./components/PopUpVid.vue').default);
 Vue.component('navbar', require('./components/Navbar.vue').default);
 Vue.component('general-movies', require('./components/GeneralMovies.vue').default);
@@ -20,11 +19,18 @@ Vue.component('slogan', require('./components/Slogan.vue').default);
 Vue.component('chooseuser', require('./components/Chooseuser.vue').default);
 Vue.component('foot', require('./components/Footer.vue').default);
 Vue.component('bar', require('./components/Bar.vue').default);
+
+import editprofile from './components/EditProfile';
+import catalog from './components/Catalog.vue';
 import chooseuser from './components/Chooseuser';
 import login from './components/Login';
-import generalMovies from './components/GeneralMovies.vue';
-import bar from './components/Bar.vue';
-import foot from './components/Footer.vue';
+import generalMovies from './components/GeneralMovies';
+import bar from './components/Bar';
+import foot from './components/Footer';
+import favorite from './components/Favorite';
+import seen from './components/Seen';
+import towatch from './components/Towatch';
+import popupvid from './components/PopUpVid';
 
 const routes = [
     {
@@ -40,7 +46,27 @@ const routes = [
     {
         name: 'catalogue',
         path: '/catalogue',
-        component: generalMovies
+        component: catalog
+    },
+    {
+        name: 'editprofile',
+        path: '/editprofile',
+        component: editprofile
+    },
+    {
+        name: 'favorite',
+        path: '/favorite',
+        component: favorite
+    },
+    {
+        name: 'seen',
+        path: '/seen',
+        component: seen        
+    },
+    {
+        name: 'towatch',
+        path: '/towatch',
+        component: towatch        
     }
   ];
 

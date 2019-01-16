@@ -29,6 +29,21 @@ export default{
         return{
             
         }
+    },
+    mounted(){
+        const login = document.querySelector('.login');
+        const signin = document.querySelector('.signin');
+        const boxUser = document.querySelector('.boxuser');
+
+        document.querySelector('.register').addEventListener("click", ()=>{
+            login.style.display="none";
+            signin.style.display="block";
+        })
+
+        document.querySelector('.log').addEventListener("click", ()=>{
+            login.style.display="block";
+            signin.style.display="none";
+        })
     }
 }
 </script>
@@ -127,6 +142,14 @@ export default{
     display:flex;
     justify-content: center;
     align-items: center;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(http://visagesetcouleurs.be/BeCode/denise-jans-559588-unsplash.jpg);
+    background-position: center;
+
 }
 
 </style>
