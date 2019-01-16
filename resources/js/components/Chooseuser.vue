@@ -1,36 +1,42 @@
 <template>
-        <div class="choose">
-            <div class="example">
-                <div class="clip">
-                    <div class="film">
-                        <img class="user-img" src="../../../resources/images/user.png">
+    <div class="main">
+        <bar></bar>
+        <div class="box">
+            <div class="choose">
+                <div class="example">
+                    <div class="clip">
+                        <div class="film">
+                            <img class="user-img" src="../../../resources/images/user.png">
+                        </div>
                     </div>
-                </div>
 
-                <div class="clip">
-                    <div class="film">
-                        <img class="user-img" src="../../../resources/images/user.png">
+                    <div class="clip">
+                        <div class="film">
+                            <img class="user-img" src="../../../resources/images/user.png">
+                        </div>
                     </div>
-                </div>
 
-                <div class="clip">
-                    <div class="film">
-                        <img class="user-img" src="../../../resources/images/user.png">
+                    <div class="clip">
+                        <div class="film">
+                            <img class="user-img" src="../../../resources/images/user.png">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="namebar">
-                <div>
-                    <p class="user-name">Utilisateur 1</p>
-                </div>
-                <div>
-                    <p class="user-name">Utilisateur 2</p>
-                </div>
-                <div>
-                    <p class="user-name">Utilisateur 3</p>
+                <div class="namebar">
+                    <div>
+                        <p class="user-name">Utilisateur 1</p>
+                    </div>
+                    <div>
+                        <p class="user-name">Utilisateur 2</p>
+                    </div>
+                    <div>
+                        <p class="user-name">Utilisateur 3</p>
+                    </div>
                 </div>
             </div>
         </div>
+        <foot></foot>
+    </div>
 </template>
 
 <script>
