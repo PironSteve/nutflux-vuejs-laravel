@@ -2,7 +2,7 @@
     <div>
     <navbar></navbar>
     Hellooooo
-    <footer></footer>
+    <foot></foot>
     </div>
 </template>
 

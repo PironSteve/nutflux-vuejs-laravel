@@ -38447,7 +38447,7 @@ var render = function() {
       _vm._v(" "),
       _c("pop-up-vid"),
       _vm._v(" "),
-      _c("footer")
+      _c("foot")
     ],
     1
   )
@@ -38676,7 +38676,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [_c("navbar"), _vm._v("\nheyyy bro\n"), _c("footer")], 1)
+  return _c("div", [_c("navbar"), _vm._v("\nheyyy bro\n"), _c("foot")], 1)
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -39484,7 +39484,7 @@ var render = function() {
         ]
       ),
       _vm._v(" "),
-      _c("footer")
+      _c("foot")
     ],
     1
   )
@@ -39546,7 +39546,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [_c("navbar"), _vm._v("\nHellooooo\n"), _c("footer")], 1)
+  return _c("div", [_c("navbar"), _vm._v("\nHellooooo\n"), _c("foot")], 1)
 }
 var staticRenderFns = []
 render._withStripped = true

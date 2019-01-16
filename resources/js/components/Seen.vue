@@ -15,7 +15,7 @@
             <img class="generalmovie" src="http://cdn.franceloisirs.com/35955-66765-thickbox/nos-etoiles-contraires-dvd.jpg">
             <img class="generalmovie" src="http://fr.web.img3.acsta.net/c_215_290/medias/nmedia/18/35/84/55/18611268.jpg">
     </carousel>
-    <footer></footer>
+    <foot></foot>
     </div>
 </template>
 

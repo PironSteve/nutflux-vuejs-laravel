@@ -2,7 +2,7 @@
     <div>
     <navbar></navbar>
     heyyy bro
-    <footer></footer>
+    <foot></foot>
     </div>
 </template>
 

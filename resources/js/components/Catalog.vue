@@ -3,7 +3,7 @@
         <navbar></navbar>
         <general-movies></general-movies>
         <pop-up-vid></pop-up-vid>
-        <footer></footer>
+        <foot></foot>
     </div>
 </template>
 
