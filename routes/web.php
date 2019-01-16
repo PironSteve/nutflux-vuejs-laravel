@@ -1,9 +1,5 @@
 <?php
 
-Route::get('/{any}', function () {
-  return view('welcome');
-})->where('any', '.*');
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,24 +11,38 @@ Route::get('/{any}', function () {
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
 
 
 
-// Route::get('/editprofile', function() {
-//   return view ('EditProfile');
+Route::get('/editprofile', function() {
+  return view ('EditProfile');
 
-// });
+});
 
-// Route::get('/catalogue', function() {
-//   return view ('catalogue');
+Route::get('/catalogue', function() {
+  return view ('catalogue');
 
-// });
+});
 
 
-//   Route::get('/chooseuser', function() {
-//     return view ('Chooseuser');
+  Route::get('/chooseuser', function() {
+    return view ('Chooseuser');
 
-// });
+});
+
+Auth::routes();
+
+Route::get('film/catalogue','FilmController@catalogue');
+
+Route::resource('film','FilmController');
+
+Route::resource('subuser','SubuserController');
+
+Route::resource('list','ListController');
+
+Route::resource('list_type','ListTypeController');
+
+Route::get('/home', 'HomeController@index')->name('home');
