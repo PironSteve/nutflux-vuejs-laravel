@@ -1,5 +1,9 @@
 <?php
 
+Route::get('/{any}', function () {
+  return view('welcome');
+})->where('any', '.*');
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -11,24 +15,24 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 
 
-Route::get('/editprofile', function() {
-  return view ('EditProfile');
+// Route::get('/editprofile', function() {
+//   return view ('EditProfile');
 
-});
+// });
 
-Route::get('/catalogue', function() {
-  return view ('catalogue');
+// Route::get('/catalogue', function() {
+//   return view ('catalogue');
 
-});
+// });
 
 
-  Route::get('/chooseuser', function() {
-    return view ('Chooseuser');
+//   Route::get('/chooseuser', function() {
+//     return view ('Chooseuser');
 
-});
+// });

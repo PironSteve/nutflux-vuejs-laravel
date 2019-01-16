@@ -50,8 +50,7 @@ export default{
 .choose{
     width:100vw;
     height: 100vh;
-    background-image: url("../../../resources/images/nutflux_fond.png");
-    background-size:cover;
+    background-image: url(http://visagesetcouleurs.be/BeCode/denise-jans-559588-unsplash.jpg);
     background-position: center;
     padding-top: 8%;
 }
