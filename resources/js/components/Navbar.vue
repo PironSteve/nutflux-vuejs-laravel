@@ -5,10 +5,13 @@
             <router-link to="/catalogue"><button type="button" class="btn btn-info btn-md"><a href=""><span class="glyphicon glyphicon-film"></span> Films</a></button></router-link>
             <button type="button" class="btn btn-info btn-md dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a href=""><span class="glyphicon glyphicon-th-list"></span> Listes</a></button>
             <router-link to="/editprofile"><button type="button" class="btn btn-info btn-md"><a href=""><span class="glyphicon glyphicon-user"></span> Profil</a></button></router-link>
+            <router-link to="/favorite"><button type="button" class="btn btn-info btn-md"><a href=""><span class="glyphicon glyphicon-user"></span> Favorite</a></button></router-link>
+            <router-link to="/towatch"><button type="button" class="btn btn-info btn-md"><a href=""><span class="glyphicon glyphicon-user"></span> Watch later</a></button></router-link>    
+            <router-link to="/seen"><button type="button" class="btn btn-info btn-md"><a href=""><span class="glyphicon glyphicon-user"></span> Already Seen</a></button></router-link>    
                 <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <button class="dropdown-item" type="button">Favoris</button>
-                    <button class="dropdown-item" type="button">Déjà vu</button>
-                    <button class="dropdown-item" type="button">A regarder</button>
+                    <router-link to="/favorite"><button class="dropdown-item" type="button">Favoris</button></router-link>
+                    <router-link to="/seen"><button class="dropdown-item" type="button">Déjà vu</button></router-link>
+                    <router-link to="/towatch"><button class="dropdown-item" type="button">A regarder</button></router-link>
                 </div>
             <form action="">
                 <input type="search">
@@ -36,6 +39,10 @@ body{
     border-radius: 0;
     overflow: hidden;
     padding: 5px;
+    height: 100px;
+    position: sticky;
+    top:0px;
+    z-index:9999;
 }
 .dropdown a {
     color: white;

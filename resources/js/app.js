@@ -10,7 +10,6 @@ import axios from 'axios';
 
 Vue.use(axios);
 
-Vue.component('pop-up-vid', require('./components/PopUpVid.vue').default);
 Vue.component('navbar', require('./components/Navbar.vue').default);
 Vue.component('general-movies', require('./components/GeneralMovies.vue').default);
 Vue.component('logo', require('./components/Logo.vue').default);
@@ -30,7 +29,6 @@ import foot from './components/Footer';
 import favorite from './components/Favorite';
 import seen from './components/Seen';
 import towatch from './components/Towatch';
-import popupvid from './components/PopUpVid';
 
 const routes = [
     {

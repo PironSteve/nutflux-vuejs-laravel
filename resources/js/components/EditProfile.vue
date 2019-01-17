@@ -4,7 +4,7 @@
 
   <div class = "backgroundprofile">
 
-    <bar></bar>
+    <navbar></navbar>
         <form id = "form1">
 
             <img src="../../../resources/images/user.png" alt = "default avatar" class = "defaultavatar">

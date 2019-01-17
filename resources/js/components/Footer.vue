@@ -36,6 +36,9 @@ export default{
         bottom:0px;
         padding-top: 6px;
         overflow: hidden;
+        position: sticky;
+        top:0px;
+        z-index:9998;
     }
 
     footer .footer-logo{
