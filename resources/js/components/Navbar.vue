@@ -124,9 +124,4 @@ form:hover .fa{
 .dropdown-item{
     color: #fff;
 }
-<<<<<<< HEAD
 </style>
-=======
-
-</style>
->>>>>>> SteveP
