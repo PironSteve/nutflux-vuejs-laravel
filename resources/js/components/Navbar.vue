@@ -2,13 +2,16 @@
     <div class="dropdown">
         <div class="topmenu">
             <img class="logo" src="../../../resources/images/nutflux.png" alt="">
-            <button type="button" class="btn btn-info btn-md"><a href=""><span class="glyphicon glyphicon-film"></span> Films</a></button>
+            <router-link to="/catalogue"><button type="button" class="btn btn-info btn-md"><a href=""><span class="glyphicon glyphicon-film"></span> Films</a></button></router-link>
             <button type="button" class="btn btn-info btn-md dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a href=""><span class="glyphicon glyphicon-th-list"></span> Listes</a></button>
-            <button type="button" class="btn btn-info btn-md"><a href=""><span class="glyphicon glyphicon-user"></span> Profil</a></button>
+            <router-link to="/editprofile"><button type="button" class="btn btn-info btn-md"><a href=""><span class="glyphicon glyphicon-user"></span> Profil</a></button></router-link>
+            <router-link to="/favorite"><button type="button" class="btn btn-info btn-md"><a href=""><span class="glyphicon glyphicon-user"></span> Favorite</a></button></router-link>
+            <router-link to="/towatch"><button type="button" class="btn btn-info btn-md"><a href=""><span class="glyphicon glyphicon-user"></span> Watch later</a></button></router-link>    
+            <router-link to="/seen"><button type="button" class="btn btn-info btn-md"><a href=""><span class="glyphicon glyphicon-user"></span> Already Seen</a></button></router-link>    
                 <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <button class="dropdown-item" type="button">Favoris</button>
-                    <button class="dropdown-item" type="button">Déjà vu</button>
-                    <button class="dropdown-item" type="button">A regarder</button>
+                    <router-link to="/favorite"><button class="dropdown-item" type="button">Favoris</button></router-link>
+                    <router-link to="/seen"><button class="dropdown-item" type="button">Déjà vu</button></router-link>
+                    <router-link to="/towatch"><button class="dropdown-item" type="button">A regarder</button></router-link>
                 </div>
             <form action="">
                 <input type="search">
@@ -24,7 +27,6 @@
             console.log('Component mounted.')
         }
     }
-
 </script>
 
 <style scoped>
@@ -37,6 +39,10 @@ body{
     border-radius: 0;
     overflow: hidden;
     padding: 5px;
+    height: 100px;
+    position: sticky;
+    top:0px;
+    z-index:9999;
 }
 .dropdown a {
     color: white;
@@ -72,7 +78,6 @@ form{
     border: 4px solid #fff;
     padding: 5px;
 }
-
 input{
     position: absolute;
     top: 0;
@@ -88,7 +93,6 @@ input{
     padding: 0 20px;
     color: #f84309;
 }
-
 .fa{
     box-sizing: border-box;
     padding: 14px;
@@ -103,16 +107,13 @@ input{
     font-size: 1.2em;
     transition: all 1s;
 }
-
 form:hover{
     width: 200px;
     cursor: pointer;
 }
-
 form:hover input{
     display: block;
 }
-
 form:hover .fa{
     background: #f84309;
     color: white;
@@ -130,5 +131,4 @@ form:hover .fa{
 .dropdown-item{
     color: #fff;
 }
-
 </style>

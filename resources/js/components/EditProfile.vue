@@ -1,13 +1,11 @@
 <template>
 
-  <div class = container>
-
+  <div class = "container">
 
   <div class = "backgroundprofile">
 
-    <img class = "logo"  src = "../../../resources/images/nutflux.png" alt = "logo nutflux">
+    <navbar></navbar>
         <form id = "form1">
-
 
             <img src="../../../resources/images/user.png" alt = "default avatar" class = "defaultavatar">
             <p>
@@ -34,7 +32,7 @@
         </p>
 
   </div>
-
+        <foot></foot>
   </div>
 
 
@@ -65,6 +63,12 @@ export default {
 
 
 <style scoped>
+
+.container{
+  margin:0px;
+  padding:0px;
+  width:100vw;
+}
 
 
 .backgroundprofile{
