@@ -2023,6 +2023,14 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {};
@@ -38612,66 +38620,68 @@ var render = function() {
       _c("bar"),
       _vm._v(" "),
       _c("div", { staticClass: "box" }, [
-        _c(
-          "div",
-          { staticClass: "login" },
-          [
-            _c("p", { staticClass: "connect" }, [_vm._v("Connexion")]),
-            _vm._v(" "),
-            _c("input", { attrs: { type: "text", placeholder: "Email" } }),
-            _c("br"),
-            _vm._v(" "),
-            _c("input", {
-              attrs: { type: "text", placeholder: "Mot de passe" }
-            }),
-            _c("br"),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/choose" } }, [
-              _c("button", { attrs: { type: "submit" } }, [_vm._v("GO")])
-            ]),
-            _c("br"),
-            _c("br"),
-            _vm._v(" "),
-            _c("a", { staticClass: "register", attrs: { href: "#" } }, [
-              _vm._v("S'inscrire?")
-            ])
-          ],
-          1
-        ),
+        _c("div", { staticClass: "login" }, [
+          _c("p", { staticClass: "connect" }, [_vm._v("Connexion")]),
+          _vm._v(" "),
+          _c(
+            "form",
+            [
+              _c("input", { attrs: { type: "text", placeholder: "Email" } }),
+              _c("br"),
+              _vm._v(" "),
+              _c("input", {
+                attrs: { type: "text", placeholder: "Mot de passe" }
+              }),
+              _c("br"),
+              _vm._v(" "),
+              _c("router-link", { attrs: { to: "/choose" } }, [
+                _c("button", { attrs: { type: "submit" } }, [_vm._v("GO")])
+              ]),
+              _c("br"),
+              _c("br")
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("a", { staticClass: "register", attrs: { href: "#" } }, [
+            _vm._v("S'inscrire?")
+          ])
+        ]),
         _vm._v(" "),
-        _c(
-          "div",
-          { staticClass: "signin" },
-          [
-            _c("p", { staticClass: "connect2" }, [_vm._v("S'enregistrer")]),
-            _vm._v(" "),
-            _c("input", { attrs: { type: "text", placeholder: "Pseudo" } }),
-            _c("br"),
-            _vm._v(" "),
-            _c("input", { attrs: { type: "text", placeholder: "Email" } }),
-            _c("br"),
-            _vm._v(" "),
-            _c("input", {
-              attrs: { type: "text", placeholder: "Mot de passe" }
-            }),
-            _c("br"),
-            _vm._v(" "),
-            _c("input", {
-              attrs: { type: "text", placeholder: "Mot de passe" }
-            }),
-            _c("br"),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/choose" } }, [
-              _c("button", { attrs: { type: "submit" } }, [_vm._v("GO")])
-            ]),
-            _c("br"),
-            _vm._v(" "),
-            _c("a", { staticClass: "log", attrs: { href: "#" } }, [
-              _vm._v("Se connecter?")
-            ])
-          ],
-          1
-        )
+        _c("div", { staticClass: "signin" }, [
+          _c("p", { staticClass: "connect2" }, [_vm._v("S'enregistrer")]),
+          _vm._v(" "),
+          _c(
+            "form",
+            [
+              _c("input", { attrs: { type: "text", placeholder: "Pseudo" } }),
+              _c("br"),
+              _vm._v(" "),
+              _c("input", { attrs: { type: "text", placeholder: "Email" } }),
+              _c("br"),
+              _vm._v(" "),
+              _c("input", {
+                attrs: { type: "text", placeholder: "Mot de passe" }
+              }),
+              _c("br"),
+              _vm._v(" "),
+              _c("input", {
+                attrs: { type: "text", placeholder: "Mot de passe" }
+              }),
+              _c("br"),
+              _vm._v(" "),
+              _c("router-link", { attrs: { to: "/choose" } }, [
+                _c("button", { attrs: { type: "submit" } }, [_vm._v("GO")])
+              ]),
+              _c("br")
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("a", { staticClass: "log", attrs: { href: "#" } }, [
+            _vm._v("Se connecter?")
+          ])
+        ])
       ]),
       _vm._v(" "),
       _c("foot")
