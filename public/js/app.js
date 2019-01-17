@@ -1789,7 +1789,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 
 /***/ }),
 
@@ -1923,6 +1922,8 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vue_owl_carousel__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-owl-carousel */ "./node_modules/vue-owl-carousel/dist/vue-owl-carousel.js");
+/* harmony import */ var vue_owl_carousel__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_owl_carousel__WEBPACK_IMPORTED_MODULE_0__);
 //
 //
 //
@@ -1931,7 +1932,47 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-/* harmony default export */ __webpack_exports__["default"] = ({});
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    carousel: vue_owl_carousel__WEBPACK_IMPORTED_MODULE_0___default.a
+  }
+});
 
 /***/ }),
 
@@ -2183,6 +2224,8 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vue_owl_carousel__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-owl-carousel */ "./node_modules/vue-owl-carousel/dist/vue-owl-carousel.js");
+/* harmony import */ var vue_owl_carousel__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_owl_carousel__WEBPACK_IMPORTED_MODULE_0__);
 //
 //
 //
@@ -2204,7 +2247,34 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-/* harmony default export */ __webpack_exports__["default"] = ({});
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    carousel: vue_owl_carousel__WEBPACK_IMPORTED_MODULE_0___default.a
+  }
+});
 
 /***/ }),
 
@@ -2238,6 +2308,8 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vue_owl_carousel__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-owl-carousel */ "./node_modules/vue-owl-carousel/dist/vue-owl-carousel.js");
+/* harmony import */ var vue_owl_carousel__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_owl_carousel__WEBPACK_IMPORTED_MODULE_0__);
 //
 //
 //
@@ -2246,7 +2318,47 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-/* harmony default export */ __webpack_exports__["default"] = ({});
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    carousel: vue_owl_carousel__WEBPACK_IMPORTED_MODULE_0___default.a
+  }
+});
 
 /***/ }),
 
@@ -6540,7 +6652,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -6597,7 +6709,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\nbody[data-v-3982b107]{\n    background-color: black;\n}\n.movie-general[data-v-3982b107]{\n    min-height: 100vh;\n    background: #000;\n}\n.generalmovie[data-v-3982b107]{\n    border: 3px solid #B02E05 ;\n    border-radius: 5px;\n    max-width: 300px;\n    height: 250px;\n}\n.movie-general h3[data-v-3982b107]{\n    color: #f84309;\n    font-weight: bold;\n    margin-left: 35px;\n}\n.carousel[data-v-3982b107]{\n    margin-left: 30px;\n    max-height: 300px;\n}\n.owl-carousel .owl-item img a[data-v-3982b107] {\n    width: 85%;\n}\n.modal[data-v-3982b107]{\n    color: #f84309;\n}\n.modal-dialog[data-v-3982b107] {\n    max-width: 583px;\n}\n.modal-header[data-v-3982b107]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-body[data-v-3982b107]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-footer[data-v-3982b107]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.far[data-v-3982b107], .fas[data-v-3982b107]{\n    font-size: 15px;\n    margin-right: 10px;\n    color: #f84309;\n}\n", ""]);
 
 // exports
 
@@ -6711,7 +6823,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\nbody[data-v-41a8e034]{\n    background-color: black;\n}\n.movie-general[data-v-41a8e034]{\n    min-height: 100vh;\n    background: #000;\n}\n.generalmovie[data-v-41a8e034]{\n    border: 3px solid #B02E05 ;\n    border-radius: 5px;\n    max-width: 300px;\n    height: 250px;\n}\n.movie-general h3[data-v-41a8e034]{\n    color: #f84309;\n    font-weight: bold;\n    margin-left: 35px;\n}\n.carousel[data-v-41a8e034]{\n    margin-left: 30px;\n    max-height: 300px;\n}\n.owl-carousel .owl-item img a[data-v-41a8e034] {\n    width: 85%;\n}\n.modal[data-v-41a8e034]{\n    color: #f84309;\n}\n.modal-dialog[data-v-41a8e034] {\n    max-width: 583px;\n}\n.modal-header[data-v-41a8e034]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-body[data-v-41a8e034]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-footer[data-v-41a8e034]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.far[data-v-41a8e034], .fas[data-v-41a8e034]{\n    font-size: 15px;\n    margin-right: 10px;\n    color: #f84309;\n}\n", ""]);
 
 // exports
 
@@ -6749,7 +6861,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\nbody[data-v-2a3bfa99]{\n    background-color: black;\n}\n.movie-general[data-v-2a3bfa99]{\n    min-height: 100vh;\n    background: #000;\n}\n.generalmovie[data-v-2a3bfa99]{\n    border: 3px solid #B02E05 ;\n    border-radius: 5px;\n    max-width: 300px;\n    height: 250px;\n}\n.movie-general h3[data-v-2a3bfa99]{\n    color: #f84309;\n    font-weight: bold;\n    margin-left: 35px;\n}\n.carousel[data-v-2a3bfa99]{\n    margin-left: 30px;\n    max-height: 300px;\n}\n.owl-carousel .owl-item img a[data-v-2a3bfa99] {\n    width: 85%;\n}\n.modal[data-v-2a3bfa99]{\n    color: #f84309;\n}\n.modal-dialog[data-v-2a3bfa99] {\n    max-width: 583px;\n}\n.modal-header[data-v-2a3bfa99]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-body[data-v-2a3bfa99]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-footer[data-v-2a3bfa99]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.far[data-v-2a3bfa99], .fas[data-v-2a3bfa99]{\n    font-size: 15px;\n    margin-right: 10px;\n    color: #f84309;\n}\n", ""]);
 
 // exports
 
@@ -38373,15 +38485,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    [
-      _c("navbar"),
-      _vm._v(" "),
-      _c("general-movies"),
-      _vm._v(" "),
-      _c("pop-up-vid"),
-      _vm._v(" "),
-      _c("foot")
-    ],
+    [_c("navbar"), _vm._v(" "), _c("general-movies"), _vm._v(" "), _c("foot")],
     1
   )
 }
@@ -38618,9 +38722,177 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [_c("navbar"), _vm._v("\nheyyy bro\n"), _c("foot")], 1)
+  return _c(
+    "div",
+    [
+      _c("navbar"),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "movie-general" },
+        [
+          _c("h3", [_vm._v("FAVORITES")]),
+          _vm._v(" "),
+          _c(
+            "carousel",
+            {
+              staticClass: "carousel",
+              attrs: {
+                dots: true,
+                nav: false,
+                margin: 30,
+                loop: true,
+                autoplay: true,
+                autoplayHoverPause: true,
+                items: "6"
+              }
+            },
+            [
+              _c(
+                "a",
+                {
+                  attrs: {
+                    type: "button",
+                    "data-toggle": "modal",
+                    "data-target": "#infos"
+                  }
+                },
+                [
+                  _c("img", {
+                    staticClass: "generalmovie",
+                    attrs: {
+                      "data-toggle": "modal",
+                      src:
+                        "https://images-na.ssl-images-amazon.com/images/I/71M6KGXcWFL._SY445_.jpg"
+                    }
+                  })
+                ]
+              ),
+              _vm._v(" "),
+              _c("img", {
+                staticClass: "generalmovie",
+                attrs: {
+                  src:
+                    "http://fr.web.img2.acsta.net/c_215_290/medias/nmedia/18/83/93/95/19803697.jpg"
+                }
+              }),
+              _vm._v(" "),
+              _c("img", {
+                staticClass: "generalmovie",
+                attrs: {
+                  src:
+                    "https://static.fnac-static.com/multimedia/FR/images_produits/FR/Fnac.com/ZoomPE/2/9/2/3344428001292/tsp20130830115303/Maman-j-ai-rate-l-avion-.jpg"
+                }
+              }),
+              _vm._v(" "),
+              _c("img", {
+                staticClass: "generalmovie",
+                attrs: {
+                  src:
+                    "http://cdn.franceloisirs.com/35955-66765-thickbox/nos-etoiles-contraires-dvd.jpg"
+                }
+              }),
+              _vm._v(" "),
+              _c("img", {
+                staticClass: "generalmovie",
+                attrs: {
+                  src:
+                    "http://fr.web.img3.acsta.net/c_215_290/medias/nmedia/18/35/84/55/18611268.jpg"
+                }
+              }),
+              _vm._v(" "),
+              _c("img", {
+                staticClass: "generalmovie",
+                attrs: {
+                  src:
+                    "https://images-na.ssl-images-amazon.com/images/I/71M6KGXcWFL._SY445_.jpg"
+                }
+              }),
+              _vm._v(" "),
+              _c("img", {
+                staticClass: "generalmovie",
+                attrs: {
+                  src:
+                    "http://fr.web.img2.acsta.net/c_215_290/medias/nmedia/18/83/93/95/19803697.jpg"
+                }
+              }),
+              _vm._v(" "),
+              _c("img", {
+                staticClass: "generalmovie",
+                attrs: {
+                  src:
+                    "https://static.fnac-static.com/multimedia/FR/images_produits/FR/Fnac.com/ZoomPE/2/9/2/3344428001292/tsp20130830115303/Maman-j-ai-rate-l-avion-.jpg"
+                }
+              }),
+              _vm._v(" "),
+              _c("img", {
+                staticClass: "generalmovie",
+                attrs: {
+                  src:
+                    "http://cdn.franceloisirs.com/35955-66765-thickbox/nos-etoiles-contraires-dvd.jpg"
+                }
+              }),
+              _vm._v(" "),
+              _c("img", {
+                staticClass: "generalmovie",
+                attrs: {
+                  src:
+                    "http://fr.web.img3.acsta.net/c_215_290/medias/nmedia/18/35/84/55/18611268.jpg"
+                }
+              })
+            ]
+          ),
+          _vm._v(" "),
+          _vm._m(0)
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c("foot")
+    ],
+    1
+  )
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "modal", attrs: { id: "infos" } }, [
+      _c("div", { staticClass: "modal-dialog" }, [
+        _c("div", { staticClass: "modal-content" }, [
+          _c("div", { staticClass: "modal-header" }, [
+            _c("h4", { staticClass: "modal-title" }, [_vm._v("Titre film")])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "modal-body" }, [
+            _c("iframe", {
+              attrs: {
+                width: "560",
+                height: "315",
+                src: "https://www.youtube.com/embed/h5cyXhEbIso",
+                frameborder: "0",
+                allow:
+                  "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+                allowfullscreen: ""
+              }
+            }),
+            _vm._v(" "),
+            _c("i", { staticClass: "far fa-heart" }),
+            _vm._v(" "),
+            _c("i", { staticClass: "far fa-eye" }),
+            _vm._v(" "),
+            _c("i", { staticClass: "fas fa-sign-out-alt" })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "modal-footer" }, [
+            _c("em", [_vm._v("Informations du film")])
+          ])
+        ])
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -39280,13 +39552,15 @@ var render = function() {
       "div",
       { staticClass: "topmenu" },
       [
-        _c("img", {
-          staticClass: "logo",
-          attrs: {
-            src: __webpack_require__(/*! ../../../resources/images/nutflux.png */ "./resources/images/nutflux.png"),
-            alt: ""
-          }
-        }),
+        _c("router-link", { attrs: { to: "./login" } }, [
+          _c("img", {
+            staticClass: "logo",
+            attrs: {
+              src: __webpack_require__(/*! ../../../resources/images/nutflux.png */ "./resources/images/nutflux.png"),
+              alt: ""
+            }
+          })
+        ]),
         _vm._v(" "),
         _c("router-link", { attrs: { to: "/catalogue" } }, [
           _c(
@@ -39458,113 +39732,124 @@ var render = function() {
       _c("navbar"),
       _vm._v(" "),
       _c(
-        "carousel",
-        {
-          staticClass: "carousel",
-          attrs: {
-            dots: true,
-            nav: false,
-            margin: 30,
-            loop: true,
-            autoplay: true,
-            autoplayHoverPause: true,
-            items: "6"
-          }
-        },
+        "div",
+        { staticClass: "movie-general" },
         [
+          _c("h3", [_vm._v("ALREADY SEEN")]),
+          _vm._v(" "),
           _c(
-            "a",
+            "carousel",
             {
+              staticClass: "carousel",
               attrs: {
-                type: "button",
-                "data-toggle": "modal",
-                "data-target": "#infos"
+                dots: true,
+                nav: false,
+                margin: 30,
+                loop: true,
+                autoplay: true,
+                autoplayHoverPause: true,
+                items: "6"
               }
             },
             [
+              _c(
+                "a",
+                {
+                  attrs: {
+                    type: "button",
+                    "data-toggle": "modal",
+                    "data-target": "#infos"
+                  }
+                },
+                [
+                  _c("img", {
+                    staticClass: "generalmovie",
+                    attrs: {
+                      "data-toggle": "modal",
+                      src:
+                        "https://images-na.ssl-images-amazon.com/images/I/71M6KGXcWFL._SY445_.jpg"
+                    }
+                  })
+                ]
+              ),
+              _vm._v(" "),
               _c("img", {
                 staticClass: "generalmovie",
                 attrs: {
-                  "data-toggle": "modal",
+                  src:
+                    "http://fr.web.img2.acsta.net/c_215_290/medias/nmedia/18/83/93/95/19803697.jpg"
+                }
+              }),
+              _vm._v(" "),
+              _c("img", {
+                staticClass: "generalmovie",
+                attrs: {
+                  src:
+                    "https://static.fnac-static.com/multimedia/FR/images_produits/FR/Fnac.com/ZoomPE/2/9/2/3344428001292/tsp20130830115303/Maman-j-ai-rate-l-avion-.jpg"
+                }
+              }),
+              _vm._v(" "),
+              _c("img", {
+                staticClass: "generalmovie",
+                attrs: {
+                  src:
+                    "http://cdn.franceloisirs.com/35955-66765-thickbox/nos-etoiles-contraires-dvd.jpg"
+                }
+              }),
+              _vm._v(" "),
+              _c("img", {
+                staticClass: "generalmovie",
+                attrs: {
+                  src:
+                    "http://fr.web.img3.acsta.net/c_215_290/medias/nmedia/18/35/84/55/18611268.jpg"
+                }
+              }),
+              _vm._v(" "),
+              _c("img", {
+                staticClass: "generalmovie",
+                attrs: {
                   src:
                     "https://images-na.ssl-images-amazon.com/images/I/71M6KGXcWFL._SY445_.jpg"
+                }
+              }),
+              _vm._v(" "),
+              _c("img", {
+                staticClass: "generalmovie",
+                attrs: {
+                  src:
+                    "http://fr.web.img2.acsta.net/c_215_290/medias/nmedia/18/83/93/95/19803697.jpg"
+                }
+              }),
+              _vm._v(" "),
+              _c("img", {
+                staticClass: "generalmovie",
+                attrs: {
+                  src:
+                    "https://static.fnac-static.com/multimedia/FR/images_produits/FR/Fnac.com/ZoomPE/2/9/2/3344428001292/tsp20130830115303/Maman-j-ai-rate-l-avion-.jpg"
+                }
+              }),
+              _vm._v(" "),
+              _c("img", {
+                staticClass: "generalmovie",
+                attrs: {
+                  src:
+                    "http://cdn.franceloisirs.com/35955-66765-thickbox/nos-etoiles-contraires-dvd.jpg"
+                }
+              }),
+              _vm._v(" "),
+              _c("img", {
+                staticClass: "generalmovie",
+                attrs: {
+                  src:
+                    "http://fr.web.img3.acsta.net/c_215_290/medias/nmedia/18/35/84/55/18611268.jpg"
                 }
               })
             ]
           ),
           _vm._v(" "),
-          _c("img", {
-            staticClass: "generalmovie",
-            attrs: {
-              src:
-                "http://fr.web.img2.acsta.net/c_215_290/medias/nmedia/18/83/93/95/19803697.jpg"
-            }
-          }),
-          _vm._v(" "),
-          _c("img", {
-            staticClass: "generalmovie",
-            attrs: {
-              src:
-                "https://static.fnac-static.com/multimedia/FR/images_produits/FR/Fnac.com/ZoomPE/2/9/2/3344428001292/tsp20130830115303/Maman-j-ai-rate-l-avion-.jpg"
-            }
-          }),
-          _vm._v(" "),
-          _c("img", {
-            staticClass: "generalmovie",
-            attrs: {
-              src:
-                "http://cdn.franceloisirs.com/35955-66765-thickbox/nos-etoiles-contraires-dvd.jpg"
-            }
-          }),
-          _vm._v(" "),
-          _c("img", {
-            staticClass: "generalmovie",
-            attrs: {
-              src:
-                "http://fr.web.img3.acsta.net/c_215_290/medias/nmedia/18/35/84/55/18611268.jpg"
-            }
-          }),
-          _vm._v(" "),
-          _c("img", {
-            staticClass: "generalmovie",
-            attrs: {
-              src:
-                "https://images-na.ssl-images-amazon.com/images/I/71M6KGXcWFL._SY445_.jpg"
-            }
-          }),
-          _vm._v(" "),
-          _c("img", {
-            staticClass: "generalmovie",
-            attrs: {
-              src:
-                "http://fr.web.img2.acsta.net/c_215_290/medias/nmedia/18/83/93/95/19803697.jpg"
-            }
-          }),
-          _vm._v(" "),
-          _c("img", {
-            staticClass: "generalmovie",
-            attrs: {
-              src:
-                "https://static.fnac-static.com/multimedia/FR/images_produits/FR/Fnac.com/ZoomPE/2/9/2/3344428001292/tsp20130830115303/Maman-j-ai-rate-l-avion-.jpg"
-            }
-          }),
-          _vm._v(" "),
-          _c("img", {
-            staticClass: "generalmovie",
-            attrs: {
-              src:
-                "http://cdn.franceloisirs.com/35955-66765-thickbox/nos-etoiles-contraires-dvd.jpg"
-            }
-          }),
-          _vm._v(" "),
-          _c("img", {
-            staticClass: "generalmovie",
-            attrs: {
-              src:
-                "http://fr.web.img3.acsta.net/c_215_290/medias/nmedia/18/35/84/55/18611268.jpg"
-            }
-          })
-        ]
+          _vm._m(0)
+        ],
+        1
       ),
       _vm._v(" "),
       _c("foot")
@@ -39572,7 +39857,46 @@ var render = function() {
     1
   )
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "modal", attrs: { id: "infos" } }, [
+      _c("div", { staticClass: "modal-dialog" }, [
+        _c("div", { staticClass: "modal-content" }, [
+          _c("div", { staticClass: "modal-header" }, [
+            _c("h4", { staticClass: "modal-title" }, [_vm._v("Titre film")])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "modal-body" }, [
+            _c("iframe", {
+              attrs: {
+                width: "560",
+                height: "315",
+                src: "https://www.youtube.com/embed/h5cyXhEbIso",
+                frameborder: "0",
+                allow:
+                  "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+                allowfullscreen: ""
+              }
+            }),
+            _vm._v(" "),
+            _c("i", { staticClass: "far fa-heart" }),
+            _vm._v(" "),
+            _c("i", { staticClass: "far fa-eye" }),
+            _vm._v(" "),
+            _c("i", { staticClass: "fas fa-sign-out-alt" })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "modal-footer" }, [
+            _c("em", [_vm._v("Informations du film")])
+          ])
+        ])
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -39629,9 +39953,177 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [_c("navbar"), _vm._v("\nHellooooo\n"), _c("foot")], 1)
+  return _c(
+    "div",
+    [
+      _c("navbar"),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "movie-general" },
+        [
+          _c("h3", [_vm._v("WATCH LATER")]),
+          _vm._v(" "),
+          _c(
+            "carousel",
+            {
+              staticClass: "carousel",
+              attrs: {
+                dots: true,
+                nav: false,
+                margin: 30,
+                loop: true,
+                autoplay: true,
+                autoplayHoverPause: true,
+                items: "6"
+              }
+            },
+            [
+              _c(
+                "a",
+                {
+                  attrs: {
+                    type: "button",
+                    "data-toggle": "modal",
+                    "data-target": "#infos"
+                  }
+                },
+                [
+                  _c("img", {
+                    staticClass: "generalmovie",
+                    attrs: {
+                      "data-toggle": "modal",
+                      src:
+                        "https://images-na.ssl-images-amazon.com/images/I/71M6KGXcWFL._SY445_.jpg"
+                    }
+                  })
+                ]
+              ),
+              _vm._v(" "),
+              _c("img", {
+                staticClass: "generalmovie",
+                attrs: {
+                  src:
+                    "http://fr.web.img2.acsta.net/c_215_290/medias/nmedia/18/83/93/95/19803697.jpg"
+                }
+              }),
+              _vm._v(" "),
+              _c("img", {
+                staticClass: "generalmovie",
+                attrs: {
+                  src:
+                    "https://static.fnac-static.com/multimedia/FR/images_produits/FR/Fnac.com/ZoomPE/2/9/2/3344428001292/tsp20130830115303/Maman-j-ai-rate-l-avion-.jpg"
+                }
+              }),
+              _vm._v(" "),
+              _c("img", {
+                staticClass: "generalmovie",
+                attrs: {
+                  src:
+                    "http://cdn.franceloisirs.com/35955-66765-thickbox/nos-etoiles-contraires-dvd.jpg"
+                }
+              }),
+              _vm._v(" "),
+              _c("img", {
+                staticClass: "generalmovie",
+                attrs: {
+                  src:
+                    "http://fr.web.img3.acsta.net/c_215_290/medias/nmedia/18/35/84/55/18611268.jpg"
+                }
+              }),
+              _vm._v(" "),
+              _c("img", {
+                staticClass: "generalmovie",
+                attrs: {
+                  src:
+                    "https://images-na.ssl-images-amazon.com/images/I/71M6KGXcWFL._SY445_.jpg"
+                }
+              }),
+              _vm._v(" "),
+              _c("img", {
+                staticClass: "generalmovie",
+                attrs: {
+                  src:
+                    "http://fr.web.img2.acsta.net/c_215_290/medias/nmedia/18/83/93/95/19803697.jpg"
+                }
+              }),
+              _vm._v(" "),
+              _c("img", {
+                staticClass: "generalmovie",
+                attrs: {
+                  src:
+                    "https://static.fnac-static.com/multimedia/FR/images_produits/FR/Fnac.com/ZoomPE/2/9/2/3344428001292/tsp20130830115303/Maman-j-ai-rate-l-avion-.jpg"
+                }
+              }),
+              _vm._v(" "),
+              _c("img", {
+                staticClass: "generalmovie",
+                attrs: {
+                  src:
+                    "http://cdn.franceloisirs.com/35955-66765-thickbox/nos-etoiles-contraires-dvd.jpg"
+                }
+              }),
+              _vm._v(" "),
+              _c("img", {
+                staticClass: "generalmovie",
+                attrs: {
+                  src:
+                    "http://fr.web.img3.acsta.net/c_215_290/medias/nmedia/18/35/84/55/18611268.jpg"
+                }
+              })
+            ]
+          ),
+          _vm._v(" "),
+          _vm._m(0)
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c("foot")
+    ],
+    1
+  )
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "modal", attrs: { id: "infos" } }, [
+      _c("div", { staticClass: "modal-dialog" }, [
+        _c("div", { staticClass: "modal-content" }, [
+          _c("div", { staticClass: "modal-header" }, [
+            _c("h4", { staticClass: "modal-title" }, [_vm._v("Titre film")])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "modal-body" }, [
+            _c("iframe", {
+              attrs: {
+                width: "560",
+                height: "315",
+                src: "https://www.youtube.com/embed/h5cyXhEbIso",
+                frameborder: "0",
+                allow:
+                  "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+                allowfullscreen: ""
+              }
+            }),
+            _vm._v(" "),
+            _c("i", { staticClass: "far fa-heart" }),
+            _vm._v(" "),
+            _c("i", { staticClass: "far fa-eye" }),
+            _vm._v(" "),
+            _c("i", { staticClass: "fas fa-sign-out-alt" })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "modal-footer" }, [
+            _c("em", [_vm._v("Informations du film")])
+          ])
+        ])
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 

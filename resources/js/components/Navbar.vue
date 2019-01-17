@@ -1,7 +1,7 @@
 <template>
     <div class="dropdown">
         <div class="topmenu">
-            <img class="logo" src="../../../resources/images/nutflux.png" alt="">
+            <router-link to="./login"><img class="logo" src="../../../resources/images/nutflux.png" alt=""></router-link>
             <router-link to="/catalogue"><button type="button" class="btn btn-info btn-md"><a href=""><span class="glyphicon glyphicon-film"></span> Films</a></button></router-link>
             <button type="button" class="btn btn-info btn-md dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a href=""><span class="glyphicon glyphicon-th-list"></span> Listes</a></button>
             <router-link to="/editprofile"><button type="button" class="btn btn-info btn-md"><a href=""><span class="glyphicon glyphicon-user"></span> Profil</a></button></router-link>
