@@ -2174,16 +2174,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -6634,6 +6624,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
+<<<<<<< HEAD
 exports.push([module.i, "\nfooter{\n        width: 100vw;\n        height: 45px;\n        background-color: rgba(0,0,0,1);\n        color:white;\n        position:fixed;\n        bottom:0px;\n        padding-top: 6px;\n        overflow: hidden;\n}\nfooter .footer-logo{\n        width:50%;\n        display:grid;\n        grid-template-columns: 60% 40%;\n}\n.footer-logo > ul{\n        grid-column:2;\n}\nfooter .copyright{\n        width:50%;\n        float:left;\n        padding-left: 3%;\n        font-size: 18px;\n}\nfooter .copyright i{\n        color:#B02E05;\n}\nul.social-network {\n        list-style: none;\n        display: inline;\n        margin-left: 0 !important;\n        padding: 0;\n}\nul.social-network li {\n        display: inline;\n        margin: 0 5px;\n}\n\n\n/* footer social icons */\n.social-network a.icoRss:hover {\n  background-color: #F56505;\n}\n.social-network a.icoFacebook:hover {\n  background-color: #3B5998;\n}\n.social-network a.icoTwitter:hover {\n  background-color: #33ccff;\n}\n.social-network a.icoGoogle:hover {\n  background-color: #BD3518;\n}\n.social-network a.icoVimeo:hover {\n  background-color: #0590B8;\n}\n.social-network a.icoLinkedin:hover {\n  background-color: #007bb7;\n}\n.social-network a.icoRss:hover i,\n.social-network a.icoFacebook:hover i,\n.social-network a.icoTwitter:hover i,\n.social-network a.icoGoogle:hover i,\n.social-network a.icoVimeo:hover i,\n.social-network a.icoLinkedin:hover i {\n  color: #fff;\n}\na.socialIcon:hover,\n.socialHoverClass {\n  color: #44BCDD;\n}\n.social-circle li a {\n  display: inline-block;\n  position: relative;\n  margin: 0 auto 0 auto;\n  border-radius: 50%;\n  text-align: center;\n  width: 40px;\n  height: 40px;\n  font-size: 20px;\n}\n.social-circle li i {\n  margin: 0;\n  line-height: 40px;\n  text-align: center;\n}\n.social-circle li a:hover i,\n.triggeredHover {\n  -moz-transform: rotate(360deg);\n  -webkit-transform: rotate(360deg);\n  -ms--transform: rotate(360deg);\n  transform: rotate(360deg);\n  transition: all 0.2s;\n}\n.social-circle i {\n  color: #fff;\n  transition: all 0.8s;\n}\na {\n  background-color: #D3D3D3;\n}\nspan{\n    font-weight: bold;\n}\n", ""]);
 
 // exports
@@ -6654,6 +6645,9 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 // module
 exports.push([module.i, "\nbody[data-v-184d4c70]{\n    background-color: black;\n}\n.generalmovie[data-v-184d4c70]{\n    border: 3px solid #B02E05 ;\n    border-radius: 5px;\n    max-width: 300px;\n    height: 250px;\n}\n.movie-general h3[data-v-184d4c70]{\n    color: #f84309;\n    font-weight: bold;\n    margin-left: 35px;\n}\n.carousel[data-v-184d4c70]{\n    margin-left: 30px;\n    max-height: 300px;\n}\n.owl-carousel .owl-item img a[data-v-184d4c70] {\n    width: 85%;\n}\n.modal[data-v-184d4c70]{\n    color: #f84309;\n}\n.modal-dialog[data-v-184d4c70] {\n    max-width: 583px;\n}\n.modal-header[data-v-184d4c70]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-body[data-v-184d4c70]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-footer[data-v-184d4c70]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.far[data-v-184d4c70], .fas[data-v-184d4c70]{\n    font-size: 15px;\n    margin-right: 10px;\n    color: #f84309;\n}\n", ""]);
+=======
+exports.push([module.i, "\nbody{\n    background-color: black;\n}\n.generalmovie{\n    border: 3px solid #B02E05 ;\n    border-radius: 5px;\n    max-width: 300px;\n    height: 250px;\n}\n.movie-general h3{\n    color: #f84309;\n    font-weight: bold;\n    margin-left: 35px;\n}\n.carousel{\n    margin-left: 30px;\n    max-height: 300px;\n}\n.owl-carousel .owl-item img a {\n    width: 85%;\n}\n.modal{\n    color: #f84309;\n}\n.modal-dialog {\n    max-width: 583px;\n}\n.modal-header{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-body{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-footer{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.far, .fas{\n    font-size: 15px;\n    margin-right: 10px;\n    color: #f84309;\n}\n", ""]);
+>>>>>>> SteveP
 
 // exports
 
@@ -6710,7 +6704,11 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
+<<<<<<< HEAD
 exports.push([module.i, "\nbody[data-v-6dde423b]{\n    margin: 0;\n    padding: 0;\n}\n.dropdown[data-v-6dde423b] {\n    background-color: #000;\n    border-radius: 0;\n    overflow: hidden;\n    padding: 5px;\n}\n.dropdown a[data-v-6dde423b] {\n    color: white;\n}\n.btn[data-v-6dde423b] {\n    background-color: #B02E05;\n    border: none;\n    margin-left: 15px;\n    margin-right: 15px;\n}\n.btn[data-v-6dde423b]:hover, .btn[data-v-6dde423b]:focus {\n    background-color: #fcbaa5;\n}\n.logo[data-v-6dde423b] {\n    height: 75px;\n    margin-right: 30px;\n}\n.topmenu[data-v-6dde423b]{\n    margin: 0;\n    width: 100%;\n}\nform[data-v-6dde423b]{\n    position: relative;\n    top: -40px;\n    left: 90%;\n    -webkit-transform: translate(-50%,-50%);\n            transform: translate(-50%,-50%);\n    transition: all 1s;\n    width: 50px;\n    height: 50px;\n    background: #B02E05;\n    box-sizing: border-box;\n    border-radius: 25px;\n    border: 4px solid #fff;\n    padding: 5px;\n}\ninput[data-v-6dde423b]{\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;;\n    height: 42.5px;\n    line-height: 30px;\n    outline: 0;\n    border: 0;\n    display: none;\n    font-size: 1em;\n    border-radius: 20px;\n    padding: 0 20px;\n    color: #f84309;\n}\n.fa[data-v-6dde423b]{\n    box-sizing: border-box;\n    padding: 14px;\n    width: 42.5px;\n    height: 42.5px;\n    position: absolute;\n    top: 0;\n    right: 0;\n    border-radius: 50%;\n    color: #fff;\n    text-align: center;\n    font-size: 1.2em;\n    transition: all 1s;\n}\nform[data-v-6dde423b]:hover{\n    width: 200px;\n    cursor: pointer;\n}\nform:hover input[data-v-6dde423b]{\n    display: block;\n}\nform:hover .fa[data-v-6dde423b]{\n    background: #f84309;\n    color: white;\n}\n[data-v-6dde423b]::-webkit-input-placeholder {\n    color: #fff;\n    opacity: 1;\n}\n[data-v-6dde423b]:-ms-input-placeholder {\n    color: #fff;\n    opacity: 1;\n}\n[data-v-6dde423b]::-ms-input-placeholder {\n    color: #fff;\n    opacity: 1;\n}\n[data-v-6dde423b]::placeholder {\n    color: #fff;\n    opacity: 1;\n}\n.dropdown-menu[data-v-6dde423b]{\n    background-color: #B02E05;\n}\n.dropdown-item[data-v-6dde423b]:hover{\n    background-color: #f84309;\n}\n.dropdown-item[data-v-6dde423b]{\n    color: #fff;\n}\n", ""]);
+=======
+exports.push([module.i, "\nbody[data-v-6dde423b]{\n    margin: 0;\n    padding: 0;\n}\n.dropdown[data-v-6dde423b] {\n    background-color: #000;\n    border-radius: 0;\n    overflow: hidden;\n    padding: 5px;\n}\n.dropdown a[data-v-6dde423b] {\n    color: white;\n}\n.btn[data-v-6dde423b] {\n    background-color: #B02E05;\n    border: none;\n    margin-left: 15px;\n    margin-right: 15px;\n}\n.btn[data-v-6dde423b]:hover, .btn[data-v-6dde423b]:focus {\n    background-color: #fcbaa5;\n}\n.logo[data-v-6dde423b] {\n    height: 75px;\n    margin-right: 30px;\n}\n.topmenu[data-v-6dde423b]{\n    margin: 0;\n    width: 100%;\n}\nform[data-v-6dde423b]{\n    position: relative;\n    top: -40px;\n    left: 90%;\n    -webkit-transform: translate(-50%,-50%);\n            transform: translate(-50%,-50%);\n    transition: all 1s;\n    width: 50px;\n    height: 50px;\n    background: #B02E05;\n    box-sizing: border-box;\n    border-radius: 25px;\n    border: 4px solid #fff;\n    padding: 5px;\n}\ninput[data-v-6dde423b]{\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;;\n    height: 42.5px;\n    line-height: 30px;\n    outline: 0;\n    border: 0;\n    display: none;\n    font-size: 1em;\n    border-radius: 20px;\n    padding: 0 20px;\n    color: #f84309;\n}\n.fa[data-v-6dde423b]{\n    box-sizing: border-box;\n    padding: 14px;\n    width: 42.5px;\n    height: 42.5px;\n    position: absolute;\n    top: 0;\n    right: 0;\n    border-radius: 50%;\n    color: #fff;\n    text-align: center;\n    font-size: 1.2em;\n    transition: all 1s;\n}\nform[data-v-6dde423b]:hover{\n    width: 200px;\n    cursor: pointer;\n}\nform:hover input[data-v-6dde423b]{\n    display: block;\n}\nform:hover .fa[data-v-6dde423b]{\n    background: #f84309;\n    color: white;\n}\n[data-v-6dde423b]::-webkit-input-placeholder {\n    color: #fff;\n    opacity: 1;\n}\n[data-v-6dde423b]:-ms-input-placeholder {\n    color: #fff;\n    opacity: 1;\n}\n[data-v-6dde423b]::-ms-input-placeholder {\n    color: #fff;\n    opacity: 1;\n}\n[data-v-6dde423b]::placeholder {\n    color: #fff;\n    opacity: 1;\n}\n.dropdown-menu[data-v-6dde423b]{\n    background-color: #B02E05;\n}\n.dropdown-item[data-v-6dde423b]:hover{\n    background-color: #f84309;\n}\n.dropdown-item[data-v-6dde423b]{\n    color: #fff;\n}\n\n", ""]);
+>>>>>>> SteveP
 
 // exports
 
@@ -6729,7 +6727,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -38914,6 +38912,7 @@ var render = function() {
       ),
       _vm._v(" "),
       _vm._m(0)
+<<<<<<< HEAD
     ],
     1
   )
@@ -39485,11 +39484,52 @@ var render = function() {
       ),
       _vm._v(" "),
       _c("foot")
+=======
+>>>>>>> SteveP
     ],
     1
   )
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "modal", attrs: { id: "infos" } }, [
+      _c("div", { staticClass: "modal-dialog" }, [
+        _c("div", { staticClass: "modal-content" }, [
+          _c("div", { staticClass: "modal-header" }, [
+            _c("h4", { staticClass: "modal-title" }, [_vm._v("Titre film")])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "modal-body" }, [
+            _c("iframe", {
+              attrs: {
+                width: "560",
+                height: "315",
+                src: "https://www.youtube.com/embed/h5cyXhEbIso",
+                frameborder: "0",
+                allow:
+                  "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+                allowfullscreen: ""
+              }
+            }),
+            _vm._v(" "),
+            _c("i", { staticClass: "far fa-heart" }),
+            _vm._v(" "),
+            _c("i", { staticClass: "far fa-eye" }),
+            _vm._v(" "),
+            _c("i", { staticClass: "fas fa-sign-out-alt" })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "modal-footer" }, [
+            _c("em", [_vm._v("Informations du film")])
+          ])
+        ])
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -42121,6 +42161,113 @@ var AbstractHistory = (function (History$$1) {
 
 /*  */
 
+<<<<<<< HEAD
+=======
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "dropdown" }, [
+      _c("div", { staticClass: "topmenu" }, [
+        _c("img", {
+          staticClass: "logo",
+          attrs: {
+            src: __webpack_require__(/*! ../../../resources/images/nutflux.png */ "./resources/images/nutflux.png"),
+            alt: ""
+          }
+        }),
+        _vm._v(" "),
+        _c(
+          "button",
+          { staticClass: "btn btn-info btn-md", attrs: { type: "button" } },
+          [
+            _c("a", { attrs: { href: "" } }, [
+              _c("span", { staticClass: "glyphicon glyphicon-film" }),
+              _vm._v(" Films")
+            ])
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "button",
+          {
+            staticClass: "btn btn-info btn-md dropdown-toggle",
+            attrs: {
+              type: "button",
+              id: "dropdownMenu2",
+              "data-toggle": "dropdown",
+              "aria-haspopup": "true",
+              "aria-expanded": "false"
+            }
+          },
+          [
+            _c("a", { attrs: { href: "" } }, [
+              _c("span", { staticClass: "glyphicon glyphicon-th-list" }),
+              _vm._v(" Listes")
+            ])
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "button",
+          { staticClass: "btn btn-info btn-md", attrs: { type: "button" } },
+          [
+            _c("a", { attrs: { href: "" } }, [
+              _c("span", { staticClass: "glyphicon glyphicon-user" }),
+              _vm._v(" Profil")
+            ])
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass: "dropdown-menu",
+            attrs: { "aria-labelledby": "dropdownMenu2" }
+          },
+          [
+            _c(
+              "button",
+              { staticClass: "dropdown-item", attrs: { type: "button" } },
+              [_vm._v("Favoris")]
+            ),
+            _vm._v(" "),
+            _c(
+              "button",
+              { staticClass: "dropdown-item", attrs: { type: "button" } },
+              [_vm._v("Déjà vu")]
+            ),
+            _vm._v(" "),
+            _c(
+              "button",
+              { staticClass: "dropdown-item", attrs: { type: "button" } },
+              [_vm._v("A regarder")]
+            )
+          ]
+        ),
+        _vm._v(" "),
+        _c("form", { attrs: { action: "" } }, [
+          _c("input", { attrs: { type: "search" } }),
+          _vm._v(" "),
+          _c("i", { staticClass: "fa fa-search" })
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+>>>>>>> SteveP
 
 
 var VueRouter = function VueRouter (options) {
@@ -42144,6 +42291,7 @@ var VueRouter = function VueRouter (options) {
   }
   this.mode = mode;
 
+<<<<<<< HEAD
   switch (mode) {
     case 'history':
       this.history = new HTML5History(this, options.base);
@@ -42158,6 +42306,67 @@ var VueRouter = function VueRouter (options) {
       if (true) {
         assert(false, ("invalid mode: " + mode));
       }
+=======
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c(
+        "button",
+        {
+          staticClass: "btn btn-primary",
+          attrs: {
+            type: "button",
+            "data-toggle": "modal",
+            "data-target": "#infos"
+          }
+        },
+        [_vm._v("Informations")]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "modal", attrs: { id: "infos" } }, [
+        _c("div", { staticClass: "modal-dialog" }, [
+          _c("div", { staticClass: "modal-content" }, [
+            _c("div", { staticClass: "modal-header" }, [
+              _c("h4", { staticClass: "modal-title" }, [
+                _vm._v("Plus d'informations")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-body" }, [
+              _c("iframe", {
+                attrs: {
+                  width: "560",
+                  height: "315",
+                  src: "https://www.youtube.com/embed/h5cyXhEbIso",
+                  frameborder: "0",
+                  allow:
+                    "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+                  allowfullscreen: ""
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-footer" }, [
+              _c("em", [_vm._v("Informations sous réserve")])
+            ])
+          ])
+        ])
+      ])
+    ])
+>>>>>>> SteveP
   }
 };
 
@@ -42178,11 +42387,43 @@ prototypeAccessors.currentRoute.get = function () {
 VueRouter.prototype.init = function init (app /* Vue component instance */) {
     var this$1 = this;
 
-   true && assert(
-    install.installed,
-    "not installed. Make sure to call `Vue.use(VueRouter)` " +
-    "before creating root instance."
-  );
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "signin non-active" }, [
+      _c("p", { staticClass: "connect" }, [_vm._v("S'enregistrer")]),
+      _vm._v(" "),
+      _c("input", { attrs: { type: "text", value: "Pseudo" } }),
+      _c("br"),
+      _vm._v(" "),
+      _c("input", { attrs: { type: "text", value: "Email" } }),
+      _c("br"),
+      _vm._v(" "),
+      _c("input", { attrs: { type: "text", value: "Mot de passe" } }),
+      _c("br"),
+      _vm._v(" "),
+      _c("input", { attrs: { type: "text", value: "Mot de passe" } }),
+      _c("br"),
+      _vm._v(" "),
+      _c("a", { attrs: { href: "/catalogue" } }, [
+        _c("button", { attrs: { type: "submit" } }, [_vm._v("GO")])
+      ])
+    ])
+  }
+]
+render._withStripped = true
 
   this.apps.push(app);
 
