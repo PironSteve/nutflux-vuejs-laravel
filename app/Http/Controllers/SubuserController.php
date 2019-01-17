@@ -15,6 +15,11 @@ class SubuserController extends Controller
     public function index()
     {
         //
+      /*  $lists = DB::table('lists')->where('subuser_id', $subuser_id); //returns array $lists that contains 
+        //all 3 lists that belong to this subuser
+        
+        $lists = \App\List::findOrFail($subuser_id);
+        return view('list.index',compact('lists'));*/
     }
 
     /**
@@ -55,7 +60,7 @@ class SubuserController extends Controller
      */
     public function show($id)
     {
-        //
+      
     }
 
     /**

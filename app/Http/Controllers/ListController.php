@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
+use App\Subuser;
+
 class ListController extends Controller
 {
     /**
@@ -12,9 +14,17 @@ class ListController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Subuser $subuser_id)
     {
+        $lists = \DB::table('lists')->select('*')->where('subuser_id', '=',1)->get();
+       /* $lists = \App\Lists::all();//query based on $subuser_id
+        return view('list.index',compact('lists'));//=>with(Auth::user()->subuser[?] || subuser_id)
         //
+      /*  $lists = DB::table('lists')->where('subuser_id', $subuser_id); //returns array $lists that contains 
+        //all 3 lists that belong to this subuser
+        
+        $lists = \App\List::findOrFail($subuser_id);*/
+        return view('list.index',compact('lists'));
     }
 
     /**
@@ -44,9 +54,11 @@ class ListController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show()
     {
         //
+       /* $lists = \App\List::findOrFail();
+        return view('list.show',compact('lists'));*/
     }
 
     /**

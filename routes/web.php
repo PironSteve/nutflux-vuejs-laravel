@@ -33,6 +33,22 @@ Route::get('/catalogue', function() {
 
 });
 
+Route::get('/temp0', function() {
+  return  ('/resources/views/temp0.php');
+
+});
+//$user = Auth::user();
+Route::get('list/index','ListController@index');
+/*
+Route::get('/list', function() {
+  return ('hello');
+  try this +=>
+  Route::get('profile/{user}', function (App\User $user) {
+    //
+});
+
+});
+*/
 Auth::routes();
 
 Route::get('film/catalogue','FilmController@catalogue');
@@ -46,3 +62,5 @@ Route::resource('list','ListController');
 Route::resource('list_type','ListTypeController');
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+

@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 class lists extends Model
 {
     //
-    //protected $fillable = ['subuser_id'];
+    //protected $nullable = ['film_id'];
 }

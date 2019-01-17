@@ -13,7 +13,17 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
+<!--/resources/views/temp0.php-->
+                        USER {{ Auth::user()->subuser[0]->user_id}}
+                        <a href="list/index">
+                                SUBUSER {{ Auth::user()->subuser[0]->id}}
+                            </a> 
+                                // {{ Auth::user()->subuser[0]->updated_at}}
+                        <hr>
+                        USER {{ Auth::user()->subuser[1]->user_id}}<a href="/list/show"> SUBUSER {{ Auth::user()->subuser[1]->id}}</a> // {{ Auth::user()->subuser[1]->updated_at}}
+                        <hr>
+                        USER {{ Auth::user()->subuser[2]->user_id}}<a href="#"> SUBUSER {{ Auth::user()->subuser[2]->id}}</a> // {{ Auth::user()->subuser[2]->updated_at}}
+                        <hr>
                     You are logged in!
                 </div>
             </div>

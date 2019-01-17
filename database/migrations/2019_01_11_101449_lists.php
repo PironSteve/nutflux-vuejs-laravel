@@ -29,14 +29,15 @@ class Lists extends Migration
                     ->on('list_types')
                     ->onDelete('no action')
                     ->onUpdate('no action');
+ */                   
 
-            $table->integer('film_id')->unsigned();
+            $table->integer('film_id')->nullable()->unsigned();
             $table->foreign('film_id')
                     ->references('id')
                     ->on('films')
                     ->onDelete('no action')
                     ->onUpdate('no action');
-                    */
+                  
 
             $table->timestamps();
             

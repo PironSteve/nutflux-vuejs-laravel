@@ -36,4 +36,10 @@ class LoginController extends Controller
     {
         $this->middleware('guest')->except('logout');
     }
+
+    public function show($id)
+    {
+        $user = \App\user::findOrFail($id);
+        return view('user.show',compact('user'));
+    }
 }
