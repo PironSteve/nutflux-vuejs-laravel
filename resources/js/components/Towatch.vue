@@ -71,7 +71,6 @@ body{
 }
 .movie-general h3{
     color: #f84309;
-    font-weight: bold;
     margin-left: 35px;
     font-family: 'Allerta Stencil', sans-serif;
 }

@@ -92,14 +92,13 @@ h3{
     font-family : 'Allerta Stencil', sans-serif;
 }
 .generalmovie{
-    border: 3px solid #B02E05 ;
+    border: 3px solid #B02E05;
     border-radius: 5px;
     max-width: 300px;
     height: 250px;
 }
 .movie-general h3{
     color: #f84309;
-    font-weight: bold;
     margin-left: 35px;
     font-family: 'Allerta Stencil', sans-serif;
 }
