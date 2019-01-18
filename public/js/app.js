@@ -6702,7 +6702,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nbody[data-v-3982b107]{\n    background-color: black;\n}\n.movie-general[data-v-3982b107]{\n    min-height: 100vh;\n    background: #000;\n}\n.generalmovie[data-v-3982b107]{\n    border: 3px solid #B02E05 ;\n    border-radius: 5px;\n    max-width: 300px;\n    height: 250px;\n}\n.movie-general h3[data-v-3982b107]{\n    color: #f84309;\n    font-weight: bold;\n    margin-left: 35px;\n}\n.carousel[data-v-3982b107]{\n    margin-left: 30px;\n    max-height: 300px;\n}\n.owl-carousel .owl-item img a[data-v-3982b107] {\n    width: 85%;\n}\n.modal[data-v-3982b107]{\n    color: #f84309;\n}\n.modal-dialog[data-v-3982b107] {\n    max-width: 583px;\n}\n.modal-header[data-v-3982b107]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-body[data-v-3982b107]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-footer[data-v-3982b107]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.far[data-v-3982b107], .fas[data-v-3982b107]{\n    font-size: 15px;\n    margin-right: 10px;\n    color: #f84309;\n}\n", ""]);
+exports.push([module.i, "\nbody[data-v-3982b107]{\n    background-color: black;\n}\n.movie-general[data-v-3982b107]{\n    min-height: 100vh;\n    background: #000;\n    padding-top: 40px;\n}\n.generalmovie[data-v-3982b107]{\n    border: 3px solid #B02E05 ;\n    border-radius: 5px;\n    max-width: 300px;\n    height: 250px;\n}\n.movie-general h3[data-v-3982b107]{\n    color: #f84309;\n    font-weight: bold;\n    margin-left: 35px;\n    font-family: 'Allerta Stencil', sans-serif;\n}\n.carousel[data-v-3982b107]{\n    margin-left: 30px;\n    max-height: 300px;\n}\n.owl-carousel .owl-item img a[data-v-3982b107] {\n    width: 85%;\n}\n.modal[data-v-3982b107]{\n    color: #f84309;\n}\n.modal-dialog[data-v-3982b107] {\n    max-width: 583px;\n}\n.modal-header[data-v-3982b107]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-body[data-v-3982b107]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-footer[data-v-3982b107]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.far[data-v-3982b107], .fas[data-v-3982b107]{\n    font-size: 15px;\n    margin-right: 10px;\n    color: #f84309;\n}\n", ""]);
 
 // exports
 
@@ -6740,7 +6740,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nbody[data-v-184d4c70]{\n    background-color: black;\n}\n.movie-general[data-v-184d4c70]{\n    min-height: 100vh;\n    background: #000;\n    padding-top: 40px;\n}\n.movie-general > h3[data-v-184d4c70]{\n    margin-bottom:25px;\n}\n.generalmovie[data-v-184d4c70]{\n    border: 3px solid #B02E05 ;\n    border-radius: 5px;\n    max-width: 300px;\n    height: 250px;\n}\n.movie-general h3[data-v-184d4c70]{\n    color: #f84309;\n    font-weight: bold;\n    margin-left: 35px;\n}\n.carousel[data-v-184d4c70]{\n    margin-left: 30px;\n    max-height: 300px;\n}\n.owl-carousel .owl-item img a[data-v-184d4c70] {\n    width: 85%;\n}\n.modal[data-v-184d4c70]{\n    color: #f84309;\n}\n.modal-dialog[data-v-184d4c70] {\n    max-width: 583px;\n}\n.modal-header[data-v-184d4c70]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-body[data-v-184d4c70]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-footer[data-v-184d4c70]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.far[data-v-184d4c70], .fas[data-v-184d4c70]{\n    font-size: 15px;\n    margin-right: 10px;\n    color: #f84309;\n}\n", ""]);
+exports.push([module.i, "\nbody[data-v-184d4c70]{\n    background-color: black;\n}\n.movie-general[data-v-184d4c70]{\n    min-height: 100vh;\n    background: #000;\n    padding-top: 40px;\n}\n.movie-general > h3[data-v-184d4c70]{\n    margin-bottom:25px;\n}\n.generalmovie[data-v-184d4c70]{\n    border: 3px solid #B02E05 ;\n    border-radius: 5px;\n    max-width: 300px;\n    height: 250px;\n}\n.movie-general h3[data-v-184d4c70]{\n    color: #f84309;\n    font-weight: bold;\n    margin-left: 35px;\n    font-family: 'Allerta Stencil', sans-serif;\n}\n.carousel[data-v-184d4c70]{\n    margin-left: 30px;\n    max-height: 300px;\n}\n.owl-carousel .owl-item img a[data-v-184d4c70] {\n    width: 85%;\n}\n.modal[data-v-184d4c70]{\n    color: #f84309;\n}\n.modal-dialog[data-v-184d4c70] {\n    max-width: 583px;\n}\n.modal-header[data-v-184d4c70]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-body[data-v-184d4c70]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-footer[data-v-184d4c70]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.far[data-v-184d4c70], .fas[data-v-184d4c70]{\n    font-size: 15px;\n    margin-right: 10px;\n    color: #f84309;\n}\n", ""]);
 
 // exports
 
@@ -6816,7 +6816,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nbody[data-v-41a8e034]{\n    background-color: black;\n}\n.movie-general[data-v-41a8e034]{\n    min-height: 100vh;\n    background: #000;\n}\n.generalmovie[data-v-41a8e034]{\n    border: 3px solid #B02E05 ;\n    border-radius: 5px;\n    max-width: 300px;\n    height: 250px;\n}\n.movie-general h3[data-v-41a8e034]{\n    color: #f84309;\n    font-weight: bold;\n    margin-left: 35px;\n}\n.carousel[data-v-41a8e034]{\n    margin-left: 30px;\n    max-height: 300px;\n}\n.owl-carousel .owl-item img a[data-v-41a8e034] {\n    width: 85%;\n}\n.modal[data-v-41a8e034]{\n    color: #f84309;\n}\n.modal-dialog[data-v-41a8e034] {\n    max-width: 583px;\n}\n.modal-header[data-v-41a8e034]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-body[data-v-41a8e034]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-footer[data-v-41a8e034]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.far[data-v-41a8e034], .fas[data-v-41a8e034]{\n    font-size: 15px;\n    margin-right: 10px;\n    color: #f84309;\n}\n", ""]);
+exports.push([module.i, "\nbody[data-v-41a8e034]{\n    background-color: black;\n}\n.movie-general[data-v-41a8e034]{\n    min-height: 100vh;\n    background: #000;\n    padding-top: 40px;\n}\n.generalmovie[data-v-41a8e034]{\n    border: 3px solid #B02E05 ;\n    border-radius: 5px;\n    max-width: 300px;\n    height: 250px;\n}\n.movie-general h3[data-v-41a8e034]{\n    color: #f84309;\n    font-weight: bold;\n    margin-left: 35px;\n    font-family: 'Allerta Stencil', sans-serif;\n}\n.carousel[data-v-41a8e034]{\n    margin-left: 30px;\n    max-height: 300px;\n}\n.owl-carousel .owl-item img a[data-v-41a8e034] {\n    width: 85%;\n}\n.modal[data-v-41a8e034]{\n    color: #f84309;\n}\n.modal-dialog[data-v-41a8e034] {\n    max-width: 583px;\n}\n.modal-header[data-v-41a8e034]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-body[data-v-41a8e034]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-footer[data-v-41a8e034]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.far[data-v-41a8e034], .fas[data-v-41a8e034]{\n    font-size: 15px;\n    margin-right: 10px;\n    color: #f84309;\n}\n", ""]);
 
 // exports
 
@@ -6854,7 +6854,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nbody[data-v-2a3bfa99]{\n    background-color: black;\n}\n.movie-general[data-v-2a3bfa99]{\n    min-height: 100vh;\n    background: #000;\n}\n.generalmovie[data-v-2a3bfa99]{\n    border: 3px solid #B02E05 ;\n    border-radius: 5px;\n    max-width: 300px;\n    height: 250px;\n}\n.movie-general h3[data-v-2a3bfa99]{\n    color: #f84309;\n    font-weight: bold;\n    margin-left: 35px;\n}\n.carousel[data-v-2a3bfa99]{\n    margin-left: 30px;\n    max-height: 300px;\n}\n.owl-carousel .owl-item img a[data-v-2a3bfa99] {\n    width: 85%;\n}\n.modal[data-v-2a3bfa99]{\n    color: #f84309;\n}\n.modal-dialog[data-v-2a3bfa99] {\n    max-width: 583px;\n}\n.modal-header[data-v-2a3bfa99]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-body[data-v-2a3bfa99]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-footer[data-v-2a3bfa99]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.far[data-v-2a3bfa99], .fas[data-v-2a3bfa99]{\n    font-size: 15px;\n    margin-right: 10px;\n    color: #f84309;\n}\n", ""]);
+exports.push([module.i, "\nbody[data-v-2a3bfa99]{\n    background-color: black;\n}\n.movie-general[data-v-2a3bfa99]{\n    min-height: 100vh;\n    background: #000;\n    padding-top: 40px;\n}\n.generalmovie[data-v-2a3bfa99]{\n    border: 3px solid #B02E05 ;\n    border-radius: 5px;\n    max-width: 300px;\n    height: 250px;\n}\n.movie-general h3[data-v-2a3bfa99]{\n    color: #f84309;\n    font-weight: bold;\n    margin-left: 35px;\n    font-family: 'Allerta Stencil', sans-serif;\n}\n.carousel[data-v-2a3bfa99]{\n    margin-left: 30px;\n    max-height: 300px;\n}\n.owl-carousel .owl-item img a[data-v-2a3bfa99] {\n    width: 85%;\n}\n.modal[data-v-2a3bfa99]{\n    color: #f84309;\n}\n.modal-dialog[data-v-2a3bfa99] {\n    max-width: 583px;\n}\n.modal-header[data-v-2a3bfa99]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-body[data-v-2a3bfa99]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-footer[data-v-2a3bfa99]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.far[data-v-2a3bfa99], .fas[data-v-2a3bfa99]{\n    font-size: 15px;\n    margin-right: 10px;\n    color: #f84309;\n}\n", ""]);
 
 // exports
 
@@ -38724,7 +38724,7 @@ var render = function() {
         "div",
         { staticClass: "movie-general" },
         [
-          _c("h3", [_vm._v("FAVORITES")]),
+          _c("h3", [_vm._v("FAVORIS")]),
           _vm._v(" "),
           _c(
             "carousel",
@@ -39008,7 +39008,7 @@ var render = function() {
     "div",
     { staticClass: "movie-general" },
     [
-      _c("h3", [_vm._v("GENERAL MOVIES")]),
+      _c("h3", [_vm._v("CATALOGUE GENERAL")]),
       _vm._v(" "),
       _c(
         "carousel",
@@ -39704,7 +39704,7 @@ var render = function() {
         "div",
         { staticClass: "movie-general" },
         [
-          _c("h3", [_vm._v("ALREADY SEEN")]),
+          _c("h3", [_vm._v("DEJA VU")]),
           _vm._v(" "),
           _c(
             "carousel",
@@ -39931,7 +39931,7 @@ var render = function() {
         "div",
         { staticClass: "movie-general" },
         [
-          _c("h3", [_vm._v("WATCH LATER")]),
+          _c("h3", [_vm._v("A REGARDER")]),
           _vm._v(" "),
           _c(
             "carousel",

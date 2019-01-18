@@ -2,7 +2,7 @@
     <div>
     <navbar></navbar>
     <div class="movie-general">
-        <h3>ALREADY SEEN</h3>
+        <h3>DEJA VU</h3>
         <carousel class="carousel"  :dots="true" :nav="false" :margin=30 :loop="true" :autoplay="true" :autoplayHoverPause="true" items="6">
             <a type="button" data-toggle="modal" data-target="#infos">
                 <img data-toggle="modal" class="generalmovie" src="https://images-na.ssl-images-amazon.com/images/I/71M6KGXcWFL._SY445_.jpg">
@@ -56,6 +56,7 @@ body{
 .movie-general{
     min-height: 100vh;
     background: #000;
+    padding-top: 40px;
 }
 .generalmovie{
     border: 3px solid #B02E05 ;
@@ -67,6 +68,7 @@ body{
     color: #f84309;
     font-weight: bold;
     margin-left: 35px;
+    font-family: 'Allerta Stencil', sans-serif;
 }
 .carousel{
     margin-left: 30px;
