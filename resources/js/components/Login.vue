@@ -136,20 +136,21 @@ export default{
     }
 
 
-.box{
+    .box{
     width: 100%;
     height: 100%;
     display:flex;
     justify-content: center;
     align-items: center;
-}
+    }
 
-.main{
+    .main{
     width: 100vw;
     height: 100vh;
+    max-height:100vh;
+    min-height: 100vh;
     background-image: url(http://visagesetcouleurs.be/BeCode/denise-jans-559588-unsplash.jpg);
     background-position: center;
-
-}
+    }
 
 </style>

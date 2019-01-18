@@ -2,17 +2,14 @@
     <div class="dropdown">
         <div class="topmenu">
             <router-link to="./login"><img class="logo" src="../../../resources/images/nutflux.png" alt=""></router-link>
-            <router-link to="/catalogue"><button type="button" class="btn btn-info btn-md"><a href=""><span class="glyphicon glyphicon-film"></span> Films</a></button></router-link>
-            <button type="button" class="btn btn-info btn-md dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a href=""><span class="glyphicon glyphicon-th-list"></span> Listes</a></button>
-            <router-link to="/editprofile"><button type="button" class="btn btn-info btn-md"><a href=""><span class="glyphicon glyphicon-user"></span> Profil</a></button></router-link>
-            <router-link to="/favorite"><button type="button" class="btn btn-info btn-md"><a href=""><span class="glyphicon glyphicon-user"></span> Favorite</a></button></router-link>
-            <router-link to="/towatch"><button type="button" class="btn btn-info btn-md"><a href=""><span class="glyphicon glyphicon-user"></span> Watch later</a></button></router-link>    
-            <router-link to="/seen"><button type="button" class="btn btn-info btn-md"><a href=""><span class="glyphicon glyphicon-user"></span> Already Seen</a></button></router-link>    
-                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <router-link to="/favorite"><button class="dropdown-item" type="button">Favoris</button></router-link>
-                    <router-link to="/seen"><button class="dropdown-item" type="button">Déjà vu</button></router-link>
-                    <router-link to="/towatch"><button class="dropdown-item" type="button">A regarder</button></router-link>
-                </div>
+            <router-link to="/catalogue"><button type="button" class="btn btn-info btn-lg"><a href=""><span class="glyphicon glyphicon-film"></span> Films</a></button></router-link>
+            <button type="button" class="btn btn-lg dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a href=""><span class="glyphicon glyphicon-th-list"></span> Listes</a></button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <router-link to="/favorite"><button class="dropdown-item" type="button" onmouseover="this.style.background='white'" onmouseout="this.style.background='#B02E05'">Favoris</button></router-link>
+                    <router-link to="/seen"><button class="dropdown-item" type="button" onmouseover="this.style.background='white'" onmouseout="this.style.background='#B02E05'">Déjà vu</button></router-link>
+                    <router-link to="/towatch"><button class="dropdown-item" type="button" onmouseover="this.style.background='white'" onmouseout="this.style.background='#B02E05'">A regarder</button></router-link>
+            </div>
+            <router-link to="/editprofile"><button type="button" class="btn btn-info btn-lg"><a href=""><span class="glyphicon glyphicon-user"></span> Profil</a></button></router-link>   
             <form action="">
                 <input type="search">
                 <i class="fa fa-search"></i>
@@ -23,13 +20,14 @@
 
 <script>
     export default {
-        mounted() {
-            console.log('Component mounted.')
-        }
     }
 </script>
 
 <style scoped>
+.dropdown-menu.show {
+    display: flex;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -39,10 +37,11 @@ body{
     border-radius: 0;
     overflow: hidden;
     padding: 5px;
-    height: 100px;
+    height: 130px;
     position: sticky;
     top:0px;
-    z-index:9999;
+    z-index:9998;
+    border-bottom: 1px solid #B02E05;
 }
 .dropdown a {
     color: white;
@@ -57,7 +56,7 @@ body{
     background-color: #fcbaa5;
 }
 .logo {
-    height: 75px;
+    height: 100px;
     margin-right: 30px;
 }
 .topmenu{

@@ -2204,14 +2204,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-/* harmony default export */ __webpack_exports__["default"] = ({
-  mounted: function mounted() {
-    console.log('Component mounted.');
-  }
-});
+/* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
 
@@ -6747,7 +6740,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nbody[data-v-184d4c70]{\n    background-color: black;\n}\n.movie-general[data-v-184d4c70]{\n    min-height: 100vh;\n    background: #000;\n}\n.generalmovie[data-v-184d4c70]{\n    border: 3px solid #B02E05 ;\n    border-radius: 5px;\n    max-width: 300px;\n    height: 250px;\n}\n.movie-general h3[data-v-184d4c70]{\n    color: #f84309;\n    font-weight: bold;\n    margin-left: 35px;\n}\n.carousel[data-v-184d4c70]{\n    margin-left: 30px;\n    max-height: 300px;\n}\n.owl-carousel .owl-item img a[data-v-184d4c70] {\n    width: 85%;\n}\n.modal[data-v-184d4c70]{\n    color: #f84309;\n}\n.modal-dialog[data-v-184d4c70] {\n    max-width: 583px;\n}\n.modal-header[data-v-184d4c70]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-body[data-v-184d4c70]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-footer[data-v-184d4c70]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.far[data-v-184d4c70], .fas[data-v-184d4c70]{\n    font-size: 15px;\n    margin-right: 10px;\n    color: #f84309;\n}\n", ""]);
+exports.push([module.i, "\nbody[data-v-184d4c70]{\n    background-color: black;\n}\n.movie-general[data-v-184d4c70]{\n    min-height: 100vh;\n    background: #000;\n    padding-top: 40px;\n}\n.movie-general > h3[data-v-184d4c70]{\n    margin-bottom:25px;\n}\n.generalmovie[data-v-184d4c70]{\n    border: 3px solid #B02E05 ;\n    border-radius: 5px;\n    max-width: 300px;\n    height: 250px;\n}\n.movie-general h3[data-v-184d4c70]{\n    color: #f84309;\n    font-weight: bold;\n    margin-left: 35px;\n}\n.carousel[data-v-184d4c70]{\n    margin-left: 30px;\n    max-height: 300px;\n}\n.owl-carousel .owl-item img a[data-v-184d4c70] {\n    width: 85%;\n}\n.modal[data-v-184d4c70]{\n    color: #f84309;\n}\n.modal-dialog[data-v-184d4c70] {\n    max-width: 583px;\n}\n.modal-header[data-v-184d4c70]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-body[data-v-184d4c70]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-footer[data-v-184d4c70]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.far[data-v-184d4c70], .fas[data-v-184d4c70]{\n    font-size: 15px;\n    margin-right: 10px;\n    color: #f84309;\n}\n", ""]);
 
 // exports
 
@@ -6766,7 +6759,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.login[data-v-6bdc8b8e]{\n        width:500px;\n        height:500px;\n        background-color:#B02E05;\n        border-radius: 50%;\n        padding-top: 5%;\n        text-align: center;\n        border: 4px solid #FCBAA5;\n}\n.signin[data-v-6bdc8b8e]{\n        width:500px;\n        height:500px;\n        background-color:#B02E05;\n        border-radius: 50%;\n        padding-top: 4%;\n        text-align: center;\n        border: 4px solid #FCBAA5;\n        display:none;\n}\n.connect[data-v-6bdc8b8e]{\n        margin-bottom: 75px;\n        color:white;\n}\n.connect2[data-v-6bdc8b8e]{\n        margin-bottom: 38px;\n        color:white;\n}\np[data-v-6bdc8b8e]{\n        font-family: 'Allerta Stencil', sans-serif;\n        font-size: 40px;\n}\ninput[data-v-6bdc8b8e]{\n        width:300px;\n        height: 40px;\n        margin-bottom: 20px;\n        padding-left:10px;\n        background: rgba(252, 186, 165, 0.68);\n        color:white;\n        border-radius: 20px;\n        border:none;\n        font-family: 'Abel', sans-serif;\n        font-size: 22px;\n}\ninput[data-v-6bdc8b8e]::-webkit-input-placeholder{\n        color:white;\n        font-weight: bold;\n}\ninput[data-v-6bdc8b8e]:-ms-input-placeholder{\n        color:white;\n        font-weight: bold;\n}\ninput[data-v-6bdc8b8e]::-ms-input-placeholder{\n        color:white;\n        font-weight: bold;\n}\ninput[data-v-6bdc8b8e]::placeholder{\n        color:white;\n        font-weight: bold;\n}\nbutton[data-v-6bdc8b8e]{\n        width:100px;\n        height: 60px;\n        border-radius: 20px;\n        color:white;\n        background-color:#B02E05;\n        font-weight: bold;\n        border: 2px solid rgb(252, 186, 165);\n}\nbutton[data-v-6bdc8b8e]:hover{\n        background-color:rgba(252, 186, 165, 0.68);\n}\n.register[data-v-6bdc8b8e]{\n        color:#FCBAA5;\n        text-decoration: none;\n}\n.register[data-v-6bdc8b8e]:hover{\n        font-weight: bold;\n}\n.log[data-v-6bdc8b8e]{\n        color:#FCBAA5;\n        text-decoration: none;\n}\n.log[data-v-6bdc8b8e]:hover{\n        font-weight: bold;\n}\n.box[data-v-6bdc8b8e]{\n    width: 100%;\n    height: 100%;\n    display:flex;\n    justify-content: center;\n    align-items: center;\n}\n.main[data-v-6bdc8b8e]{\n    width: 100vw;\n    height: 100vh;\n    background-image: url(http://visagesetcouleurs.be/BeCode/denise-jans-559588-unsplash.jpg);\n    background-position: center;\n}\n\n", ""]);
+exports.push([module.i, "\n.login[data-v-6bdc8b8e]{\n    width:500px;\n    height:500px;\n    background-color:#B02E05;\n    border-radius: 50%;\n    padding-top: 5%;\n    text-align: center;\n    border: 4px solid #FCBAA5;\n}\n.signin[data-v-6bdc8b8e]{\n    width:500px;\n    height:500px;\n    background-color:#B02E05;\n    border-radius: 50%;\n    padding-top: 4%;\n    text-align: center;\n    border: 4px solid #FCBAA5;\n    display:none;\n}\n.connect[data-v-6bdc8b8e]{\n    margin-bottom: 75px;\n    color:white;\n}\n.connect2[data-v-6bdc8b8e]{\n    margin-bottom: 38px;\n    color:white;\n}\np[data-v-6bdc8b8e]{\n    font-family: 'Allerta Stencil', sans-serif;\n    font-size: 40px;\n}\ninput[data-v-6bdc8b8e]{\n    width:300px;\n    height: 40px;\n    margin-bottom: 20px;\n    padding-left:10px;\n    background: rgba(252, 186, 165, 0.68);\n    color:white;\n    border-radius: 20px;\n    border:none;\n    font-family: 'Abel', sans-serif;\n    font-size: 22px;\n}\ninput[data-v-6bdc8b8e]::-webkit-input-placeholder{\n    color:white;\n    font-weight: bold;\n}\ninput[data-v-6bdc8b8e]:-ms-input-placeholder{\n    color:white;\n    font-weight: bold;\n}\ninput[data-v-6bdc8b8e]::-ms-input-placeholder{\n    color:white;\n    font-weight: bold;\n}\ninput[data-v-6bdc8b8e]::placeholder{\n    color:white;\n    font-weight: bold;\n}\nbutton[data-v-6bdc8b8e]{\n    width:100px;\n    height: 60px;\n    border-radius: 20px;\n    color:white;\n    background-color:#B02E05;\n    font-weight: bold;\n    border: 2px solid rgb(252, 186, 165);\n}\nbutton[data-v-6bdc8b8e]:hover{\n    background-color:rgba(252, 186, 165, 0.68);\n}\n.register[data-v-6bdc8b8e]{\n    color:#FCBAA5;\n    text-decoration: none;\n}\n.register[data-v-6bdc8b8e]:hover{\n    font-weight: bold;\n}\n.log[data-v-6bdc8b8e]{\n    color:#FCBAA5;\n    text-decoration: none;\n}\n.log[data-v-6bdc8b8e]:hover{\n    font-weight: bold;\n}\n.box[data-v-6bdc8b8e]{\nwidth: 100%;\nheight: 100%;\ndisplay:flex;\njustify-content: center;\nalign-items: center;\n}\n.main[data-v-6bdc8b8e]{\nwidth: 100vw;\nheight: 100vh;\nmax-height:100vh;\nmin-height: 100vh;\nbackground-image: url(http://visagesetcouleurs.be/BeCode/denise-jans-559588-unsplash.jpg);\nbackground-position: center;\n}\n\n", ""]);
 
 // exports
 
@@ -6804,7 +6797,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nbody[data-v-6dde423b]{\n    margin: 0;\n    padding: 0;\n}\n.dropdown[data-v-6dde423b] {\n    background-color: #000;\n    border-radius: 0;\n    overflow: hidden;\n    padding: 5px;\n    height: 100px;\n    position: -webkit-sticky;\n    position: sticky;\n    top:0px;\n    z-index:9999;\n}\n.dropdown a[data-v-6dde423b] {\n    color: white;\n}\n.btn[data-v-6dde423b] {\n    background-color: #B02E05;\n    border: none;\n    margin-left: 15px;\n    margin-right: 15px;\n}\n.btn[data-v-6dde423b]:hover, .btn[data-v-6dde423b]:focus {\n    background-color: #fcbaa5;\n}\n.logo[data-v-6dde423b] {\n    height: 75px;\n    margin-right: 30px;\n}\n.topmenu[data-v-6dde423b]{\n    margin: 0;\n    width: 100%;\n}\nform[data-v-6dde423b]{\n    position: relative;\n    top: -40px;\n    left: 90%;\n    -webkit-transform: translate(-50%,-50%);\n            transform: translate(-50%,-50%);\n    transition: all 1s;\n    width: 50px;\n    height: 50px;\n    background: #B02E05;\n    box-sizing: border-box;\n    border-radius: 25px;\n    border: 4px solid #fff;\n    padding: 5px;\n}\ninput[data-v-6dde423b]{\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;;\n    height: 42.5px;\n    line-height: 30px;\n    outline: 0;\n    border: 0;\n    display: none;\n    font-size: 1em;\n    border-radius: 20px;\n    padding: 0 20px;\n    color: #f84309;\n}\n.fa[data-v-6dde423b]{\n    box-sizing: border-box;\n    padding: 14px;\n    width: 42.5px;\n    height: 42.5px;\n    position: absolute;\n    top: 0;\n    right: 0;\n    border-radius: 50%;\n    color: #fff;\n    text-align: center;\n    font-size: 1.2em;\n    transition: all 1s;\n}\nform[data-v-6dde423b]:hover{\n    width: 200px;\n    cursor: pointer;\n}\nform:hover input[data-v-6dde423b]{\n    display: block;\n}\nform:hover .fa[data-v-6dde423b]{\n    background: #f84309;\n    color: white;\n}\n[data-v-6dde423b]::-webkit-input-placeholder {\n    color: #fff;\n    opacity: 1;\n}\n[data-v-6dde423b]:-ms-input-placeholder {\n    color: #fff;\n    opacity: 1;\n}\n[data-v-6dde423b]::-ms-input-placeholder {\n    color: #fff;\n    opacity: 1;\n}\n[data-v-6dde423b]::placeholder {\n    color: #fff;\n    opacity: 1;\n}\n.dropdown-menu[data-v-6dde423b]{\n    background-color: #B02E05;\n}\n.dropdown-item[data-v-6dde423b]:hover{\n    background-color: #f84309;\n}\n.dropdown-item[data-v-6dde423b]{\n    color: #fff;\n}\n", ""]);
+exports.push([module.i, "\n.dropdown-menu.show[data-v-6dde423b] {\n    display: flex;\n}\nbody[data-v-6dde423b]{\n    margin: 0;\n    padding: 0;\n}\n.dropdown[data-v-6dde423b] {\n    background-color: #000;\n    border-radius: 0;\n    overflow: hidden;\n    padding: 5px;\n    height: 130px;\n    position: -webkit-sticky;\n    position: sticky;\n    top:0px;\n    z-index:9998;\n    border-bottom: 1px solid #B02E05;\n}\n.dropdown a[data-v-6dde423b] {\n    color: white;\n}\n.btn[data-v-6dde423b] {\n    background-color: #B02E05;\n    border: none;\n    margin-left: 15px;\n    margin-right: 15px;\n}\n.btn[data-v-6dde423b]:hover, .btn[data-v-6dde423b]:focus {\n    background-color: #fcbaa5;\n}\n.logo[data-v-6dde423b] {\n    height: 100px;\n    margin-right: 30px;\n}\n.topmenu[data-v-6dde423b]{\n    margin: 0;\n    width: 100%;\n}\nform[data-v-6dde423b]{\n    position: relative;\n    top: -40px;\n    left: 90%;\n    -webkit-transform: translate(-50%,-50%);\n            transform: translate(-50%,-50%);\n    transition: all 1s;\n    width: 50px;\n    height: 50px;\n    background: #B02E05;\n    box-sizing: border-box;\n    border-radius: 25px;\n    border: 4px solid #fff;\n    padding: 5px;\n}\ninput[data-v-6dde423b]{\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;;\n    height: 42.5px;\n    line-height: 30px;\n    outline: 0;\n    border: 0;\n    display: none;\n    font-size: 1em;\n    border-radius: 20px;\n    padding: 0 20px;\n    color: #f84309;\n}\n.fa[data-v-6dde423b]{\n    box-sizing: border-box;\n    padding: 14px;\n    width: 42.5px;\n    height: 42.5px;\n    position: absolute;\n    top: 0;\n    right: 0;\n    border-radius: 50%;\n    color: #fff;\n    text-align: center;\n    font-size: 1.2em;\n    transition: all 1s;\n}\nform[data-v-6dde423b]:hover{\n    width: 200px;\n    cursor: pointer;\n}\nform:hover input[data-v-6dde423b]{\n    display: block;\n}\nform:hover .fa[data-v-6dde423b]{\n    background: #f84309;\n    color: white;\n}\n[data-v-6dde423b]::-webkit-input-placeholder {\n    color: #fff;\n    opacity: 1;\n}\n[data-v-6dde423b]:-ms-input-placeholder {\n    color: #fff;\n    opacity: 1;\n}\n[data-v-6dde423b]::-ms-input-placeholder {\n    color: #fff;\n    opacity: 1;\n}\n[data-v-6dde423b]::placeholder {\n    color: #fff;\n    opacity: 1;\n}\n.dropdown-menu[data-v-6dde423b]{\n    background-color: #B02E05;\n}\n.dropdown-item[data-v-6dde423b]:hover{\n    background-color: #f84309;\n}\n.dropdown-item[data-v-6dde423b]{\n    color: #fff;\n}\n", ""]);
 
 // exports
 
@@ -39080,8 +39073,7 @@ var render = function() {
           _c("img", {
             staticClass: "generalmovie",
             attrs: {
-              src:
-                "http://fr.web.img3.acsta.net/c_215_290/medias/nmedia/18/35/84/55/18611268.jpg"
+              src: "https://www.lsa-conso.fr/mediatheque/6/8/6/000122686_5.jpg"
             }
           }),
           _vm._v(" "),
@@ -39120,8 +39112,7 @@ var render = function() {
           _c("img", {
             staticClass: "generalmovie",
             attrs: {
-              src:
-                "http://fr.web.img3.acsta.net/c_215_290/medias/nmedia/18/35/84/55/18611268.jpg"
+              src: "https://www.lsa-conso.fr/mediatheque/6/8/6/000122686_5.jpg"
             }
           })
         ]
@@ -39190,8 +39181,7 @@ var render = function() {
           _c("img", {
             staticClass: "generalmovie",
             attrs: {
-              src:
-                "http://fr.web.img3.acsta.net/c_215_290/medias/nmedia/18/35/84/55/18611268.jpg"
+              src: "https://www.lsa-conso.fr/mediatheque/6/8/6/000122686_5.jpg"
             }
           }),
           _vm._v(" "),
@@ -39230,8 +39220,7 @@ var render = function() {
           _c("img", {
             staticClass: "generalmovie",
             attrs: {
-              src:
-                "http://fr.web.img3.acsta.net/c_215_290/medias/nmedia/18/35/84/55/18611268.jpg"
+              src: "https://www.lsa-conso.fr/mediatheque/6/8/6/000122686_5.jpg"
             }
           })
         ]
@@ -39300,8 +39289,7 @@ var render = function() {
           _c("img", {
             staticClass: "generalmovie",
             attrs: {
-              src:
-                "http://fr.web.img3.acsta.net/c_215_290/medias/nmedia/18/35/84/55/18611268.jpg"
+              src: "https://www.lsa-conso.fr/mediatheque/6/8/6/000122686_5.jpg"
             }
           }),
           _vm._v(" "),
@@ -39340,8 +39328,7 @@ var render = function() {
           _c("img", {
             staticClass: "generalmovie",
             attrs: {
-              src:
-                "http://fr.web.img3.acsta.net/c_215_290/medias/nmedia/18/35/84/55/18611268.jpg"
+              src: "https://www.lsa-conso.fr/mediatheque/6/8/6/000122686_5.jpg"
             }
           })
         ]
@@ -39565,7 +39552,7 @@ var render = function() {
         _c("router-link", { attrs: { to: "/catalogue" } }, [
           _c(
             "button",
-            { staticClass: "btn btn-info btn-md", attrs: { type: "button" } },
+            { staticClass: "btn btn-info btn-lg", attrs: { type: "button" } },
             [
               _c("a", { attrs: { href: "" } }, [
                 _c("span", { staticClass: "glyphicon glyphicon-film" }),
@@ -39577,58 +39564,6 @@ var render = function() {
         _vm._v(" "),
         _vm._m(0),
         _vm._v(" "),
-        _c("router-link", { attrs: { to: "/editprofile" } }, [
-          _c(
-            "button",
-            { staticClass: "btn btn-info btn-md", attrs: { type: "button" } },
-            [
-              _c("a", { attrs: { href: "" } }, [
-                _c("span", { staticClass: "glyphicon glyphicon-user" }),
-                _vm._v(" Profil")
-              ])
-            ]
-          )
-        ]),
-        _vm._v(" "),
-        _c("router-link", { attrs: { to: "/favorite" } }, [
-          _c(
-            "button",
-            { staticClass: "btn btn-info btn-md", attrs: { type: "button" } },
-            [
-              _c("a", { attrs: { href: "" } }, [
-                _c("span", { staticClass: "glyphicon glyphicon-user" }),
-                _vm._v(" Favorite")
-              ])
-            ]
-          )
-        ]),
-        _vm._v(" "),
-        _c("router-link", { attrs: { to: "/towatch" } }, [
-          _c(
-            "button",
-            { staticClass: "btn btn-info btn-md", attrs: { type: "button" } },
-            [
-              _c("a", { attrs: { href: "" } }, [
-                _c("span", { staticClass: "glyphicon glyphicon-user" }),
-                _vm._v(" Watch later")
-              ])
-            ]
-          )
-        ]),
-        _vm._v(" "),
-        _c("router-link", { attrs: { to: "/seen" } }, [
-          _c(
-            "button",
-            { staticClass: "btn btn-info btn-md", attrs: { type: "button" } },
-            [
-              _c("a", { attrs: { href: "" } }, [
-                _c("span", { staticClass: "glyphicon glyphicon-user" }),
-                _vm._v(" Already Seen")
-              ])
-            ]
-          )
-        ]),
-        _vm._v(" "),
         _c(
           "div",
           {
@@ -39639,7 +39574,14 @@ var render = function() {
             _c("router-link", { attrs: { to: "/favorite" } }, [
               _c(
                 "button",
-                { staticClass: "dropdown-item", attrs: { type: "button" } },
+                {
+                  staticClass: "dropdown-item",
+                  attrs: {
+                    type: "button",
+                    onmouseover: "this.style.background='white'",
+                    onmouseout: "this.style.background='#B02E05'"
+                  }
+                },
                 [_vm._v("Favoris")]
               )
             ]),
@@ -39647,7 +39589,14 @@ var render = function() {
             _c("router-link", { attrs: { to: "/seen" } }, [
               _c(
                 "button",
-                { staticClass: "dropdown-item", attrs: { type: "button" } },
+                {
+                  staticClass: "dropdown-item",
+                  attrs: {
+                    type: "button",
+                    onmouseover: "this.style.background='white'",
+                    onmouseout: "this.style.background='#B02E05'"
+                  }
+                },
                 [_vm._v("Déjà vu")]
               )
             ]),
@@ -39655,13 +39604,33 @@ var render = function() {
             _c("router-link", { attrs: { to: "/towatch" } }, [
               _c(
                 "button",
-                { staticClass: "dropdown-item", attrs: { type: "button" } },
+                {
+                  staticClass: "dropdown-item",
+                  attrs: {
+                    type: "button",
+                    onmouseover: "this.style.background='white'",
+                    onmouseout: "this.style.background='#B02E05'"
+                  }
+                },
                 [_vm._v("A regarder")]
               )
             ])
           ],
           1
         ),
+        _vm._v(" "),
+        _c("router-link", { attrs: { to: "/editprofile" } }, [
+          _c(
+            "button",
+            { staticClass: "btn btn-info btn-lg", attrs: { type: "button" } },
+            [
+              _c("a", { attrs: { href: "" } }, [
+                _c("span", { staticClass: "glyphicon glyphicon-user" }),
+                _vm._v(" Profil")
+              ])
+            ]
+          )
+        ]),
         _vm._v(" "),
         _vm._m(1)
       ],
@@ -39677,7 +39646,7 @@ var staticRenderFns = [
     return _c(
       "button",
       {
-        staticClass: "btn btn-info btn-md dropdown-toggle",
+        staticClass: "btn btn-lg dropdown-toggle",
         attrs: {
           type: "button",
           id: "dropdownMenu2",
@@ -54132,6 +54101,10 @@ Vue.component('bar', __webpack_require__(/*! ./components/Bar.vue */ "./resource
 var routes = [{
   name: 'home',
   path: '/',
+  component: _components_Login__WEBPACK_IMPORTED_MODULE_5__["default"]
+}, {
+  name: 'home',
+  path: '/login',
   component: _components_Login__WEBPACK_IMPORTED_MODULE_5__["default"]
 }, {
   name: 'choose',
