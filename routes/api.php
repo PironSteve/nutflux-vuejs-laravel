@@ -17,4 +17,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::post('/user/create', 'RegisterController@create');
+Route::post('/user/register', 'RegisterController@register');

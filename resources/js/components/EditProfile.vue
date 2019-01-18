@@ -16,16 +16,18 @@
 
 
             <h2> Profil </h2>
+
+
                 <input placeholder="nom" >
-                <input class="email" placeholder="e-mail" >
                 <input class="mdp" placeholder="mot de passe" >
-                <input class="mdpconf" placeholder="confirmation de mot de passe" >
             </div>
 
+            <button type = "submit" form = "form1" value = "Submit">
+              GO
+            </button>
+
         </form>
-        <button type = "submit" form = "form1" value = "Submit">
-          GO
-        </button>
+
 
         <p class="slogan">
           Quand tout te casse les <span class="noix">noix</span>, </br> connecte toi et détends toi.

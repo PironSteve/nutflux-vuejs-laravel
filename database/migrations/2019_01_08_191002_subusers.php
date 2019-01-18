@@ -22,10 +22,9 @@ class Subusers extends Migration
                     ->on('users')
                     ->onDelete('cascade')
                     ->onUpdate('cascade');//->onDelete('set null');
+            $table->string('name', 50);
+            $table->string('avatar', 200);
 
-            $table->timestamp('created_at')->nullable();
-            $table->timestamp('updated_at')->nullable();
-            
         });
     }
 

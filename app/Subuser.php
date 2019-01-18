@@ -7,12 +7,10 @@ use App\Lists;
 class subuser extends Model
 {
     //
-    protected $fillable = ['user_id'];
-    
+    protected $fillable = ['user_id', 'name', 'avatar'];
+
         public function lists()
             {
                 return $this->hasMany(Lists::class);
             }
 }
-
-
