@@ -11,6 +11,7 @@ import axios from 'axios';
 
 
 
+
 Vue.component('navbar', require('./components/Navbar.vue').default);
 Vue.component('general-movies', require('./components/GeneralMovies.vue').default);
 Vue.component('logo', require('./components/Logo.vue').default);
