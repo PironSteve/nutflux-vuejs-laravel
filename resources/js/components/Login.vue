@@ -166,4 +166,9 @@ export default{
     background-position: center;
     }
 
+    @media all and (max-width:1280px){
+    .box{
+    padding-top:50px;
+    }
+    }
 </style>

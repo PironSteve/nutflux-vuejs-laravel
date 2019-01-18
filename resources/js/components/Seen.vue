@@ -2,7 +2,7 @@
     <div>
     <navbar></navbar>
     <div class="movie-general">
-        <h3>ALREADY SEEN</h3>
+        <h3>DEJA VUS</h3>
         <carousel class="carousel"  :dots="true" :nav="false" :margin=30 :loop="true" :autoplay="true" :autoplayHoverPause="true" items="6">
             <a type="button" data-toggle="modal" data-target="#infos">
                 <img data-toggle="modal" class="generalmovie" src="https://images-na.ssl-images-amazon.com/images/I/71M6KGXcWFL._SY445_.jpg">
@@ -17,7 +17,7 @@
             <img class="generalmovie" src="http://cdn.franceloisirs.com/35955-66765-thickbox/nos-etoiles-contraires-dvd.jpg">
             <img class="generalmovie" src="http://fr.web.img3.acsta.net/c_215_290/medias/nmedia/18/35/84/55/18611268.jpg">
         </carousel>
-        
+
     <div class="modal" id="infos">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -56,6 +56,12 @@ body{
 .movie-general{
     min-height: 100vh;
     background: #000;
+    padding-top: 40px;
+}
+
+.movie-general > h3{
+    margin-bottom:25px;
+    font-family : 'Allerta Stencil', sans-serif;
 }
 .generalmovie{
     border: 3px solid #B02E05 ;

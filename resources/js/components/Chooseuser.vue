@@ -189,4 +189,10 @@ export default{
     font-size: 35px;
     font-family: 'Allerta Stencil', sans-serif;
 }
+
+@media all and (max-width:1280px){
+.example{
+padding-top:100px;
+}
+}
 </style>
