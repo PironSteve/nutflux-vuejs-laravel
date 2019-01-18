@@ -73,14 +73,14 @@ export default{
     }
 
         .signin{
-        width:500px;
-        height:500px;
-        background-color:#B02E05;
-        border-radius: 50%;
-        padding-top: 4%;
-        text-align: center;
-        border: 4px solid #FCBAA5;
-        display:none;
+          width:500px;
+          height:500px;
+          background-color:#B02E05;
+          border-radius: 50%;
+          padding-top: 4%;
+          text-align: center;
+          border: 4px solid #FCBAA5;
+          display:none;
     }
 
     .connect{

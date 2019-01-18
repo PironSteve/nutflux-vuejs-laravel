@@ -18,8 +18,8 @@
             <h2> Profil </h2>
 
 
-                <input placeholder="nom" >
-                <input class="mdp" placeholder="mot de passe" >
+                <input placeholder="Pseudo" >
+                <input class="mdp" placeholder="Mot de passe " >
             </div>
 
             <button type = "submit" form = "form1" value = "Submit">
@@ -127,7 +127,7 @@ h2 {
   position: absolute;
   width: 360px;
   height: 72px;
-  left: 190px;
+  left: 150px;
   top: 20px;
   font-style: normal;
   font-weight: normal;
@@ -141,7 +141,7 @@ h2 {
 input {
 
 position: absolute;
-width: 422px;
+width: 322px;
 height: 45px;
 left: 70px;
 top: 150px;
@@ -150,7 +150,7 @@ background: rgba(252, 186, 165, 0.78);
 border-radius: 10px;
 border : none;
 font-family: Abel,sans-serif;
-font-size: 30px;
+font-size: 25px;
 }
 
 .email{
@@ -160,10 +160,10 @@ font-size: 30px;
 
 .ellipseprofile{
   position: absolute;
-  width: 550px;
-  height: 550px;
+  width: 450px;
+  height: 450px;
   left: 600px;
-  top: 100px;
+  top: 160px;
 
   background: #B02E05;
   border: 3px solid #FCBAA5;
@@ -178,7 +178,7 @@ position: absolute;
 width: 412px;
 height: 67px;
 left: 47px;
-top: 570px;
+top: 550px;
 
 font-family: Allerta Stencil;
 font-style: normal;
@@ -219,7 +219,7 @@ button {
   width: 129px;
   height: 60px;
   left: 350px;
-  top: 500px;
+  top: 450px;
 
   background: #B02E05;
   border: 2px solid #FCBAA5;
