@@ -15,3 +15,6 @@ Malheureusement, il nous a été impossible de créer un CRUD Laravel/VueJS avec
 # Conclusion :
 
 Du à une organisation non optimale du groupe et des facteurs extérieurs nous n'avons pas pu mener le projet à sont aboutissement. Cependant, nous avons pu chacun mener à bien des recherches sur VueJS et Laravel ainsi que sur la liaison entre les deux sans pouvoir la mettre en place. Nous sortons chacun-e grandit de cette expérience.
+
+# Membres du groupe : 
+Steve, Steve, Ahmed et Laura - Janvier 2019.
