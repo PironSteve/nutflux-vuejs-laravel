@@ -1901,6 +1901,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   //mounted est créé lorsque le composant View l'est. console point log permet d'afficher dans la console.
   mounted: function mounted() {
@@ -2131,9 +2133,22 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
-    return {};
+    return {
+      //créer un objet avec input
+      user: {}
+    };
   },
   mounted: function mounted() {
     var login = document.querySelector('.login');
@@ -6683,7 +6698,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.container[data-v-570c77a4]{\n  margin:0px;\n  padding:0px;\n  width:100vw;\n}\n.backgroundprofile[data-v-570c77a4]{\n  background-color: #000000;\n  width: 100vw;\n  height: 100vh;\n}\n.logo[data-v-570c77a4] {\n\n\nposition: absolute;\nwidth: 200px;\nheight: 200px;\nleft: 0px;\ntop: 0px;\n}\nimg[data-v-570c77a4] {\n\n position: absolute;\n width: 200px;\n height: 200px;\n left: 314px;\n top: 175px;\n}\np[data-v-570c77a4]{\n\n  position: absolute;\n  width: 140.63px;\n  height: 56.37px;\n  left: 370px;\n  top: 370px;\n\n  font-family: Allerta Stencil,sans-serif;\n  font-style: normal;\n  font-weight: normal;\n  line-height: normal;\n  font-size: 26px;\n  text-align: justify;\n\n  color: #FCBAA5;\n}\nh2[data-v-570c77a4] {\n\n  font-family: 'Allerta Stencil', sans-serif;\n  position: absolute;\n  width: 360px;\n  height: 72px;\n  left: 190px;\n  top: 20px;\n  font-style: normal;\n  font-weight: normal;\n  line-height: normal;\n  font-size: 48px;\n  text-align: justify;\n\n  color: white;\n}\ninput[data-v-570c77a4] {\n\nposition: absolute;\nwidth: 422px;\nheight: 45px;\nleft: 70px;\ntop: 150px;\n\nbackground: rgba(252, 186, 165, 0.78);\nborder-radius: 10px;\nborder : none;\nfont-family: Abel,sans-serif;\nfont-size: 30px;\n}\n.email[data-v-570c77a4]{\n\n  margin-top: 60px;\n}\n.ellipseprofile[data-v-570c77a4]{\n  position: absolute;\n  width: 550px;\n  height: 550px;\n  left: 600px;\n  top: 100px;\n\n  background: #B02E05;\n  border: 3px solid #FCBAA5;\n  border-radius : 50%;\n  box-sizing: border-box;\n  box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.55);\n}\n.slogan[data-v-570c77a4] {\nposition: absolute;\nwidth: 412px;\nheight: 67px;\nleft: 47px;\ntop: 570px;\n\nfont-family: Allerta Stencil;\nfont-style: normal;\nfont-weight: normal;\nline-height: normal;\nfont-size: 20px;\ntext-align: justify;\n\ncolor: #FCBAA5;\n}\n.noix[data-v-570c77a4] {\n\nfont-family: Allura;\nfont-style: normal;\nfont-weight: normal;\nline-height: normal;\nfont-size: 36px;\ntext-align: justify;\n}\n.mdp[data-v-570c77a4]{\n\n    margin-top: 120px;\n}\n.mdpconf[data-v-570c77a4]{\n\n    margin-top: 180px;\n}\nbutton[data-v-570c77a4] {\n\n  position: absolute;\n  width: 129px;\n  height: 60px;\n  left: 350px;\n  top: 500px;\n\n  background: #B02E05;\n  border: 2px solid #FCBAA5;\n  box-sizing: border-box;\n  border-radius: 20px;\n  font-family: Allerta Stencil, sans-serif;\n  font-size: 36px;\n  text-align: center;\n}\nbutton[data-v-570c77a4]:hover{\n    background: #FCBAA5;\n}\n", ""]);
+exports.push([module.i, "\n.container[data-v-570c77a4]{\n  margin:0px;\n  padding:0px;\n  width:100vw;\n}\n.backgroundprofile[data-v-570c77a4]{\n  background-color: #000000;\n  width: 100vw;\n  height: 100vh;\n}\n.logo[data-v-570c77a4] {\n\n\nposition: absolute;\nwidth: 200px;\nheight: 200px;\nleft: 0px;\ntop: 0px;\n}\nimg[data-v-570c77a4] {\n\n position: absolute;\n width: 200px;\n height: 200px;\n left: 314px;\n top: 175px;\n}\np[data-v-570c77a4]{\n\n  position: absolute;\n  width: 140.63px;\n  height: 56.37px;\n  left: 370px;\n  top: 370px;\n\n  font-family: Allerta Stencil,sans-serif;\n  font-style: normal;\n  font-weight: normal;\n  line-height: normal;\n  font-size: 26px;\n  text-align: justify;\n\n  color: #FCBAA5;\n}\nh2[data-v-570c77a4] {\n\n  font-family: 'Allerta Stencil', sans-serif;\n  position: absolute;\n  width: 360px;\n  height: 72px;\n  left: 150px;\n  top: 20px;\n  font-style: normal;\n  font-weight: normal;\n  line-height: normal;\n  font-size: 48px;\n  text-align: justify;\n\n  color: white;\n}\ninput[data-v-570c77a4] {\n\nposition: absolute;\nwidth: 322px;\nheight: 45px;\nleft: 70px;\ntop: 150px;\n\nbackground: rgba(252, 186, 165, 0.78);\nborder-radius: 10px;\nborder : none;\nfont-family: Abel,sans-serif;\nfont-size: 25px;\n}\n.email[data-v-570c77a4]{\n\n  margin-top: 60px;\n}\n.ellipseprofile[data-v-570c77a4]{\n  position: absolute;\n  width: 450px;\n  height: 450px;\n  left: 600px;\n  top: 160px;\n\n  background: #B02E05;\n  border: 3px solid #FCBAA5;\n  border-radius : 50%;\n  box-sizing: border-box;\n  box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.55);\n}\n.slogan[data-v-570c77a4] {\nposition: absolute;\nwidth: 412px;\nheight: 67px;\nleft: 47px;\ntop: 550px;\n\nfont-family: Allerta Stencil;\nfont-style: normal;\nfont-weight: normal;\nline-height: normal;\nfont-size: 20px;\ntext-align: justify;\n\ncolor: #FCBAA5;\n}\n.noix[data-v-570c77a4] {\n\nfont-family: Allura;\nfont-style: normal;\nfont-weight: normal;\nline-height: normal;\nfont-size: 36px;\ntext-align: justify;\n}\n.mdp[data-v-570c77a4]{\n\n    margin-top: 120px;\n}\n.mdpconf[data-v-570c77a4]{\n\n    margin-top: 180px;\n}\nbutton[data-v-570c77a4] {\n\n  position: absolute;\n  width: 129px;\n  height: 60px;\n  left: 350px;\n  top: 450px;\n\n  background: #B02E05;\n  border: 2px solid #FCBAA5;\n  box-sizing: border-box;\n  border-radius: 20px;\n  font-family: Allerta Stencil, sans-serif;\n  font-size: 36px;\n  text-align: center;\n}\nbutton[data-v-570c77a4]:hover{\n    background: #FCBAA5;\n}\n", ""]);
 
 // exports
 
@@ -6702,7 +6717,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nbody[data-v-3982b107]{\n    background-color: black;\n}\n.movie-general[data-v-3982b107]{\n    min-height: 100vh;\n    background: #000;\n    padding-top: 40px;\n}\n.generalmovie[data-v-3982b107]{\n    border: 3px solid #B02E05 ;\n    border-radius: 5px;\n    max-width: 300px;\n    height: 250px;\n}\n.movie-general h3[data-v-3982b107]{\n    color: #f84309;\n    font-weight: bold;\n    margin-left: 35px;\n    font-family: 'Allerta Stencil', sans-serif;\n}\n.carousel[data-v-3982b107]{\n    margin-left: 30px;\n    max-height: 300px;\n}\n.owl-carousel .owl-item img a[data-v-3982b107] {\n    width: 85%;\n}\n.modal[data-v-3982b107]{\n    color: #f84309;\n}\n.modal-dialog[data-v-3982b107] {\n    max-width: 583px;\n}\n.modal-header[data-v-3982b107]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-body[data-v-3982b107]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-footer[data-v-3982b107]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.far[data-v-3982b107], .fas[data-v-3982b107]{\n    font-size: 15px;\n    margin-right: 10px;\n    color: #f84309;\n}\n", ""]);
+exports.push([module.i, "\nbody[data-v-3982b107]{\n    background-color: black;\n}\n.movie-general[data-v-3982b107]{\n    min-height: 100vh;\n    background: #000;\n    padding-top: 40px;\n}\n.movie-general > h3[data-v-3982b107]{\n    margin-bottom:25px;\n    font-family : 'Allerta Stencil', sans-serif;\n}\n.generalmovie[data-v-3982b107]{\n    border: 3px solid #B02E05 ;\n    border-radius: 5px;\n    max-width: 300px;\n    height: 250px;\n}\n.movie-general h3[data-v-3982b107]{\n    color: #f84309;\n    font-weight: bold;\n    margin-left: 35px;\n}\n.carousel[data-v-3982b107]{\n    margin-left: 30px;\n    max-height: 300px;\n}\n.owl-carousel .owl-item img a[data-v-3982b107] {\n    width: 85%;\n}\n.modal[data-v-3982b107]{\n    color: #f84309;\n}\n.modal-dialog[data-v-3982b107] {\n    max-width: 583px;\n}\n.modal-header[data-v-3982b107]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-body[data-v-3982b107]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-footer[data-v-3982b107]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.far[data-v-3982b107], .fas[data-v-3982b107]{\n    font-size: 15px;\n    margin-right: 10px;\n    color: #f84309;\n}\n", ""]);
 
 // exports
 
@@ -6740,7 +6755,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nbody[data-v-184d4c70]{\n    background-color: black;\n}\n.movie-general[data-v-184d4c70]{\n    min-height: 100vh;\n    background: #000;\n    padding-top: 40px;\n}\n.movie-general > h3[data-v-184d4c70]{\n    margin-bottom:25px;\n}\n.generalmovie[data-v-184d4c70]{\n    border: 3px solid #B02E05 ;\n    border-radius: 5px;\n    max-width: 300px;\n    height: 250px;\n}\n.movie-general h3[data-v-184d4c70]{\n    color: #f84309;\n    font-weight: bold;\n    margin-left: 35px;\n    font-family: 'Allerta Stencil', sans-serif;\n}\n.carousel[data-v-184d4c70]{\n    margin-left: 30px;\n    max-height: 300px;\n}\n.owl-carousel .owl-item img a[data-v-184d4c70] {\n    width: 85%;\n}\n.modal[data-v-184d4c70]{\n    color: #f84309;\n}\n.modal-dialog[data-v-184d4c70] {\n    max-width: 583px;\n}\n.modal-header[data-v-184d4c70]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-body[data-v-184d4c70]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-footer[data-v-184d4c70]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.far[data-v-184d4c70], .fas[data-v-184d4c70]{\n    font-size: 15px;\n    margin-right: 10px;\n    color: #f84309;\n}\n", ""]);
+exports.push([module.i, "\nbody[data-v-184d4c70]{\n    background-color: black;\n}\nh3[data-v-184d4c70]{\n    font-family : 'Allerta Stencil', sans-serif;\n}\n.movie-general[data-v-184d4c70]{\n    min-height: 100vh;\n    background: #000;\n    padding-top: 40px;\n}\n.movie-general > h3[data-v-184d4c70]{\n    margin-bottom:25px;\n    font-family : 'Allerta Stencil', sans-serif;\n}\n.generalmovie[data-v-184d4c70]{\n    border: 3px solid #B02E05 ;\n    border-radius: 5px;\n    max-width: 300px;\n    height: 250px;\n}\n.movie-general h3[data-v-184d4c70]{\n    color: #f84309;\n    font-weight: bold;\n    margin-left: 35px;\n}\n.carousel[data-v-184d4c70]{\n    margin-left: 30px;\n    max-height: 300px;\n}\n.owl-carousel .owl-item img a[data-v-184d4c70] {\n    width: 85%;\n}\n.modal[data-v-184d4c70]{\n    color: #f84309;\n}\n.modal-dialog[data-v-184d4c70] {\n    max-width: 583px;\n}\n.modal-header[data-v-184d4c70]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-body[data-v-184d4c70]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-footer[data-v-184d4c70]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.far[data-v-184d4c70], .fas[data-v-184d4c70]{\n    font-size: 15px;\n    margin-right: 10px;\n    color: #f84309;\n}\n", ""]);
 
 // exports
 
@@ -6759,7 +6774,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.login[data-v-6bdc8b8e]{\n        width:500px;\n        height:500px;\n        background-color:#B02E05;\n        border-radius: 50%;\n        padding-top: 5%;\n        text-align: center;\n        border: 4px solid #FCBAA5;\n}\n.signin[data-v-6bdc8b8e]{\n        width:500px;\n        height:500px;\n        background-color:#B02E05;\n        border-radius: 50%;\n        padding-top: 4%;\n        text-align: center;\n        border: 4px solid #FCBAA5;\n        display:none;\n}\n.connect[data-v-6bdc8b8e]{\n        margin-bottom: 75px;\n        color:white;\n}\n.connect2[data-v-6bdc8b8e]{\n        margin-bottom: 38px;\n        color:white;\n}\np[data-v-6bdc8b8e]{\n        font-family: 'Allerta Stencil', sans-serif;\n        font-size: 40px;\n}\ninput[data-v-6bdc8b8e]{\n        width:300px;\n        height: 40px;\n        margin-bottom: 20px;\n        padding-left:10px;\n        background: rgba(252, 186, 165, 0.68);\n        color:white;\n        border-radius: 20px;\n        border:none;\n        font-family: 'Abel', sans-serif;\n        font-size: 22px;\n}\ninput[data-v-6bdc8b8e]::-webkit-input-placeholder{\n        color:white;\n        font-weight: bold;\n}\ninput[data-v-6bdc8b8e]:-ms-input-placeholder{\n        color:white;\n        font-weight: bold;\n}\ninput[data-v-6bdc8b8e]::-ms-input-placeholder{\n        color:white;\n        font-weight: bold;\n}\ninput[data-v-6bdc8b8e]::placeholder{\n        color:white;\n        font-weight: bold;\n}\nbutton[data-v-6bdc8b8e]{\n        width:100px;\n        height: 60px;\n        border-radius: 20px;\n        color:white;\n        background-color:#B02E05;\n        font-weight: bold;\n        border: 2px solid rgb(252, 186, 165);\n}\nbutton[data-v-6bdc8b8e]:hover{\n        background-color:rgba(252, 186, 165, 0.68);\n}\n.register[data-v-6bdc8b8e]{\n        color:#FCBAA5;\n        text-decoration: none;\n}\n.register[data-v-6bdc8b8e]:hover{\n        font-weight: bold;\n}\n.log[data-v-6bdc8b8e]{\n        color:#FCBAA5;\n        text-decoration: none;\n}\n.log[data-v-6bdc8b8e]:hover{\n        font-weight: bold;\n}\n.box[data-v-6bdc8b8e]{\n    width: 100%;\n    height: 100%;\n    display:flex;\n    justify-content: center;\n    align-items: center;\n}\n.main[data-v-6bdc8b8e]{\n    width: 100vw;\n    height: 100vh;\n    max-height:100vh;\n    min-height: 100vh;\n    background-image: url(http://visagesetcouleurs.be/BeCode/denise-jans-559588-unsplash.jpg);\n    background-position: center;\n}\n@media all and (max-width:1280px){\n.box[data-v-6bdc8b8e]{\npadding-top:50px;\n}\n}\n", ""]);
+exports.push([module.i, "\n.login[data-v-6bdc8b8e]{\n    width:500px;\n    height:500px;\n    background-color:#B02E05;\n    border-radius: 50%;\n    padding-top: 5%;\n    text-align: center;\n    border: 4px solid #FCBAA5;\n}\n.signin[data-v-6bdc8b8e]{\n      width:500px;\n      height:500px;\n      background-color:#B02E05;\n      border-radius: 50%;\n      padding-top: 4%;\n      text-align: center;\n      border: 4px solid #FCBAA5;\n      display:none;\n}\n.connect[data-v-6bdc8b8e]{\n    margin-bottom: 75px;\n    color:white;\n}\n.connect2[data-v-6bdc8b8e]{\n    margin-bottom: 38px;\n    color:white;\n}\np[data-v-6bdc8b8e]{\n    font-family: 'Allerta Stencil', sans-serif;\n    font-size: 40px;\n}\ninput[data-v-6bdc8b8e]{\n    width:300px;\n    height: 40px;\n    margin-bottom: 20px;\n    padding-left:10px;\n    background: rgba(252, 186, 165, 0.68);\n    color:white;\n    border-radius: 20px;\n    border:none;\n    font-family: 'Abel', sans-serif;\n    font-size: 22px;\n}\ninput[data-v-6bdc8b8e]::-webkit-input-placeholder{\n    color:white;\n    font-weight: bold;\n}\ninput[data-v-6bdc8b8e]:-ms-input-placeholder{\n    color:white;\n    font-weight: bold;\n}\ninput[data-v-6bdc8b8e]::-ms-input-placeholder{\n    color:white;\n    font-weight: bold;\n}\ninput[data-v-6bdc8b8e]::placeholder{\n    color:white;\n    font-weight: bold;\n}\nbutton[data-v-6bdc8b8e]{\n    width:100px;\n    height: 60px;\n    border-radius: 20px;\n    color:white;\n    background-color:#B02E05;\n    font-weight: bold;\n    border: 2px solid rgb(252, 186, 165);\n}\nbutton[data-v-6bdc8b8e]:hover{\n    background-color:rgba(252, 186, 165, 0.68);\n}\n.register[data-v-6bdc8b8e]{\n    color:#FCBAA5;\n    text-decoration: none;\n}\n.register[data-v-6bdc8b8e]:hover{\n    font-weight: bold;\n}\n.log[data-v-6bdc8b8e]{\n    color:#FCBAA5;\n    text-decoration: none;\n}\n.log[data-v-6bdc8b8e]:hover{\n    font-weight: bold;\n}\n.box[data-v-6bdc8b8e]{\nwidth: 100%;\nheight: 100%;\ndisplay:flex;\njustify-content: center;\nalign-items: center;\n}\n.main[data-v-6bdc8b8e]{\nwidth: 100vw;\nheight: 100vh;\nmax-height:100vh;\nmin-height: 100vh;\nbackground-image: url(http://visagesetcouleurs.be/BeCode/denise-jans-559588-unsplash.jpg);\nbackground-position: center;\n}\n@media all and (max-width:1280px){\n.box[data-v-6bdc8b8e]{\npadding-top:50px;\n}\n}\n", ""]);
 
 // exports
 
@@ -6816,7 +6831,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nbody[data-v-41a8e034]{\n    background-color: black;\n}\n.movie-general[data-v-41a8e034]{\n    min-height: 100vh;\n    background: #000;\n    padding-top: 40px;\n}\n.generalmovie[data-v-41a8e034]{\n    border: 3px solid #B02E05 ;\n    border-radius: 5px;\n    max-width: 300px;\n    height: 250px;\n}\n.movie-general h3[data-v-41a8e034]{\n    color: #f84309;\n    font-weight: bold;\n    margin-left: 35px;\n    font-family: 'Allerta Stencil', sans-serif;\n}\n.carousel[data-v-41a8e034]{\n    margin-left: 30px;\n    max-height: 300px;\n}\n.owl-carousel .owl-item img a[data-v-41a8e034] {\n    width: 85%;\n}\n.modal[data-v-41a8e034]{\n    color: #f84309;\n}\n.modal-dialog[data-v-41a8e034] {\n    max-width: 583px;\n}\n.modal-header[data-v-41a8e034]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-body[data-v-41a8e034]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-footer[data-v-41a8e034]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.far[data-v-41a8e034], .fas[data-v-41a8e034]{\n    font-size: 15px;\n    margin-right: 10px;\n    color: #f84309;\n}\n", ""]);
+exports.push([module.i, "\nbody[data-v-41a8e034]{\n    background-color: black;\n}\n.movie-general[data-v-41a8e034]{\n    min-height: 100vh;\n    background: #000;\n    padding-top: 40px;\n}\n.movie-general > h3[data-v-41a8e034]{\n    margin-bottom:25px;\n    font-family : 'Allerta Stencil', sans-serif;\n}\n.generalmovie[data-v-41a8e034]{\n    border: 3px solid #B02E05 ;\n    border-radius: 5px;\n    max-width: 300px;\n    height: 250px;\n}\n.movie-general h3[data-v-41a8e034]{\n    color: #f84309;\n    font-weight: bold;\n    margin-left: 35px;\n}\n.carousel[data-v-41a8e034]{\n    margin-left: 30px;\n    max-height: 300px;\n}\n.owl-carousel .owl-item img a[data-v-41a8e034] {\n    width: 85%;\n}\n.modal[data-v-41a8e034]{\n    color: #f84309;\n}\n.modal-dialog[data-v-41a8e034] {\n    max-width: 583px;\n}\n.modal-header[data-v-41a8e034]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-body[data-v-41a8e034]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-footer[data-v-41a8e034]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.far[data-v-41a8e034], .fas[data-v-41a8e034]{\n    font-size: 15px;\n    margin-right: 10px;\n    color: #f84309;\n}\n", ""]);
 
 // exports
 
@@ -6854,7 +6869,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nbody[data-v-2a3bfa99]{\n    background-color: black;\n}\n.movie-general[data-v-2a3bfa99]{\n    min-height: 100vh;\n    background: #000;\n    padding-top: 40px;\n}\n.generalmovie[data-v-2a3bfa99]{\n    border: 3px solid #B02E05 ;\n    border-radius: 5px;\n    max-width: 300px;\n    height: 250px;\n}\n.movie-general h3[data-v-2a3bfa99]{\n    color: #f84309;\n    font-weight: bold;\n    margin-left: 35px;\n    font-family: 'Allerta Stencil', sans-serif;\n}\n.carousel[data-v-2a3bfa99]{\n    margin-left: 30px;\n    max-height: 300px;\n}\n.owl-carousel .owl-item img a[data-v-2a3bfa99] {\n    width: 85%;\n}\n.modal[data-v-2a3bfa99]{\n    color: #f84309;\n}\n.modal-dialog[data-v-2a3bfa99] {\n    max-width: 583px;\n}\n.modal-header[data-v-2a3bfa99]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-body[data-v-2a3bfa99]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-footer[data-v-2a3bfa99]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.far[data-v-2a3bfa99], .fas[data-v-2a3bfa99]{\n    font-size: 15px;\n    margin-right: 10px;\n    color: #f84309;\n}\n", ""]);
+exports.push([module.i, "\nbody[data-v-2a3bfa99]{\n    background-color: black;\n}\n.movie-general[data-v-2a3bfa99]{\n    min-height: 100vh;\n    background: #000;\n    padding-top: 40px;\n}\n.movie-general > h3[data-v-2a3bfa99]{\n    margin-bottom:25px;\n    font-family : 'Allerta Stencil', sans-serif;\n}\n.generalmovie[data-v-2a3bfa99]{\n    border: 3px solid #B02E05 ;\n    border-radius: 5px;\n    max-width: 300px;\n    height: 250px;\n}\n.movie-general h3[data-v-2a3bfa99]{\n    color: #f84309;\n    font-weight: bold;\n    margin-left: 35px;\n}\n.carousel[data-v-2a3bfa99]{\n    margin-left: 30px;\n    max-height: 300px;\n}\n.owl-carousel .owl-item img a[data-v-2a3bfa99] {\n    width: 85%;\n}\n.modal[data-v-2a3bfa99]{\n    color: #f84309;\n}\n.modal-dialog[data-v-2a3bfa99] {\n    max-width: 583px;\n}\n.modal-header[data-v-2a3bfa99]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-body[data-v-2a3bfa99]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.modal-footer[data-v-2a3bfa99]{\n    background-color: black;\n    border: #f84309 1px solid;\n}\n.far[data-v-2a3bfa99], .fas[data-v-2a3bfa99]{\n    font-size: 15px;\n    margin-right: 10px;\n    color: #f84309;\n}\n", ""]);
 
 // exports
 
@@ -38420,6 +38435,19 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 
 /***/ }),
 
+/***/ "./node_modules/vue-axios/dist/vue-axios.min.js":
+/*!******************************************************!*\
+  !*** ./node_modules/vue-axios/dist/vue-axios.min.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var _typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(o){return typeof o}:function(o){return o&&"function"==typeof Symbol&&o.constructor===Symbol&&o!==Symbol.prototype?"symbol":typeof o};!function(){function o(e,t){if(!o.installed){if(o.installed=!0,!t)return void console.error("You have to install axios");e.axios=t,Object.defineProperties(e.prototype,{axios:{get:function(){return t}},$http:{get:function(){return t}}})}}"object"==( false?undefined:_typeof(exports))?module.exports=o: true?!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function(){return o}).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__)):undefined}();
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Bar.vue?vue&type=template&id=01d1d278&scoped=true&":
 /*!******************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Bar.vue?vue&type=template&id=01d1d278&scoped=true& ***!
@@ -38625,19 +38653,7 @@ var render = function() {
       _c(
         "div",
         { staticClass: "backgroundprofile" },
-        [
-          _c("navbar"),
-          _vm._v(" "),
-          _vm._m(0),
-          _vm._v(" "),
-          _c(
-            "button",
-            { attrs: { type: "submit", form: "form1", value: "Submit" } },
-            [_vm._v("\n        GO\n      ")]
-          ),
-          _vm._v(" "),
-          _vm._m(1)
-        ],
+        [_c("navbar"), _vm._v(" "), _vm._m(0), _vm._v(" "), _vm._m(1)],
         1
       ),
       _vm._v(" "),
@@ -38665,20 +38681,19 @@ var staticRenderFns = [
       _c("div", { staticClass: "ellipseprofile" }, [
         _c("h2", [_vm._v(" Profil ")]),
         _vm._v(" "),
-        _c("input", { attrs: { placeholder: "nom" } }),
-        _vm._v(" "),
-        _c("input", { staticClass: "email", attrs: { placeholder: "e-mail" } }),
+        _c("input", { attrs: { placeholder: "Pseudo" } }),
         _vm._v(" "),
         _c("input", {
           staticClass: "mdp",
-          attrs: { placeholder: "mot de passe" }
-        }),
-        _vm._v(" "),
-        _c("input", {
-          staticClass: "mdpconf",
-          attrs: { placeholder: "confirmation de mot de passe" }
+          attrs: { placeholder: "Mot de passe " }
         })
-      ])
+      ]),
+      _vm._v(" "),
+      _c(
+        "button",
+        { attrs: { type: "submit", form: "form1", value: "Submit" } },
+        [_vm._v("\n            GO\n          ")]
+      )
     ])
   },
   function() {
@@ -39407,66 +39422,68 @@ var render = function() {
       _c("bar"),
       _vm._v(" "),
       _c("div", { staticClass: "box" }, [
-        _c(
-          "div",
-          { staticClass: "login" },
-          [
-            _c("p", { staticClass: "connect" }, [_vm._v("Connexion")]),
-            _vm._v(" "),
-            _c("input", { attrs: { type: "text", placeholder: "Email" } }),
-            _c("br"),
-            _vm._v(" "),
-            _c("input", {
-              attrs: { type: "text", placeholder: "Mot de passe" }
-            }),
-            _c("br"),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/choose" } }, [
-              _c("button", { attrs: { type: "submit" } }, [_vm._v("GO")])
-            ]),
-            _c("br"),
-            _c("br"),
-            _vm._v(" "),
-            _c("a", { staticClass: "register", attrs: { href: "#" } }, [
-              _vm._v("S'inscrire?")
-            ])
-          ],
-          1
-        ),
+        _c("div", { staticClass: "login" }, [
+          _c("p", { staticClass: "connect" }, [_vm._v("Connexion")]),
+          _vm._v(" "),
+          _c(
+            "form",
+            [
+              _c("input", { attrs: { type: "text", placeholder: "Email" } }),
+              _c("br"),
+              _vm._v(" "),
+              _c("input", {
+                attrs: { type: "text", placeholder: "Mot de passe" }
+              }),
+              _c("br"),
+              _vm._v(" "),
+              _c("router-link", { attrs: { to: "/choose" } }, [
+                _c("button", { attrs: { type: "submit" } }, [_vm._v("GO")])
+              ]),
+              _c("br"),
+              _c("br")
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("a", { staticClass: "register", attrs: { href: "#" } }, [
+            _vm._v("S'inscrire?")
+          ])
+        ]),
         _vm._v(" "),
-        _c(
-          "div",
-          { staticClass: "signin" },
-          [
-            _c("p", { staticClass: "connect2" }, [_vm._v("S'enregistrer")]),
-            _vm._v(" "),
-            _c("input", { attrs: { type: "text", placeholder: "Pseudo" } }),
-            _c("br"),
-            _vm._v(" "),
-            _c("input", { attrs: { type: "text", placeholder: "Email" } }),
-            _c("br"),
-            _vm._v(" "),
-            _c("input", {
-              attrs: { type: "text", placeholder: "Mot de passe" }
-            }),
-            _c("br"),
-            _vm._v(" "),
-            _c("input", {
-              attrs: { type: "text", placeholder: "Mot de passe" }
-            }),
-            _c("br"),
-            _vm._v(" "),
-            _c("router-link", { attrs: { to: "/choose" } }, [
-              _c("button", { attrs: { type: "submit" } }, [_vm._v("GO")])
-            ]),
-            _c("br"),
-            _vm._v(" "),
-            _c("a", { staticClass: "log", attrs: { href: "#" } }, [
-              _vm._v("Se connecter?")
-            ])
-          ],
-          1
-        )
+        _c("div", { staticClass: "signin" }, [
+          _c("p", { staticClass: "connect2" }, [_vm._v("S'enregistrer")]),
+          _vm._v(" "),
+          _c(
+            "form",
+            [
+              _c("input", { attrs: { type: "text", placeholder: "Pseudo" } }),
+              _c("br"),
+              _vm._v(" "),
+              _c("input", { attrs: { type: "text", placeholder: "Email" } }),
+              _c("br"),
+              _vm._v(" "),
+              _c("input", {
+                attrs: { type: "text", placeholder: "Mot de passe" }
+              }),
+              _c("br"),
+              _vm._v(" "),
+              _c("input", {
+                attrs: { type: "text", placeholder: "Mot de passe" }
+              }),
+              _c("br"),
+              _vm._v(" "),
+              _c("router-link", { attrs: { to: "/choose" } }, [
+                _c("button", { attrs: { type: "submit" } }, [_vm._v("GO")])
+              ]),
+              _c("br")
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("a", { staticClass: "log", attrs: { href: "#" } }, [
+            _vm._v("Se connecter?")
+          ])
+        ])
       ]),
       _vm._v(" "),
       _c("foot")
@@ -39704,7 +39721,7 @@ var render = function() {
         "div",
         { staticClass: "movie-general" },
         [
-          _c("h3", [_vm._v("DEJA VU")]),
+          _c("h3", [_vm._v("DEJA VUS")]),
           _vm._v(" "),
           _c(
             "carousel",
@@ -54061,25 +54078,27 @@ module.exports = "/images/user.png?0cb6963b43188aa8c1c874fbe08e625d";
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_EditProfile__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/EditProfile */ "./resources/js/components/EditProfile.vue");
-/* harmony import */ var _components_Catalog_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/Catalog.vue */ "./resources/js/components/Catalog.vue");
-/* harmony import */ var _components_Chooseuser__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/Chooseuser */ "./resources/js/components/Chooseuser.vue");
-/* harmony import */ var _components_Login__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/Login */ "./resources/js/components/Login.vue");
-/* harmony import */ var _components_GeneralMovies__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/GeneralMovies */ "./resources/js/components/GeneralMovies.vue");
-/* harmony import */ var _components_Bar__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/Bar */ "./resources/js/components/Bar.vue");
-/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/Footer */ "./resources/js/components/Footer.vue");
-/* harmony import */ var _components_Favorite__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/Favorite */ "./resources/js/components/Favorite.vue");
-/* harmony import */ var _components_Seen__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/Seen */ "./resources/js/components/Seen.vue");
-/* harmony import */ var _components_Towatch__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/Towatch */ "./resources/js/components/Towatch.vue");
+/* harmony import */ var vue_axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-axios */ "./node_modules/vue-axios/dist/vue-axios.min.js");
+/* harmony import */ var vue_axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue_axios__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_EditProfile__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/EditProfile */ "./resources/js/components/EditProfile.vue");
+/* harmony import */ var _components_Catalog_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/Catalog.vue */ "./resources/js/components/Catalog.vue");
+/* harmony import */ var _components_Chooseuser__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/Chooseuser */ "./resources/js/components/Chooseuser.vue");
+/* harmony import */ var _components_Login__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/Login */ "./resources/js/components/Login.vue");
+/* harmony import */ var _components_GeneralMovies__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/GeneralMovies */ "./resources/js/components/GeneralMovies.vue");
+/* harmony import */ var _components_Bar__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/Bar */ "./resources/js/components/Bar.vue");
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/Footer */ "./resources/js/components/Footer.vue");
+/* harmony import */ var _components_Favorite__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/Favorite */ "./resources/js/components/Favorite.vue");
+/* harmony import */ var _components_Seen__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/Seen */ "./resources/js/components/Seen.vue");
+/* harmony import */ var _components_Towatch__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/Towatch */ "./resources/js/components/Towatch.vue");
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 
 Vue.use(vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]);
 
-Vue.use(axios__WEBPACK_IMPORTED_MODULE_1___default.a);
+
 Vue.component('navbar', __webpack_require__(/*! ./components/Navbar.vue */ "./resources/js/components/Navbar.vue").default);
 Vue.component('general-movies', __webpack_require__(/*! ./components/GeneralMovies.vue */ "./resources/js/components/GeneralMovies.vue").default);
 Vue.component('logo', __webpack_require__(/*! ./components/Logo.vue */ "./resources/js/components/Logo.vue").default);
@@ -54101,35 +54120,35 @@ Vue.component('bar', __webpack_require__(/*! ./components/Bar.vue */ "./resource
 var routes = [{
   name: 'home',
   path: '/',
-  component: _components_Login__WEBPACK_IMPORTED_MODULE_5__["default"]
+  component: _components_Login__WEBPACK_IMPORTED_MODULE_6__["default"]
 }, {
   name: 'home',
   path: '/login',
-  component: _components_Login__WEBPACK_IMPORTED_MODULE_5__["default"]
+  component: _components_Login__WEBPACK_IMPORTED_MODULE_6__["default"]
 }, {
   name: 'choose',
   path: '/choose',
-  component: _components_Chooseuser__WEBPACK_IMPORTED_MODULE_4__["default"]
+  component: _components_Chooseuser__WEBPACK_IMPORTED_MODULE_5__["default"]
 }, {
   name: 'catalogue',
   path: '/catalogue',
-  component: _components_Catalog_vue__WEBPACK_IMPORTED_MODULE_3__["default"]
+  component: _components_Catalog_vue__WEBPACK_IMPORTED_MODULE_4__["default"]
 }, {
   name: 'editprofile',
   path: '/editprofile',
-  component: _components_EditProfile__WEBPACK_IMPORTED_MODULE_2__["default"]
+  component: _components_EditProfile__WEBPACK_IMPORTED_MODULE_3__["default"]
 }, {
   name: 'favorite',
   path: '/favorite',
-  component: _components_Favorite__WEBPACK_IMPORTED_MODULE_9__["default"]
+  component: _components_Favorite__WEBPACK_IMPORTED_MODULE_10__["default"]
 }, {
   name: 'seen',
   path: '/seen',
-  component: _components_Seen__WEBPACK_IMPORTED_MODULE_10__["default"]
+  component: _components_Seen__WEBPACK_IMPORTED_MODULE_11__["default"]
 }, {
   name: 'towatch',
   path: '/towatch',
-  component: _components_Towatch__WEBPACK_IMPORTED_MODULE_11__["default"]
+  component: _components_Towatch__WEBPACK_IMPORTED_MODULE_12__["default"]
 }];
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
   mode: 'history',
@@ -54815,14 +54834,15 @@ __webpack_require__.r(__webpack_exports__);
 /*!*******************************************!*\
   !*** ./resources/js/components/Login.vue ***!
   \*******************************************/
-/*! exports provided: default */
+/*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Login_vue_vue_type_template_id_6bdc8b8e_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Login.vue?vue&type=template&id=6bdc8b8e&scoped=true& */ "./resources/js/components/Login.vue?vue&type=template&id=6bdc8b8e&scoped=true&");
 /* harmony import */ var _Login_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Login.vue?vue&type=script&lang=js& */ "./resources/js/components/Login.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _Login_vue_vue_type_style_index_0_id_6bdc8b8e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Login.vue?vue&type=style&index=0&id=6bdc8b8e&scoped=true&lang=css& */ "./resources/js/components/Login.vue?vue&type=style&index=0&id=6bdc8b8e&scoped=true&lang=css&");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _Login_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _Login_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _Login_vue_vue_type_style_index_0_id_6bdc8b8e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Login.vue?vue&type=style&index=0&id=6bdc8b8e&scoped=true&lang=css& */ "./resources/js/components/Login.vue?vue&type=style&index=0&id=6bdc8b8e&scoped=true&lang=css&");
 /* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -54854,7 +54874,7 @@ component.options.__file = "resources/js/components/Login.vue"
 /*!********************************************************************!*\
   !*** ./resources/js/components/Login.vue?vue&type=script&lang=js& ***!
   \********************************************************************/
-/*! exports provided: default */
+/*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55351,8 +55371,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/steve/Bureau/nutflux-vuejs-laravel/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/steve/Bureau/nutflux-vuejs-laravel/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/Elisa/Becode/nutflux-vuejs-laravel/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/Elisa/Becode/nutflux-vuejs-laravel/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

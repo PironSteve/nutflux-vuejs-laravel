@@ -25,7 +25,9 @@
     },
     "dependencies": {
         "owl.carousel": "^2.3.4",
+        "vue-axios": "^2.1.4",
         "vue-owl-carousel": "^2.0.3",
+        "vue-resize-text": "^0.1.0",
         "vue-router": "^3.0.2"
     }
 }

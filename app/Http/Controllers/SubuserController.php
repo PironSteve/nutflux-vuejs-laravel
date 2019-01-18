@@ -1,0 +1,41 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class SubuserController extends Controller
+{
+
+
+
+      public function __construct()
+  {
+      $this->middleware('auth');
+  }
+
+  public function edit(Subuser $subuser)
+  {
+
+  }
+
+  public function update(Subuser $subuser)
+  {
+      $this->validate(request(), [
+          'name' => 'required',
+          'email' => 'required|email|unique:users',
+          'password' => 'required|min:6|confirmed'
+      ]);
+
+      $user->name = request('name');
+      $user->email = request('email');
+      $user->password = bcrypt(request('password'));
+
+      $user->save();
+
+      return back();
+  }
+}
+
+    }
+}

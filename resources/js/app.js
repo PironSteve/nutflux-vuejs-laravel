@@ -5,10 +5,12 @@ window.Vue = require('vue');
 import VueRouter from 'vue-router';
 Vue.use(VueRouter);
 
-
+import VueAxios from 'vue-axios';
 import axios from 'axios';
 
-Vue.use(axios);
+
+
+
 
 Vue.component('navbar', require('./components/Navbar.vue').default);
 Vue.component('general-movies', require('./components/GeneralMovies.vue').default);
@@ -64,12 +66,12 @@ const routes = [
     {
         name: 'seen',
         path: '/seen',
-        component: seen        
+        component: seen
     },
     {
         name: 'towatch',
         path: '/towatch',
-        component: towatch        
+        component: towatch
     }
   ];
 
@@ -79,5 +81,5 @@ const router = new VueRouter({ mode: 'history', routes: routes});
 
 const app = new Vue({
     router
-    
+
 }).$mount("#app");

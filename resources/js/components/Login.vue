@@ -1,33 +1,44 @@
+
 <template>
+
     <div class="main">
     <bar></bar>
     <div class="box">
         <div class="login">
             <p class="connect">Connexion</p>
-            <input type="text" placeholder="Email"><br>
-            <input type="text" placeholder="Mot de passe"><br>
-            <router-link to="/choose"><button type="submit">GO</button></router-link><br><br>
+            <form>
+
+
+              <input type="text" placeholder="Email"><br>
+              <input type="text" placeholder="Mot de passe"><br>
+              <router-link to="/choose"><button type="submit">GO</button></router-link><br><br>
+
+            </form>
             <a href="#" class="register">S'inscrire?</a>
         </div>
             <div class="signin">
             <p class="connect2">S'enregistrer</p>
-            <input type="text" placeholder="Pseudo"><br>
-            <input type="text" placeholder="Email"><br>
-            <input type="text" placeholder="Mot de passe"><br>
-            <input type="text" placeholder="Mot de passe"><br>
-            <router-link to="/choose"><button type="submit">GO</button></router-link><br>
+            <form>
+              <input type="text" placeholder="Pseudo"><br>
+              <input type="text" placeholder="Email"><br>
+              <input type="text" placeholder="Mot de passe"><br>
+              <input type="text" placeholder="Mot de passe"><br>
+              <router-link to="/choose"><button type="submit">GO</button></router-link><br>
+            </form>
             <a href="#" class="log">Se connecter?</a>
         </div>
     </div>
     <foot></foot>
     </div>
+
 </template>
 
 <script>
 export default{
     data(){
         return{
-            
+ //créer un objet avec input
+              user: {}
         }
     },
     mounted(){
@@ -45,7 +56,9 @@ export default{
             signin.style.display="none";
         })
     }
-}
+    }
+
+
 </script>
 
 <style scoped>
@@ -60,14 +73,14 @@ export default{
     }
 
         .signin{
-        width:500px;
-        height:500px;
-        background-color:#B02E05;
-        border-radius: 50%;
-        padding-top: 4%;
-        text-align: center;
-        border: 4px solid #FCBAA5;
-        display:none;
+          width:500px;
+          height:500px;
+          background-color:#B02E05;
+          border-radius: 50%;
+          padding-top: 4%;
+          text-align: center;
+          border: 4px solid #FCBAA5;
+          display:none;
     }
 
     .connect{
