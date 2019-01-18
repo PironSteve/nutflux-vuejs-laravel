@@ -39,6 +39,7 @@ export default{
         position: sticky;
         top:0px;
         z-index:9998;
+        border-top: 1px solid #B02E05;
     }
 
     footer .footer-logo{
