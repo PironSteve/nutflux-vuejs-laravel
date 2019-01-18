@@ -53,14 +53,9 @@ export default{
             login.style.display="block";
             signin.style.display="none";
         })
-    },
-    created() {
-      let url = 'http://localhost:8000/api/user/register';
-      this.axios.post(url, this.user).then(response => {
-        this.user = response.data.data;
-      });
     }
-}
+    }
+
 
 </script>
 
