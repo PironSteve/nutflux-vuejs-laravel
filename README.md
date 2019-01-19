@@ -9,7 +9,9 @@ Le travail de groupe n'a malheureusement pas pu aboutir.
 Cependant, vous pouvez observer une SPA créée avec VueJs vous permettant de comprendre l'architecture du site et son fonctionnement. En cliquant sur le bouton GO puis utilisateur et les différents boutons de la nav bar du catalogue général vous pourrez faire le tour du site : 
 https://glacial-mountain-55282.herokuapp.com/
 
-Sur cet autre lien vous pouvez constater le travail backend réalisé permettant d'ajouter des données dans la Database.
+Sur cet autre lien vous pouvez constater le travail backend réalisé permettant d'ajouter des données dans la Database:
+
+https://sheltered-atoll-96313.herokuapp.com/
 
 Malheureusement, il nous a été impossible de créer un CRUD Laravel/VueJS avec les requêtes axios permettant de rendre le site lié à la Database.
 
